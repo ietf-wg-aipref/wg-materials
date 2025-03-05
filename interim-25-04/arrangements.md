@@ -1,5 +1,7 @@
 # AI Preferences 2025-04 Interim Arrangements
 
+_See also the [meeting agenda] nearby._
+
 ## Registration
 
 Registration is **REQUIRED** for this meeting, whether in-person or remote. The pre-registration period has ended; all remaining registration is on a space-available basis. 
