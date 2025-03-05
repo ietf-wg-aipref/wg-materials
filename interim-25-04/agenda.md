@@ -1,6 +1,6 @@
 # AIPREF Working Group Interim Meeting Agenda - 2025-04
 
-See also the [meeting arrangements](arrangements.md), including information about registration.
+_See also the [meeting arrangements](arrangements.md), including information about registration._
 
 ## Tuesday, 8 April 2025
 
