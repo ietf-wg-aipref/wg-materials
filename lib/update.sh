@@ -2,7 +2,7 @@
 
 # This script is for CI updates
 
-BRANCH=gh-pages
+BRANCH=main
 
 # setup
 git config user.email mnot@mnot.net
