@@ -13,3 +13,10 @@ Meetecho - [full client](https://meetings.conf.meetecho.com/ietf122/?session=339
 
 *  3 min - Scribe selection / [NOTE WELL](https://www.ietf.org/about/note-well/)
 *  2 min - Agenda bashing
+
+### Orientation
+
+* 15 min - Charter overview (chairs)
+
+
+### Interim Planning
