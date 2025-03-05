@@ -1,6 +1,6 @@
 # AI Preferences 2025-04 Interim Arrangements
 
-_See also the [meeting agenda] nearby._
+_See also the [meeting agenda](agenda.md) nearby._
 
 ## Registration
 
