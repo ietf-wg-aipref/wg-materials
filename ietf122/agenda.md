@@ -26,5 +26,5 @@ Meetecho - [full client](https://meetings.conf.meetecho.com/ietf122/?session=339
 
 ### Candidate Drafts
 
-* 15 min - Discussion of candidates for adoption
+* 15 min - Discussion of candidates for adoption (open mic)
   see https://datatracker.ietf.org/wg/aipref/documents/
