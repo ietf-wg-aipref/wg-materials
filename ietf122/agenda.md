@@ -20,11 +20,11 @@ Meetecho - [full client](https://meetings.conf.meetecho.com/ietf122/?session=339
 * 30 min - Initial questions for the group (chairs)
    see https://mailarchive.ietf.org/arch/msg/ai-control/p9-xl3pK8JBStIpzwKdAONbe864
 
-### Interim Planning
-
-* 15 min - Discussion of the Brussels agenda
-
 ### Candidate Drafts
 
 * 15 min - Discussion of candidates for adoption (open mic)
   see https://datatracker.ietf.org/wg/aipref/documents/
+  
+### Interim Planning
+
+* 15 min - Discussion of the Brussels agenda  
