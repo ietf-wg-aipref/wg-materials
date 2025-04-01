@@ -6,9 +6,9 @@ Chairs: Suresh Krishnan, Mark Nottingham (absent); Tommy Pauly filling in
 
 Slides: https://datatracker.ietf.org/meeting/122/materials/slides-122-aipref-chair-slides-00.pdf
 
-Notes: Tommy Pauly, Brian Trammell, Jaime Jiménez (add yourself here)
+Notes: Tommy Pauly, Brian Trammell, Jaime Jiménez 
 
-## Orientation
+## Questions for the Group
 
 Jonathan Hoyland commented about authentication and authorization being out of scope, and that being potentially an issue.
 
@@ -18,7 +18,7 @@ Mirja Kühlewind disagreed with Jonathan; Lucas Pardue echoed Mirja: lots of exa
 
 Martin Thomson points out that the content is at least as public as the content itself. Assertions are therefore equally public. Access control might be a technical enforcement strategy, but that's an orthogonal problem and solution space.
 
-#### Vocabulary
+### Vocabulary
 
 Suresh requests input from the group on the proposal that we leave the vocabulary scope simple, based on workshop output.
 
@@ -37,7 +37,7 @@ Mirja points out that there are two sides; a side expressing the preference, and
 Glenn points out that there are many people joining this conversation who aren't often in the IETF process, and we should make sure we have a good way to ensure they are included.
 
 
-#### Attachment by location
+### Attachment by location
 
 Gary Illyes has concerns. robots.txt is not enough on its own. Large media sites will have millions of specific URLs, etc. 
 
@@ -47,7 +47,7 @@ J-F Quéralt notes that if most of the industry is looking at a particular file,
 
 Martin agrees it is possible, but questions if it will have an advantage to do so.
 
-#### Opt-In/Out
+### Opt-In/Out
 
 Glenn talks about lessons learned from defining previous grammars; opting in and opting out are difficult to make consistent.
 
@@ -76,7 +76,7 @@ Lucas Pardue: Cases I'm familiar with in the UK, there are cases where organizat
 Tommy Pauly echoes Lucas, that in the same way that the absence of a signal exists in the context of the underlying laws, etc; the presence of a preference is still just a signal that still exists within the context of other considerations (and that context may nullify the preference's effectiveness)
 
 
-#### Attachment mechanisms
+### Attachment mechanisms
 
 Suresh: Http header fields, link relations, JSON formats and other protocols. Anything else?
 
@@ -107,7 +107,7 @@ Wondering if some of the work of the new SG21 will also be "relatable", even if 
 
 Alissa: Question for leonard (who isn't here), we often get liaison statements that "this work is kicking off", without much more. Should we be sending something out that makes other groups aware in a similar way?
 
-#### Combining Preferences
+### Combining Preferences
 
 Suresh points out that this charter point is the most complex to deliver (reconciling multiple expressions of preference). Our timeline is to deliver by August. (!!)
 
@@ -125,11 +125,11 @@ Jari Arkko wonders why this is complicated. yes, there is logic about how to com
 
 Martin thinks the vocab questions are most important. Would like to get more time to discuss interesting questions there. Questions like are we talking about "gathering" or "training", purposes, etc. Best to have that discussion with more people who may not be here.
 
-#### Licensing Schemes
+### Licensing Schemes
 
 Suresh points out that we ruled out the licensing schemes from our initial work. If you're interested, please go do the work and bring it back, but that's not where we're working to start.
 
-#### Matters for Policymakers
+### Matters for Policymakers
 
 Suresh says that it is key that we express clearly to policymakers what we are working on (and not), and continue the dialog. Be clear about the limits of the technical mechansisms. Planning to meet with more policymakers in Brussels.
 
