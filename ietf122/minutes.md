@@ -8,6 +8,24 @@ Slides: https://datatracker.ietf.org/meeting/122/materials/slides-122-aipref-cha
 
 Notes: Tommy Pauly, Brian Trammell, Jaime Jiménez 
 
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Questions for the Group](#questions-for-the-group)
+  - [Vocabulary](#vocabulary)
+  - [Attachment by location](#attachment-by-location)
+  - [Opt-In/Out](#opt-inout)
+  - [Attachment mechanisms](#attachment-mechanisms)
+  - [Combining Preferences](#combining-preferences)
+  - [Licensing Schemes](#licensing-schemes)
+  - [Matters for Policymakers](#matters-for-policymakers)
+- [Candidate Drafts](#candidate-drafts)
+- [Open Mic](#open-mic)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
 ## Questions for the Group
 
 Jonathan Hoyland commented about authentication and authorization being out of scope, and that being potentially an issue.
