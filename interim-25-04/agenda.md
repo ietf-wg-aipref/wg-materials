@@ -15,6 +15,7 @@ _9:15 - 17:00_
 
 * 30 min - Welcome, introductions
 * 30 min - Overview of the IETF process (chairs)
+* 20 min - Review of Bangkok meeting (chairs)
 
 ### Vocabulary
 
