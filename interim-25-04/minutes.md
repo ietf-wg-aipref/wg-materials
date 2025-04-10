@@ -1,4 +1,6 @@
-# IETF AI Preferences Interim Meeting
+# IETF AI Preferences Interim Meeting Minutes
+
+Brussels, Belgium - 8-10 April 2025
 
 Chairs: Mark Nottingham and Suresh Krishnan
 
