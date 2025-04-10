@@ -12,7 +12,7 @@ The chairs begin with a brief overview of the IETF and its processes. They show 
 
 The chairs note that they do expect the interim meetings for the working group to be face-to-face, but that open access will be provided by remote participation using the IETF’s toolset. The chairs will experiment with different ways to manage the queue, using both in-room and MeetEcho queueing. The chairs then reviewed how drafts are adopted and changed. The role of the editor was then reviewed, highlighting that they serve the working group, rather than exercising control over the content themselves.
 
-The group will use GitHub, but the consensus is determined on the list, even though there may be some discussion on PRs (there is a preference to use those for editorial changes). The issues list will be used as a tracker, but the mailing list is the focus of discussion for substantive changes. https://ietf-wg-aipref.github.io/ is the working group github page. That,and much else, is linked from the datatracker’s page for the wg: https://datatracker.ietf.org/wg/aipref/about/ . The group then reviewed how working group last call and other steps lead to finishing work items. The chairs highlighted that positive expressions of support are important in this process. The charter of the group may be updated after producing the initial set of deliverables. Because of the aggressive timeline for the group’s work, expanding the scope would be done after delivering the initial document(s).
+The group will use GitHub, but the consensus is determined on the list, even though there may be some discussion on PRs (there is a preference to use those for editorial changes). The issues list will be used as a tracker, but the mailing list is the focus of discussion for substantive changes. https://ietf-wg-aipref.github.io/ is the working group github page. That, and much else, is linked from the datatracker’s page for the working group: https://datatracker.ietf.org/wg/aipref/about/ . The group then reviewed how working group last call and other steps lead to finishing work items. The chairs highlighted that positive expressions of support are important in this process. The charter of the group may be updated after producing the initial set of deliverables. Because of the aggressive timeline for the group’s work, expanding the scope would be done after delivering the initial document(s).
 
 In response to a question, the chairs clarified the role of the Internet Engineering Steering Group (IESG). There were additional clarifications on the contribution process and the IESG ballot process.
 
@@ -22,7 +22,7 @@ The morning’s agenda is loose, to foster discussion. The first topic will be t
 
 Martin suggests a structure to the first day’s discussion. The first would be the opt-in/opt-out/silence states for preference expressions. The second would be the application of the vocabulary to different activities–acquisition, training, use of trained model. He would also like to know whether search indexing is in scope for the work, since it may be interlocked with the location-based aspects of the discussion. Mark Nottingham notes that we have to be very aware of the context of the work–we are describing a technical mechanism, but it occurs within a legal context.
 
-Glenn Deen wonders if, when we write this down, we can carefully describe the scope and applicability, so that those who might want to use it in other contexts are aware of what was intended. Mark suggests that we might need a guide to policy makers as an additional documents. Glenn is concerned that this technical solution might get pulled into new contexts where it might not be a good fit. Suresh notes that we are trying to provide signals and that the lack of signal may be interpreted differently in different contexts or jurisdicitons.
+Glenn Deen wonders if, when we write this down, we can carefully describe the scope and applicability, so that those who might want to use it in other contexts are aware of what was intended. Mark suggests that we might need a guide to policy makers as an additional documents. Glenn is concerned that this technical solution might get pulled into new contexts where it might not be a good fit. Suresh notes that we are trying to provide signals and that the lack of signal may be interpreted differently in different contexts or jurisdictions.
 
 Martin notes that legislation may simply over-ride a preference (e.g. the carve-out for research). In other contexts, the legislation may establish a default. We also have to note that these preferences will not be sufficiently detailed to handle the use cases currently handled by bilateral.
 
@@ -44,13 +44,13 @@ Glenn suggests that we include sections in the vocabulary draft that document th
 
 Mark agrees that we are having a wide-ranging discussion now, but we will try to focus in soon.
 
-Joe notes that robots.txt is not enough, but that the problem is not so much new tech, but that existing tech is being used in news. There’s also an assymetry in that once something has gone out onto the Internet the data never goes back. He re-iterates that there is really a need to start with limitation. Speaker from microsoft agrees with Joe that we want to start from default no plus opt-ins, because that is the most realistic way to handle new technologies. Sebastian then notes that he believe a default “no” results in some additional issues, including potentially public access to contact information, which may be problematic. He sees opt-out as a potential default, but believes we need opt-in as a defined signal.
+Joe notes that robots.txt is not enough, but that the problem is not so much new tech, but that existing tech is being used in news. There’s also an asymmetry in that once something has gone out onto the Internet the data never goes back. He re-iterates that there is really a need to start with limitation. Speaker from microsoft agrees with Joe that we want to start from default no plus opt-ins, because that is the most realistic way to handle new technologies. Sebastian then notes that he believe a default “no” results in some additional issues, including potentially public access to contact information, which may be problematic. He sees opt-out as a potential default, but believes we need opt-in as a defined signal.
 
 Martin says that it seems we’re not all clear on how the different proposals work. We may want to spend some time this morning orienting folks on that. Timid Robot says that the issue Joe raised, on “my data is on the Internet and I can’t get it back”, that should be an expectation that later uses of crawled data should check current usage permission (using Common Crawl as an example). Mirja notes that we’re not really focused on the crawling, but on the uses. Even the baseline crawling is a parallel use to human.
 
 There was a short discussion reviewing the previous discussion of expressions from a crawler that they have reviewed the preferences. Mark is concerned that some of the proposals there may need to be after the delivery of the initial documents because they start to create negotiation mechanisms.
 
-Glenn wants to discuss the value of opt-out vs. opt-in. We are seeing some rapid deployment of new business models, and the opt-out default gives us time to resolve whether or not a new use is within the rights held in the content. A current example is the actors’ability to withdraw consent from use of training using their likeness, but there may be others coming as well. “Opt-out” would have made that very difficult, because it is not possible to opt-out to things before they have been created. Default opt-out with carved out opt-ins is the easier one to deal with.
+Glenn wants to discuss the value of opt-out vs. opt-in. We are seeing some rapid deployment of new business models, and the opt-out default gives us time to resolve whether or not a new use is within the rights held in the content. A current example is the actors’ ability to withdraw consent from use of training using their likeness, but there may be others coming as well. “Opt-out” would have made that very difficult, because it is not possible to opt-out to things before they have been created. Default opt-out with carved out opt-ins is the easier one to deal with.
 
 Mark says that there are legal regimes that are opt-in or opt-out and that we can’t change that.
 
@@ -70,7 +70,7 @@ Bryan Newbold drilled into the need for a vocabulary for meta categories like ti
 
 Mirja reinforces that the legal framework can override the preferences, and that we need to have vocabulary that doesn’t elide that.
 
-Hirochika-san notes that we need to think of the agent-type AI, this is a different problem from copyright, but it still needs to consider access control and server preformance.
+Hirochika-san notes that we need to think of the agent-type AI, this is a different problem from copyright, but it still needs to consider access control and server performance.
 
 Alissa wants to put a fine point on something that Paul said: the point of defining these terms is to support good faith actors on the crawler and content creator side. We’re doing this work to enable good faith actors to land in a better place. That set of signals will then be used in other ways in many different jurisdictions. We may be able to foretell how the jurisdictions will rule, but that should not bound or drive what we decide to do.
 
@@ -84,9 +84,9 @@ Farzaneh is glad that we (Alissa) brought up the good actor discussion, because 
 
 Timid Robot plus ones the idea that we should avoid hanging too much on user-agents. They also believe it is impossible to avoid mis-use of the vocabulary; if a website owner is claiming that anyone can scrape material that is pirated, that issue is out of scope for this. They are also concerned that we are conflating content holder and copyright holder. Access to the content gives you the ability to add the signal, but it may or may not be recognized in a specific jurisdiction as copyright holder.
 
-Glenn Deen notes that it is not necessarily about negatives, but can be used in some context to attach a right to something no matter where the content is availabile (RFC example).
+Glenn Deen notes that it is not necessarily about negatives, but can be used in some context to attach a right to something no matter where the content is available (RFC example).
 
-Fabrice jumps to a day two topic, he is concerned that if we focus too much on identification that we will find misuse. See the deepseek question, where no one was blocking it, because they didn’t know it existed. We need to a way to express signal that is usable by any actor.
+Fabrice jumps to a day two topic, he is concerned that if we focus too much on identification that we will find misuse. See the Deepseek question, where no one was blocking it, because they didn’t know it existed. We need to a way to express signal that is usable by any actor.
 
 Leonard note that he agrees that the identification issue important but out of scope.
 
@@ -148,7 +148,9 @@ Alissa (chat): "who were the various constituencies represented", Paul: Chatham 
 
 Paul: Retrieval-Augmented Generation (RAG) could be added under Text & Data Mining (TDM)
 
-Glenn: what about LLM learning from another LLM ? Martin: should carry over the original policy. Farzaneh: is it similar to derivative work ? Glenn: not really. Paul: the I-D is mainly about use classes. Leonard: difference between training the LLM and using the LLM.
+Glenn: what about LLM learning from another LLM ? Martin: should carry over the original policy. 
+
+Farzaneh: is it similar to derivative work ? Glenn: not really. Paul: the I-D is mainly about use classes. Leonard: difference between training the LLM and using the LLM.
 
 Discussions went in copyright and generative AI... No minutes taken as it is outside of this WG.
 
@@ -249,7 +251,7 @@ Martin: robots.txt were done originally for indexing only. He is concerned that 
 Mark: Paul excluded search because of robots.txt 
 Brad?: search is indeed no more only about search
 Alissa (volume to low for the note taker)
-Ted / Martin (chat): "a search application directs people to the original location of relevant content as part of its operationvone might even say "as the primary part of its operation"
+Ted / Martin (chat): "a search application directs people to the original location of relevant content as part of its operation one might even say "as the primary part of its operation"
 Timid Robot: if we have TDM at the top level than we need to include "search"
 Leonard: agrees with Alissa about "AI usage" and not "any usage", robots.txt is just a way to signal
 Gary: robots.txt is more than plain search/crawler, e.g., even "curl" supports it. robots.txt is a good attachment place. Fabrice: even a single crawler can serve for multiple purpose.
@@ -335,11 +337,11 @@ Reviewed names + affiliations
 
 Abstract model + suggested serialization agreed from yesterday. Also covered carve out for search + discovery. Concluded that we probably need search in our vocab. Paul's proposal suggested for call for adoption.
 
-Started on RAG/inference time use cases. Noted that Paul's proposal doesn't containlanguage for these cases (yet). 
+Started on RAG/inference time use cases. Noted that Paul's proposal doesn't contain language for these cases (yet). 
 
 Paul points out that the omission is partly because the suggestion came too late. But the impactful reason is that inference/RAG is poorly defined and covers all possible uses of material after training. E.g. can an end user of content translate that content with an ML model? This issue has the potential to slow us down - if we want to ship by August we may be better leaving it out. 
 
-Glenn asked why this slows us down? Leonard pointed out that deeper vocabulary affects how users will interact with the protocal and how the protocal evolves over time. Glenn asked what we need to make hard decisions about between now and shipping. Mark also thinks it's possible for us to add vocab later, subject to engagement with the policy community. Standards not useful if they're not finished! Risk that we ship something unfinished and people move on. 
+Glenn asked why this slows us down? Leonard pointed out that deeper vocabulary affects how users will interact with the protocol and how the protocol evolves over time. Glenn asked what we need to make hard decisions about between now and shipping. Mark also thinks it's possible for us to add vocab later, subject to engagement with the policy community. Standards not useful if they're not finished! Risk that we ship something unfinished and people move on. 
 
 Sonia expressed concerns that categories are too broad. We might want to focus on generative AI training as that has brought up most of the concern - same for RAG.
 
@@ -347,7 +349,7 @@ Bradley replies that skipping RAG would miss concerns from e.g. publishing conce
 
 Ted - we are too robots.txt focused. Vocab on acquisition can be taken from robots.txt. We should expect that non-HTML content will have similar acquisition models. What do we expect content *users* to do in terms of carrying these requirements forward? We need vocabulary that commits people to carrying these requirements onwards. This matters in terms of RAG/inference vocab for when we consider e.g. fine tuning. Content users need to re-check requirements every time they do acquisition, analysis, etc. 
 
-Paul - not all of these issues are about vocabulary but about expectations, enforcement. Recognises Bradley's comments about importance of RAG to publishers. Notes that OpenAI users different bots for training and 'agentic' purposes. Not standarising the agentic space would fail the WG. Challenge to Leonard - are RAG and inference the same to some extent? 
+Paul - not all of these issues are about vocabulary but about expectations, enforcement. Recognises Bradley's comments about importance of RAG to publishers. Notes that OpenAI users different bots for training and 'agentic' purposes. Not standardizing the agentic space would fail the WG. Challenge to Leonard - are RAG and inference the same to some extent? 
 
 Jari - initially thought that we should focus on model training because users want to use RAG to inspect documents. ATM RAG/inference covers everything from trivial 'copying' through to translation, summary. Large context windows may make RAG less relevant but also puts more pressure on using content in prompts. 
 
@@ -374,9 +376,9 @@ Bradley - learning the extent to which different uses (e.g. news summaries, styl
 
 Leonard - brings up Mark's point that we can add/remove things in revisions. Leonard points out that deprecation better idea bc we need the labels that we have to last forever, or we have a 'stranded permissions' problem. Mark recognises this. 
 
-Sonia - RAG isn't as broad as inference, but it definitely is broad. Impact on safety, accesibility, spam filters, general adoption. European Accesibility Act comes into force - if a user has a tool that describes a website, is that RAG? Suggests that we can control style mimicry at the output level rather than w/ training data. Focusing on use cases safer than trying to define massive terms like RAG, training, etc. On Japan - gov confirmed that RAG is permissible as long as it does not copy expressive content to the end user directly. 
+Sonia - RAG isn't as broad as inference, but it definitely is broad. Impact on safety, accessibility, spam filters, general adoption. European Accessibility Act comes into force - if a user has a tool that describes a website, is that RAG? Suggests that we can control style mimicry at the output level rather than w/ training data. Focusing on use cases safer than trying to define massive terms like RAG, training, etc. On Japan - gov confirmed that RAG is permissible as long as it does not copy expressive content to the end user directly. 
 
-Suresh - this was covered a little yesterday - owners may express preferences but there is no guarantee that these can be enoforced in Japan.
+Suresh - this was covered a little yesterday - owners may express preferences but there is no guarantee that these can be enforced in Japan.
 
 Sonia - this is an important point, need to factor these things in bc our definitions will affect legal adoption. 
 
@@ -390,13 +392,13 @@ Jari - wants to highlight the balance between end users and content/rights holde
 
 Discussion on Jari's point about the definition of publicly available, whether we want to give agents legal status, the goals of this group wrt copyright law. Mark points out that people can ignore preferences! 
 
-Glenn - we aren't setting national policies. These are *preferences* - not enforcable rules (by IETF). But these preferences will be discussed in policy and legal forums and will evolve. In music this evolution happened but not because of perfect preferences were expressed on day one! We should try to be liberal and expect the discussion to evolve around us. Let's talk about uses - this what the person specifiying the preferences can understand. 
+Glenn - we aren't setting national policies. These are *preferences* - not enforceable rules (by IETF). But these preferences will be discussed in policy and legal forums and will evolve. In music this evolution happened but not because of perfect preferences were expressed on day one! We should try to be liberal and expect the discussion to evolve around us. Let's talk about uses - this what the person specifying the preferences can understand. 
 
-Ted - we are making an acquisition time signal. Notes that the group hasn't made much ground this morning. We might be able to do a lot with accesibility carve outs. 
+Ted - we are making an acquisition time signal. Notes that the group hasn't made much ground this morning. We might be able to do a lot with accessibility carve outs. 
 
 Suresh - even if preferences are expressed ppl can ignore them. 
 
-Ted - we need to udnerstand at what level we need to express preferences so that they are not overly restrictive. Echoes Sonia's point - if everyone starts to opt-out of TDM that would be a disaster. Transformations for comprehensibility are reasonable use case! If we have too high level categories they will be too coarse and ppl will opt-out of everything. Recommends a tour-de-table to summarise this. 
+Ted - we need to understand at what level we need to express preferences so that they are not overly restrictive. Echoes Sonia's point - if everyone starts to opt-out of TDM that would be a disaster. Transformations for comprehensibility are reasonable use case! If we have too high level categories they will be too coarse and ppl will opt-out of everything. Recommends a tour-de-table to summarise this. 
 
 Mark - not keen on such a tour right now. Too fine grained options will be un-usable. See P3P
 
@@ -404,11 +406,11 @@ Ted - P3P was itself a response to something stupid. But we need to address thes
 
 Mark - 'every use of AI' is an unbounded set and therefore needs to be avoided. 
 
-Paul - largely agrees with Mark's comments that we risk going too granular too fast. No universal agreement on what is a useful use case, and which of these use cases should be permitted under copyright law. This will be a source of huge disagreements. Avoiding RAG will leave a gaping hole in the vocabulary. We get flexibility via 'preferences' - good faith actors not bound by the law can interpret preferences flexibily (e.g. for accesibility). Adobe is an example of an implementer that takes things strictly; this is OK! But this flexibility is useful for us as standards setters.
+Paul - largely agrees with Mark's comments that we risk going too granular too fast. No universal agreement on what is a useful use case, and which of these use cases should be permitted under copyright law. This will be a source of huge disagreements. Avoiding RAG will leave a gaping hole in the vocabulary. We get flexibility via 'preferences' - good faith actors not bound by the law can interpret preferences flexibly (e.g. for accessibility). Adobe is an example of an implementer that takes things strictly; this is OK! But this flexibility is useful for us as standards setters.
 
 Suresh - Alissa's point that the other draft is useful is a good one! Ted's 'yes if; no unless' framework is powerful. 
 
-Cullen - the need to enumerate all the use cases conflicts with our goals to meet the timelines. As a group of engineers, we must remember that most consumers do not have this level of literacy. Most robots.txts are not consistent with their ToS! Categorisation at a higher level makes sense. The timing model is a promising one - decouples the data-aggregation from the application stage, which often determinies how data is used. Distinction between pre-and post-training applications useful. 
+Cullen - the need to enumerate all the use cases conflicts with our goals to meet the timelines. As a group of engineers, we must remember that most consumers do not have this level of literacy. Most robots.txts are not consistent with their ToS! Categorisation at a higher level makes sense. The timing model is a promising one - decouples the data-aggregation from the application stage, which often determines how data is used. Distinction between pre-and post-training applications useful. 
 
 Piers - originally mentioned the time framework. But related to time of the data's publication; not model deployment time. What type of use can go down a rat hole.
 
@@ -432,7 +434,7 @@ Timid Robot - would like to see vocabulary where we have 'thing = action', e.g. 
 
 Hirochika - AI still emerging, but we need to work on the current problem to be solved. Balance between coarse and fine grained to be determined. 
 
-Jari - we can achieve a coarse grained vocabulary, need extensibity also. For inference, we can maybe agree on something with a qualifcation, e.g., 'inference for content re-generation'. 
+Jari - we can achieve a coarse grained vocabulary, need extensibility also. For inference, we can maybe agree on something with a qualification, e.g., 'inference for content re-generation'. 
 
 Ted - pass for now, see earlier comments. 
 
@@ -446,15 +448,15 @@ Joe - need to decide what we want!
 
 Sarah - coarse grained framework including inference/RAG with defaults to TDM exceptions. 
 
-Matt - wants to see RAG. FT publishes a lot outside of the paywall and this is good for the open web. Publishers are less likely to continue publishing outwith paywalls if there isn't the ability to signal to third parties that scraping journalism outside of the paywall is not permitted. The absence of a RAG signal likely to see less content made available on the open web. 
+Matt - wants to see RAG. FT publishes a lot outside of the paywall and this is good for the open web. Publishers are less likely to continue publishing without paywalls if there isn't the ability to signal to third parties that scraping journalism outside of the paywall is not permitted. The absence of a RAG signal likely to see less content made available on the open web. 
 
-Brad - need inference options. We are trying to target value extractive, substitutive uses - vocab should reflect that. There will always been 'unless' cluases; need to accomodate those. Purpose based restrictions difficult because purposes evolve post acquisition. 
+Brad - need inference options. We are trying to target value extractive, substitutive uses - vocab should reflect that. There will always been 'unless' clauses; need to accomodate those. Purpose based restrictions difficult because purposes evolve post acquisition. 
 
 Glenn - need to avoid trying to set policy. Uses is where language needs to go. That's certainly what rights holders are thinking about. We are not writing the grammar for us - must bear that in mind. Coarse grained is probably the option with extensibility. 
 
 Paul - as coarse as possible. Rights holders will often say no by default. But need RAG/inference otherwise there will be a massive gap in the standard. 
 
-Sonia - MSFT supportive of rights holders withdrawing their content in general. But inferecing will be very important for AI adoption and this hasn't been fully considered. A full audit of inferencing and what the implications of restricting inference would be. Opt out should be for genAI. 
+Sonia - MSFT supportive of rights holders withdrawing their content in general. But inferencing will be very important for AI adoption and this hasn't been fully considered. A full audit of inferencing and what the implications of restricting inference would be. Opt out should be for genAI. 
 
 Gary - coarse, simple solution that works for majority of publishers. Also must work with AI operators. 
 
@@ -466,9 +468,9 @@ Mark - for the inference issue?
 
 Fabrice - clear friction on LLM, but is in the past. RAG is more complicated - e.g. visibility but no text changed. So we can tackle the inference question with these use cases. 
 
-Alissa - what is achievable and effective is a small set of categories. Paul's suggestions plus search (including stipulations about faithful reproductions), inference (which probably includes RAG). Distinguishing training and inference starts all the other conversations, and legal jurisdications can set exceptions. Saying no in preferences does not kill accesibility. 
+Alissa - what is achievable and effective is a small set of categories. Paul's suggestions plus search (including stipulations about faithful reproductions), inference (which probably includes RAG). Distinguishing training and inference starts all the other conversations, and legal jurisdictions can set exceptions. Saying no in preferences does not kill accessibility. 
 
-Bryan - answer on the order of a handful of delinated categories. Need to be able to iterate on the whole thing. 
+Bryan - answer on the order of a handful of delineated categories. Need to be able to iterate on the whole thing. 
 
 Piers - echo Alissa. Minimal coarse set of tokens/vocab. Inference important. RAG is a mechanism that brings material into the inference time - could we stipulate rules about referencing/reciprocity? 
 
@@ -476,7 +478,7 @@ Sebastian - agrees with what has been said - need a minimal approach for August.
 
 Martin - no sensible way for us to do fine grained. Split on inference. Many of the applications we are thinking about will not have the ability to respond to these preferences. 
 
-Mark - sounds like there is interest in addressing inference. But we have a preference for keeping things coarse grained with extensibility open. At this point we need conrete proposals. What would the vocab definitions be? How do we describe them? How do they fit into Paul's draft? People need to go away and write those proposals and discuss them in the mailing list and future meetings. More substantial contributions should come in internet drafts. 
+Mark - sounds like there is interest in addressing inference. But we have a preference for keeping things coarse grained with extensibility open. At this point we need concrete proposals. What would the vocab definitions be? How do we describe them? How do they fit into Paul's draft? People need to go away and write those proposals and discuss them in the mailing list and future meetings. More substantial contributions should come in internet drafts. 
 
 Paul - it would be good for us to look at existing systems. Whatever we say will have a standardising effect but interacting with what already exists. 
 
@@ -490,13 +492,13 @@ Martin says that people should focus on getting drafts out to the list.
 
 Suresh - refer back to previous proposals/drafts for ideas and copy. 
 
-Mark - this is a path forward for search and inference. Looking at the vocab issues, we seem to be OK with TDM as a high level category. Have spoken about 'good uses' but seems that we don't want to address those now. This is a potential unrealistic rathole. But our framework should be extensible to these issue in the future shuold we wish to address them. Room agrees. 
+Mark - this is a path forward for search and inference. Looking at the vocab issues, we seem to be OK with TDM as a high level category. Have spoken about 'good uses' but seems that we don't want to address those now. This is a potential unrealistic rathole. But our framework should be extensible to these issue in the future should we wish to address them. Room agrees. 
 
 Mark - for eurocentricity, this seems to be an editorial issue to come back to later/will be ironed out. Paul seems to agree. 
 
 Mirja - TDM term is the big import. 
 
-Paul - SG and Japan use it too (Martin: 'escaped into the wirld').
+Paul - SG and Japan use it too (Martin: 'escaped into the world').
 
 Mirja - TDM comes from an era before AI, so we may wish to define something better. 
 
@@ -528,9 +530,9 @@ Mark - rough agreement on nesting hierarchy or not?
 
 Mirja - not convinced that there is really nesting here. 
 
-Dsagreement in the room about the external consistenty of Martin's nesting model of AI uses. 
+Disagreement in the room about the external consistency of Martin's nesting model of AI uses. 
 
-Martin - definitions may not correspond to what people are thhinking of! 
+Martin - definitions may not correspond to what people are thinking of! 
 
 Paul - not sure we can say that; depends on how we define inference. But there will be some nesting from the broadest level, and will be necessary. 
 
@@ -544,13 +546,13 @@ Alissa - this diagram doesn't have RAG in it, but by including that we can to si
 
 Paul - there must be *some* nesting - otherwise how could you opt out of TDM but not inference? 
 
-Alissa - this depends on you having a clear definiition of TDM already. 
+Alissa - this depends on you having a clear definition of TDM already. 
 
 Paul - this depends on the definition from the EU, which is designed to be a superset of other uses. This is where the nesting idea comes from. 
 
 Brad - not sure that's true. 
 
-Alissa - if that's true, maybe that's fine. The other five could be a subspace of TDM? But there still seems to be disagreement (e.g. inferenece). Important that users can distinguish from each other and user can make decisions about (dis)allow). 
+Alissa - if that's true, maybe that's fine. The other five could be a subspace of TDM? But there still seems to be disagreement (e.g. inference). Important that users can distinguish from each other and user can make decisions about (dis)allow). 
 
 Timid Robot - going to be hard to avoid subsets. If we try to avoid this the vocab will be very verbose and hard to use. Hierarchy adds value in terms of describing generics. Enables content holders to avoid having to describe specifics. 
 
@@ -608,7 +610,7 @@ Leonard: We should clearly consider things that are out there today.  An well-de
 
 Martin: my proposal ([draft-thomson-aipref-sup-00](https://datatracker.ietf.org/doc/draft-thomson-aipref-sup/)) is content related header never really formalized but it was very loose and not about the transaction right now, but the properties of the content. It's a good way to ensure things get attached to the content. If you take stuff off of websites and not saving headers you have lost the info that has used that content. we should talk about situations that loosen the attachment, possibly can use indirection in various ways. This group should not focus on indirection. Header through HTML we can say equivalent of HTTP header is incorporating in the content. We should make it as simple as the expression is. 
 
-Gary: Robots.txt ([RFC 9309](https://www.rfc-editor.org/rfc/rfc9309.html)) is robust and you can set up rules that match specific patterns. If you don't want PDF to be crawled, you can mention that (`*.pdf$`). PDF files in this directory but not the other one. So you can have specific rules. Robots exclusion protocol is robots.txt and xrobot text header. with the URI level controls you can specify a few things some stuff. If you are launching a new header, we will have to figure out how the different headers can work together. For example the header has to comply with GDPR but also has another message. How can two different headers interact with each other. Will be difficult to get everyone on the same page. we are already supporting one set of rules so it can be difficult to follow other rules if they conflict. C
+Gary: Robots.txt ([RFC 9309](https://www.rfc-editor.org/rfc/rfc9309.html)) is robust and you can set up rules that match specific patterns. If you don't want PDF to be crawled, you can mention that (`*.pdf$`). PDF files in this directory but not the other one. So you can have specific rules. Robots exclusion protocol is robots.txt and x-robot text header. with the URI level controls you can specify a few things some stuff. If you are launching a new header, we will have to figure out how the different headers can work together. For example the header has to comply with GDPR but also has another message. How can two different headers interact with each other. Will be difficult to get everyone on the same page. we are already supporting one set of rules so it can be difficult to follow other rules if they conflict. C
 Martin: maybe the robots.txt map cleanly with our definitions. 
 
 Leonard: we should discuss whether robots.txt is the right place to talk about this. If your other preferences are indicated in another file then we have to discuss how it can work together 
@@ -647,7 +649,7 @@ Martin: some protocols might need to carry attachment (like SMTP) having an atta
 
 Ted: media over QUIC, attach to a specific content, you could also deliver it for an entire session. define media over QUIC, the syntax and the content type but we are moving down in the weeds here
 
-Mark: The analogy is if we want to regulate TV content we are not regulating electicity sockets 
+Mark: The analogy is if we want to regulate TV content we are not regulating electricity sockets 
 
 Glenn: Do we need to apply it in QUIC per stream?
 
@@ -661,7 +663,7 @@ Suresh: at some point it's a good idea to discuss it later. seems like there is 
 
 Joe: Can good faith actor ask who is the rightsholder for this container
 
-Leonard: thats why embeding is better than HTTP Header. Fingerprinting mechanism suggested by Sebastian. There are mechanisms for this that exists out there but then it all comes down to how much you want to retrieve 
+Leonard: thats why embedding is better than HTTP Header. Fingerprinting mechanism suggested by Sebastian. There are mechanisms for this that exists out there but then it all comes down to how much you want to retrieve 
 
 Suresh: we don't determine the validity of who can signal the preferences. (implied by the charter not explicit)
 
@@ -683,9 +685,9 @@ Paul: reading a file of instructions is not within the definition of TDM.
 
 Mark: we are outside of the authority of this WG
 
-Sonia: just to point out that TDM is problmatic 
+Sonia: just to point out that TDM is problematic 
 
-Paul: difference between location and asset based any solution to the problem should include all kinds of the mechanims but might fill in holes that might arise out of behavior Joe described. we don't need to solve the entire problem space here. 
+Paul: difference between location and asset based any solution to the problem should include all kinds of the mechanisms but might fill in holes that might arise out of behavior Joe described. we don't need to solve the entire problem space here. 
 
 Glenn: Video services that combine ads and movie (matter of concern)
 
@@ -693,7 +695,7 @@ Mark: when you have many images on the web you still have headers for each image
 
 Glenn: The policy that I attach to HTTP level to the whole container should apply to all the things I add to it. So the answer would be in that scenario you can do certain things with the content but not with the ad 
 
-Gary: Google has a larger container playlist of different things that browser is going to read. If we see in HTTP header signals we will look at that signal and we won't go down to each individual content in the playlist. For example In a plyalist file the first three are videos you want indexed you leave it blank and there is ad following.
+Gary: Google has a larger container playlist of different things that browser is going to read. If we see in HTTP header signals we will look at that signal and we won't go down to each individual content in the playlist. For example In a playlist file the first three are videos you want indexed you leave it blank and there is ad following.
 
 Glenn: delivery of content of different types that needs to have different attachment to them is a challenge 
 
@@ -713,7 +715,7 @@ Mark: discuss two things attachment by location (robots.txt) and if we are going
 
 Fabrice: there is no opt out or opt in globally, so we need to address it. All parts have to be listed no ability to opt out globally. Different AI agents have come up with different solutions, Google has Google extended, you have new players (deepseek) looking at stuff and getting blocked. It is important to express allow disallow by content and also by user agent. The key problem is that websites want no AI training. But it should be more granular and have a category for search for example. 
 
-Mark: location and user agent is covered but purpose is not. so if we have a vocabluary it can tackle it. 
+Mark: location and user agent is covered but purpose is not. so if we have a vocabulary it can tackle it. 
 
 Martin: robots.txt has to be looked at by clients. robots.txt is good for signaling a large proportion of websites not to be allowed. This is about setting out purposes rather than knowing user agents and blocking them or not. If we have this usage preference expression and can attach it we have done our job. There are no usage preference on content to date. 
 
@@ -737,7 +739,7 @@ Mark: no
 
 Cullen: "maybe" to robots.txt. Depends on the schema of the expressions. Need to know when preferences were expressed. Given misconfiguration, expanding the schema, we see a lot that are misconfigured. Does this further entrench that sort of problem? We have to think about people getting this wrong. A separate file, with a pointer, might avoid or at least separate out some of these misconfiguration issues.  seems like syntax constraints might not make it a good fit, depending on vocabulary.
 
-Joe: misfiguration can happen and we might just need newer tools later. No need for a pointer, if it is a separate file, just load that separate file. 
+Joe: misconfiguration can happen and we might just need newer tools later. No need for a pointer, if it is a separate file, just load that separate file. 
 
 Piers: robots.txt seems like a good option; referencing might lead to the problem of having to make two sequential queries.  Tying it to user agent... It is being deprecated on some platforms.  He acknowledged that client/browser side useragent issues are less relevant here. How might that interact?
 
@@ -751,7 +753,7 @@ Gary: I like robots.txt because it’s simple (dumb)
 
 Brad: can robots.txt go beyond its primary purpose and include other actors crawlers and others. 
 
-Gary: defining the actors woudl be very useful. Would a browser be considered an AI agent? 
+Gary: defining the actors would be very useful. Would a browser be considered an AI agent? 
 
 Mark: the ability to define different attachment mechanism appropriate for application: doing agentic AIs, look at these attachment doing something else look at others 
 
@@ -801,7 +803,7 @@ Martin: that actually might be the way, Jari also has a proposal put a link in c
 Mark: as we talked, identified the issues about attachment. Time: which version of the robots.txt should I use at different times, what attachment mechanisms do you look at to determine applicable preferences (where is it mentioned), containers - encapsulated media, 
 robots.txt, we don't alter it unless we have to
 
-Leo: are we taking position on embeded preferences
+Leo: are we taking position on embedded preferences
 
 Mark: for specific formats, the venue that have it should look at it, we yet have to come up with a proposal to show the relevant venue 
 
@@ -827,7 +829,7 @@ Glenn: If I don't have a list of registries and mechanisms how do I know where a
 
 Suresh: I understand the problem, can have IANA list managed by experts. Policy and guidelines can tackle some of the issues Glenn mentioned
 
-Timid Robot: premature (tied to reputation, enforcement, etc.), tremendous amount of information that is adjascent to this, expectation that people use and implement are going to educate themselves. We shouldn't try to handhold.
+Timid Robot: premature (tied to reputation, enforcement, etc.), tremendous amount of information that is adjacent to this, expectation that people use and implement are going to educate themselves. We shouldn't try to handhold.
 
 Alissa: minor issue and can be crossed later. Feels like generic educational task. Something we can talk about later. 
 
@@ -837,11 +839,11 @@ Sonia: attachment is an essential part of the standard. Because it brings certai
 
 Mark: we will have an RFC on attachment.
 
-Sonia: you can't agree to a voabulary without implementation. 
+Sonia: you can't agree to a vocabulary without implementation. 
 
 Mark: some of the mechanisms are not iterated by the IETF, some attachment mechanisms are in other orgs.
 
-Paul: concer by rightsholders that you use an attachment mechanism and vocabulary that is not listened to. A web crawler for example should not be obliged to go to an attachment registry but other players might have to. AI companies say robots.txt is good enough but rightsholders say no it has shortcomings and they insist they need other ways to communicate and make sure they are listened to. It can't be voluntary whether you are listened to. Revolves around some concept of widely used. 
+Paul: concern by rightsholders that you use an attachment mechanism and vocabulary that is not listened to. A web crawler for example should not be obliged to go to an attachment registry but other players might have to. AI companies say robots.txt is good enough but rightsholders say no it has shortcomings and they insist they need other ways to communicate and make sure they are listened to. It can't be voluntary whether you are listened to. Revolves around some concept of widely used. 
 
 Suresh: IETF is not the protocol police .
 
@@ -893,7 +895,7 @@ Leonard: 9309 is ambiguous, it's not about HTTP, any protocol that goes over FTP
 
 Gary: It is not specific to http, applies to any protocol (see [RFC 9309, 2.3](https://datatracker.ietf.org/doc/html/rfc9309#section-2.3)).  We use it for FTP, for example
 
-Fabrice: rules should specify where the default is and mention what you are prefering regarding time. Maybe the publisher can override for this user agent
+Fabrice: rules should specify where the default is and mention what you are preferring regarding time. Maybe the publisher can override for this user agent
 
 Farz: Gary mentioned that teams check for updates before using content. Other actors might not have the same means and technical expertise to do similar things.  We need to facilitate it for them so that they can look at the update to make it less complicated for them, if they intend to act in good faith.  If they have to check every time they want to use data, then we have to also help them to be able to know that detail and to technically do that.
 
@@ -959,7 +961,7 @@ Timid Robot: advocating least permissive or least permissive
 
 Martin: most restrictive, least permissive 
 
-Timid Robot: having a resolution past is importand and we need to decide on interaction between location based and asset based. We might hit robots.txt and stops and never sees content that's permissive assuming that all the content that is permissive. 
+Timid Robot: having a resolution past is important and we need to decide on interaction between location based and asset based. We might hit robots.txt and stops and never sees content that's permissive assuming that all the content that is permissive. 
 
 Glenn: what we should do is to consider the signal at the time of transaction. on a per access basis the most restrictive for that transaction. we don't deal with combinations of multiple transactions 
 
@@ -989,7 +991,7 @@ The chairs are looking for input on the timing between the two meetings. After r
 
 There were additional discussions of conflicts, including IGF, the ITU "AI for good" meeting, WSIS +20. There was also discussion of how many meetings would be required during the IETF meeting, which would be for input from the wider IETF community.  Probably would request a single meeting, on Monday, so that day pass would be possible for those not attending the full IETF meeting. A straw poll showed interest in Thursday/Friday before the IETF. 
 
-Paul notes that the main point for others outside this process is "when does this become a stable reference". Mark explains the IETF last call period and then the subsequent processing.  Mark and Paul talk about what shape "stable reference" exactly means.  So six weeks to two months from the working group shipping to achieve stability in the core concepts, syntax etc.  Final editing can lag a good bit. Pessimisticly, from Martin, end of October to stability. There are methods to request expedited review.  Sonia and Deen asked why that charter date was chosen; Mark responds that it was an effort for the work not to be OBE.  Paul notes that the relevant provisions of the EU AI take effect in early August. 
+Paul notes that the main point for others outside this process is "when does this become a stable reference". Mark explains the IETF last call period and then the subsequent processing.  Mark and Paul talk about what shape "stable reference" exactly means.  So six weeks to two months from the working group shipping to achieve stability in the core concepts, syntax etc.  Final editing can lag a good bit. Pessimistically, from Martin, end of October to stability. There are methods to request expedited review.  Sonia and Deen asked why that charter date was chosen; Mark responds that it was an effort for the work not to be OBE.  Paul notes that the relevant provisions of the EU AI take effect in early August. 
 
 Ted asked if there was any thinking about running a hackathon project; Mark responded that he thought a validator might be a reasonable project.  Farz asked if folks had considered Hiro's comment from yesterday on the creating of an RG as an adjunct.  Suresh responded that the IAB could schedule an IAB open technical session, to test if there is a community interested in that discussion, the IRTF chair would naturally be part of that discussions.  Mirja noted that measurement work related to this is already taking place in MAPRG.  Farz responded that some of the research in the workshop extended beyond that.  Mark, wearing an IAB hat, noted that there are other RGs working on related work, so it might be that this gets dispatched to various RGs.  There would be discussion of how it and the WG interacts.
 
@@ -999,7 +1001,7 @@ There was a bit of additional discussion on the mechanics of the hackathon, incl
 
 Chairs are open to discussion on how to make progress in the remaining two hours.  No objection to returning to the issues list for the vocabulary.  Sebastian asks for a clarification of the meaning of opt-in, signalling for training or grant.  He's asking that we touch on how to use this vocabulary in an opt-in fashion.
 
-Mark notes that the intent is to create an abstract vocabulary and serialization that can express either opt-in or opt-out.  Martin notes that this system does not have authorization, so that some of the usual parts of those systems are not presenting (no binding to identy, or to link that identity to the content).  Martin discusses how the one-bit privacy control system works as a generic expression of preference. He thinks that what we get will reflect that sort of an approach.
+Mark notes that the intent is to create an abstract vocabulary and serialization that can express either opt-in or opt-out.  Martin notes that this system does not have authorization, so that some of the usual parts of those systems are not presenting (no binding to identity, or to link that identity to the content).  Martin discusses how the one-bit privacy control system works as a generic expression of preference. He thinks that what we get will reflect that sort of an approach.
 
 Glenn Deen notes that he has advocated on the list for an opt-in use case, and that there are some legal frameworks in which a positive signal may be required. Ted pointed to a previous discussion about the difference commercial=no and non-commercial=yes.  Because those are not a perfect inverse, we have to acknowledge that we will have some signals that have some overlap, and that's a natural complexity of supporting both.  Martin then walked through the example he and Alissa discussed in chat yesterday.  Sonia wants to clarify whether we are producing preferences that are useful in specific jurisdictions or a signal that is generally useful independent of the jurisdictions.  She notes that there are no jurisdictions that require opt-in, and she expressed concern that the added complexity that would arise in any system that used both.  
 
@@ -1007,9 +1009,9 @@ Mark noted that the primitives are meant to be usable in either, since we cannot
 
 Paul disagreed with Sonia that there are no opt-in regimes, as he believes the current UK regime would require opt-in to give a clear signal of preference to allow use in ai training.  There is certainly a lot of resistence to opt-out from the creative community and advocacy for opt-in requirements.  He also reinforced that there are issues in both related to the defaults understood by the system.
 
-Martin notes that even in a strictly legal opt-out regime, that it might be useful in a heirarchical system to have the syntax for opt-in, because the scoping of those statements gives you greater granularity in your statements.  Martin also notes that in an opt-in regime, you might see higher requirements for authorization or evidence for opt-in, because of age verification or similar concerns. 
+Martin notes that even in a strictly legal opt-out regime, that it might be useful in a hierarchical system to have the syntax for opt-in, because the scoping of those statements gives you greater granularity in your statements.  Martin also notes that in an opt-in regime, you might see higher requirements for authorization or evidence for opt-in, because of age verification or similar concerns. 
 
-Timid Robot wondered if a discussion about opt-in or opt-out discussion is a bit irrelevant, because there will never be a world in which there is a single jurisdiction or a guarantee of commonality of policy over time. The heirarchy can set a top-level context for all other declarations; if it is a default "no", then the later opt-in statements are within that context. The Vocabulury should state users SHOULD always set top level context (for example: tdm=yes, tdm=no) for clarity and consistenty across jurisdictions.
+Timid Robot wondered if a discussion about opt-in or opt-out discussion is a bit irrelevant, because there will never be a world in which there is a single jurisdiction or a guarantee of commonality of policy over time. The hierarchy can set a top-level context for all other declarations; if it is a default "no", then the later opt-in statements are within that context. The Vocabulary should state users SHOULD always set top level context (for example: tdm=yes, tdm=no) for clarity and consistency across jurisdictions.
 
 Paul notes that he is queasy about the vocabulary making recommendations.  Timid Robot notes there are IETF mechanisms for making recommendations--Martin notes that those are for achieving interoperability, not guide other behaviors.
 
@@ -1029,29 +1031,29 @@ Sebastian: Just going back to the opt-in. I think there is a case for opt in. I 
 
 Sonja: Are we building controls for legal compliance or for preferences? We are making the assumption that preferences are legal requirements, but they are not. Controls should be around preferences, and they should be jurisdiction agnostic. In any case we need to comply by law. E.g., TDM is well defined in EU but operates within a set of exceptions. In short, let's focus on preferences not copyright law.
 
-Mark: Abosolutely, we need to keep that in mind. But at least one legal regime has put a hook on the preferences in the legislation.
+Mark: Absolutely, we need to keep that in mind. But at least one legal regime has put a hook on the preferences in the legislation.
 
 Mark: We are at the beginning, AI is evolving, let's be careful about the assumptions we are making. For instance, copyright is an opt-out mechanism, and Creative Commons is a way to affect that. We don't control any of those things, we control only the preferences we express.
 
-Suresh reinforced that the best we can do is to ensure that whatever we come up with can support an opt-in regime.  We need to be concious of it, so we don't kneecap any later effort to do an opt-in regime.
+Suresh reinforced that the best we can do is to ensure that whatever we come up with can support an opt-in regime.  We need to be conscious of it, so we don't kneecap any later effort to do an opt-in regime.
 
 Fabrice notes that there is already an effective default for robots.txt; if you don't have it, the assumption is that it is permitted to crawl a site. There is also ongoing conflict between the use of different tools, e.g. the no-index directive and robots.txt where site maintainers set them in ways that create silly states.
 
 Paul thinks all of the proposals target a vocabulary that allow for preferences in either opt-in or opt-out systems.  It may be that there are attachment mechanisms that only permit one or the other, but on the vocabulary level we are targeting is a use case level, and he thinks that is necessary for allowing different types of use in different legal.  He also notes that our choice of using the term "preference" is appropriately humble about our power in this set of systems.  We can give folks an interoperable way to express their preferences, but any force will come from systems outside our process, like legislative action or legal decisions, which may not be globally consistent.
 
-Mark notes that he expects the WG document will have a section to show how to use the vocabulary in prefence--does Paul agree that is the expectation?  He agrees that this expected, but that those are not recommending choices, but showing how things are expresses.
+Mark notes that he expects the WG document will have a section to show how to use the vocabulary to express preferences -- does Paul agree that is the expectation?  He agrees that this expected, but that those are not recommending choices, but showing how things are expressed.
 
 Sarah believes that in our document on guidelines for policymakers, we will require a section that shows how these attachment mechanisms/vocabulary is or is not sufficient for opt-in or opt-out regimes.
 
-Joe, reminds us that this not about enforcement, it is about expressing preference.  At that level we can be more ambitious about encouraging declarants to use these in ways that are common across recipients.  Having a different preference per geofenced area is odd, like having a different favorite milkshare in the US versus the EU would be odd.  
+Joe, reminds us that this not about enforcement, it is about expressing preference.  At that level we can be more ambitious about encouraging declarants to use these in ways that are common across recipients.  Having a different preference per geofenced area is odd, like having a different favorite milkshake in the US versus the EU would be odd.  
 
-Paul notes that so far what we have produced documents about global artifacts, and that replicating copyright's territorial system may not be appropriate.  Glenn does not agree, but did not debate in the interest of time.  He suggests that it might be as simple as adding a country code to the syntax.  Mark reminds him that we need to get something that can ship; Glenn ripostes that we still want something that can get the different communities around.  Timid Robot noted that it took Creative Commons approximately 15 years to get to declarations that were not jurisdiction specific.
+Paul notes that so far what we have produced documents about global artefacts, and that replicating copyright's territorial system may not be appropriate.  Glenn does not agree, but did not debate in the interest of time.  He suggests that it might be as simple as adding a country code to the syntax.  Mark reminds him that we need to get something that can ship; Glenn ripostes that we still want something that can get the different communities around.  Timid Robot noted that it took Creative Commons approximately 15 years to get to declarations that were not jurisdiction specific.
 
 Mark: I have lists of topics, first about things that regulators and the rest of the world know are out of scope for us. But also about things that are conditional on what we actually produce. The whole list is as follows:
 
 - opt-in vs opt-out
 - robots time dimension
-- disparate assertions from mulutiple sources
+- disparate assertions from multiple sources
 - hosted content
 - rightsholder identification
 - accessibility, academic / research, impact upon other "good" uses
@@ -1062,7 +1064,7 @@ Martin: We need to have a basic description of the model, would like to do this 
 
 Sarah and Martin: We need to be aware that legal regimes may contribute, e.g., in the areas of non-commercial use. And this may happen in two directions, in saying what can be claimed by rightsholders and what can be done by users or crawlers.
 
-Paul: There's likely rules about accessability and spam filtering.
+Paul: There's likely rules about accessibility and spam filtering.
 
 Suresh: I'm not keen on adding this to the vocabulary document but rather make an applicability document. Not all material may be done at the same time.
 
