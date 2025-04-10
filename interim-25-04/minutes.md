@@ -2,6 +2,26 @@
 
 Chairs: Mark Nottingham and Suresh Krishnan
 
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Morning session, 8 April 2025](#morning-session-8-april-2025)
+- [Afternoon session, 8 April 2025](#afternoon-session-8-april-2025)
+  - [Summary of morning (Mark)](#summary-of-morning-mark)
+  - [draft-keller-aipref-vocab-01 (Paul Keller)](#draft-keller-aipref-vocab-01-paul-keller)
+  - [Vocabulary Issues (lead by Mark)](#vocabulary-issues-lead-by-mark)
+    - [Interface to attachment - abstract model or strings?](#interface-to-attachment---abstract-model-or-strings)
+    - [Search / discovery carve-out](#search--discovery-carve-out)
+- [Morning session, 9 April 2025](#morning-session-9-april-2025)
+- [Afternoon session, 9 April 2025](#afternoon-session-9-april-2025)
+  - [HTTP Header field attachment (unit based)](#http-header-field-attachment-unit-based)
+  - [robots.txt attachment (location based)](#robotstxt-attachment-location-based)
+  - [The document that we will adopt](#the-document-that-we-will-adopt)
+- [Morning session, 10 April 2025](#morning-session-10-april-2025)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+  
 ## Morning session, 8 April 2025
 
 Note takers: Ted Hardie, Martin Thomson
