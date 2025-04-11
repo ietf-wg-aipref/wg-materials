@@ -404,7 +404,7 @@ Suresh - this was covered a little yesterday - owners may express preferences bu
 
 Sonia - this is an important point, need to factor these things in bc our definitions will affect legal adoption. 
 
-Sarah - if we don't have options for RAG/inference, we risk closing down content bc people will go to the fallback. To this end, imperfect definition may be better that we refine over time. Sonia says that TDM fallbacks could be worked around via temp. copies exception.
+Sarah - if we don't have options for RAG/inference, people will go to the fallback. To this end, imperfect definition may be better that we refine over time. Sonia says that TDM fallbacks could be worked around via temp. copies exception.
 
 Mark - people are clearly interested in this. Ted has identified a use-case framework a promising but a moving target. Timid Robot's point about the time of use has not been explored as much but is promising. Wants to know people's reactions to this choice. 
 
