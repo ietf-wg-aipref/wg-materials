@@ -42,9 +42,17 @@ The group then went through a round of introductions: please review the recordin
 
 The morning’s agenda is loose, to foster discussion. The first topic will be the vocabulary, which is one of the core outputs. The follow-on discussion will be on attachment. The final deliverable is an overview, but the chairs would be happy if the first two result in recommendations to the list of starting points for the ongoing working group discussion.
 
-Martin suggests a structure to the first day’s discussion. The first would be the opt-in/opt-out/silence states for preference expressions. The second would be the application of the vocabulary to different activities–acquisition, training, use of trained model. He would also like to know whether search indexing is in scope for the work, since it may be interlocked with the location-based aspects of the discussion. Mark Nottingham notes that we have to be very aware of the context of the work–we are describing a technical mechanism, but it occurs within a legal context.
+Martin suggests a structure to the first day’s discussion. The first would be the opt-in/opt-out/silence states for preference expressions. The second would be the application of the vocabulary to different activities–acquisition, training, use of trained model. He would also like to know whether search indexing is in scope for the work, since it may be interlocked with the location-based aspects of the discussion. 
 
-Glenn Deen wonders if, when we write this down, we can carefully describe the scope and applicability, so that those who might want to use it in other contexts are aware of what was intended. Mark suggests that we might need a guide to policy makers as an additional documents. Glenn is concerned that this technical solution might get pulled into new contexts where it might not be a good fit. Suresh notes that we are trying to provide signals and that the lack of signal may be interpreted differently in different contexts or jurisdictions.
+Mark Nottingham notes that we have to be very aware of the context of the work–we are describing a technical mechanism, but it occurs within a legal context.
+
+Glenn Deen wonders if, when we write this down, we can carefully describe the scope and applicability, so that those who might want to use it in other contexts are aware of what was intended. 
+
+Mark suggests that we might need a guide to policy makers as an additional documents. 
+
+Glenn is concerned that this technical solution might get pulled into new contexts where it might not be a good fit. 
+
+Suresh notes that we are trying to provide signals and that the lack of signal may be interpreted differently in different contexts or jurisdictions.
 
 Martin notes that legislation may simply over-ride a preference (e.g. the carve-out for research). In other contexts, the legislation may establish a default. We also have to note that these preferences will not be sufficiently detailed to handle the use cases currently handled by bilateral.
 
