@@ -48,13 +48,31 @@ Glenn Deen wonders if, when we write this down, we can carefully describe the sc
 
 Martin notes that legislation may simply over-ride a preference (e.g. the carve-out for research). In other contexts, the legislation may establish a default. We also have to note that these preferences will not be sufficiently detailed to handle the use cases currently handled by bilateral.
 
-Leonard notes that he believes that there is a “fourth state”, and that the way TDMRep (W3C) works today includes a “go look over there” that may have more complex agreements. Timid Robot Zetha expressed in creating models of reciprocity and that these might be very valuable for avoiding a data winter.
+Leonard notes that he believes that there is a “fourth state”, and that the way TDMRep (W3C) works today includes a “go look over there” that may have more complex agreements. 
 
-Mark says that we should probably start here, given the aggressive timeline. We might ship a minimal core, and then have extended work done after. Timid Robot agrees with that view, but wants to ensure that we don’t prevent the future.
+Timid Robot Zetha expressed in creating models of reciprocity and that these might be very valuable for avoiding a data winter.
 
-Martin notes that many in the publisher industry want to say “on my terms only”, which basically means the start of the negotiation is a default no. If we do that within the tri-state framework, that lets us do that and keep going. (Bradley) that may gets us squarely into the search space, since there may be a bifurcation between search vs. AI model training. “No, but” is a critical starting point.
+Mark says that we should probably start here, given the aggressive timeline. We might ship a minimal core, and then have extended work done after. 
 
-Leonard notes that there is active work going on in the EC on machine readability, and that we may need to be sure that we meet that requirement. If we don’t do enough core work up front, the folks waiting on us may not get enough progress. Suresh notes that there can be side-efforts in which smaller groups can make progress. Mirja notes that there may be very different things in the future, and things like AI search are emerging rapidly. Bradley agrees that this is one of the more complex pieces. Matt says that where the content is being presented is very different in AI search vs. historical search. Mirja says it is changing fast, and that we may want to focus on the properties. Bradley says we know what it looks like now, and that it will evolve as publishers and others find things that they are comfortable with. “No” category is the most important piece to get right, and that is always up for bilateral discussions. Mirja notes that a default “no” is a different dynamic in the focus and that can be slower than default yes approaches.
+Timid Robot agrees with that view, but wants to ensure that we don’t prevent the future.
+
+Martin notes that many in the publisher industry want to say “on my terms only”, which basically means the start of the negotiation is a default no. If we do that within the tri-state framework, that lets us do that and keep going. 
+
+(Bradley) that may gets us squarely into the search space, since there may be a bifurcation between search vs. AI model training. “No, but” is a critical starting point.
+
+Leonard notes that there is active work going on in the EC on machine readability, and that we may need to be sure that we meet that requirement. If we don’t do enough core work up front, the folks waiting on us may not get enough progress. 
+
+Suresh notes that there can be side-efforts in which smaller groups can make progress. 
+
+Mirja notes that there may be very different things in the future, and things like AI search are emerging rapidly. 
+
+Bradley agrees that this is one of the more complex pieces. 
+
+Matt says that where the content is being presented is very different in AI search vs. historical search. 
+
+Mirja says it is changing fast, and that we may want to focus on the properties. Bradley says we know what it looks like now, and that it will evolve as publishers and others find things that they are comfortable with. “No” category is the most important piece to get right, and that is always up for bilateral discussions. 
+
+Mirja notes that a default “no” is a different dynamic in the focus and that can be slower than default yes approaches.
 
 Alissa asks whether the machine readability was for contact or was something else? Leonard, no it is to declare detailed rights, including things like charging model. It is intended to be an extensible, machine readable system, he will look for a link.
 
@@ -66,19 +84,35 @@ Glenn suggests that we include sections in the vocabulary draft that document th
 
 Mark agrees that we are having a wide-ranging discussion now, but we will try to focus in soon.
 
-Joe notes that robots.txt is not enough, but that the problem is not so much new tech, but that existing tech is being used in news. There’s also an asymmetry in that once something has gone out onto the Internet the data never goes back. He re-iterates that there is really a need to start with limitation. Speaker from microsoft agrees with Joe that we want to start from default no plus opt-ins, because that is the most realistic way to handle new technologies. Sebastian then notes that he believe a default “no” results in some additional issues, including potentially public access to contact information, which may be problematic. He sees opt-out as a potential default, but believes we need opt-in as a defined signal.
+Joe notes that robots.txt is not enough, but that the problem is not so much new tech, but that existing tech is being used in news. There’s also an asymmetry in that once something has gone out onto the Internet the data never goes back. He re-iterates that there is really a need to start with limitation. 
 
-Martin says that it seems we’re not all clear on how the different proposals work. We may want to spend some time this morning orienting folks on that. Timid Robot says that the issue Joe raised, on “my data is on the Internet and I can’t get it back”, that should be an expectation that later uses of crawled data should check current usage permission (using Common Crawl as an example). Mirja notes that we’re not really focused on the crawling, but on the uses. Even the baseline crawling is a parallel use to human.
+Speaker from microsoft agrees with Joe that we want to start from default no plus opt-ins, because that is the most realistic way to handle new technologies. 
 
-There was a short discussion reviewing the previous discussion of expressions from a crawler that they have reviewed the preferences. Mark is concerned that some of the proposals there may need to be after the delivery of the initial documents because they start to create negotiation mechanisms.
+Sebastian then notes that he believe a default “no” results in some additional issues, including potentially public access to contact information, which may be problematic. He sees opt-out as a potential default, but believes we need opt-in as a defined signal.
+
+Martin says that it seems we’re not all clear on how the different proposals work. We may want to spend some time this morning orienting folks on that. 
+
+Timid Robot says that the issue Joe raised, on “my data is on the Internet and I can’t get it back”, that should be an expectation that later uses of crawled data should check current usage permission (using Common Crawl as an example). 
+
+Mirja notes that we’re not really focused on the crawling, but on the uses. Even the baseline crawling is a parallel use to human.
+
+There was a short discussion reviewing the previous discussion of expressions from a crawler that they have reviewed the preferences. 
+
+Mark is concerned that some of the proposals there may need to be after the delivery of the initial documents because they start to create negotiation mechanisms.
 
 Glenn wants to discuss the value of opt-out vs. opt-in. We are seeing some rapid deployment of new business models, and the opt-out default gives us time to resolve whether or not a new use is within the rights held in the content. A current example is the actors’ ability to withdraw consent from use of training using their likeness, but there may be others coming as well. “Opt-out” would have made that very difficult, because it is not possible to opt-out to things before they have been created. Default opt-out with carved out opt-ins is the easier one to deal with.
 
 Mark says that there are legal regimes that are opt-in or opt-out and that we can’t change that.
 
-Gary reminds us that we are writing these for crawlers that are wanting to be well-behaved, and that crawlers that want to misbehave can do so trivially. Bradley thinks we are getting tripped up around opt-in or opt-out, and that we cannot change the differences between US fair use and other UK or EU. But we can express what we should do when there is no signal. I don’t think we can think about it in terms of opting-in or opting-out. We should say “no signal means jurisdictional rules apply”, as that is the clearest thing we can do. There was a short discussion of the EU copyright/AI copyright act implications of the absence of signal.
+Gary reminds us that we are writing these for crawlers that are wanting to be well-behaved, and that crawlers that want to misbehave can do so trivially. 
 
-Paul builds on Gary’s comment. People are conflating two issues–crawler misbehavior and crawler preference review. We cannot deal with misbehaving actors directly, we are dealing with problems that are lack of clarity of how to send signals to good actors. Gary agrees and believes that this will be increasingly important. Paul notes that this is a fairly critical thing for future work.
+Bradley thinks we are getting tripped up around opt-in or opt-out, and that we cannot change the differences between US fair use and other UK or EU. But we can express what we should do when there is no signal. I don’t think we can think about it in terms of opting-in or opting-out. We should say “no signal means jurisdictional rules apply”, as that is the clearest thing we can do. There was a short discussion of the EU copyright/AI copyright act implications of the absence of signal.
+
+Paul builds on Gary’s comment. People are conflating two issues–crawler misbehavior and crawler preference review. We cannot deal with misbehaving actors directly, we are dealing with problems that are lack of clarity of how to send signals to good actors. 
+
+Gary agrees and believes that this will be increasingly important. 
+
+Paul notes that this is a fairly critical thing for future work.
 
 Ted agrees with the point about well-behaved bots. We need to be careful talking about the importance of having a clear set of signals. We are saying that these signals existing allows us to have people who ignore those signals being treated differently. That might include turning them over to the AI slop generator… All of those things are outside of our first task, which is defining those clear signals. Think about avoiding foreclosure on potential future development. It is maybe not a good idea to get into a content negotiation structure, but we should be able to version things. That would allow for the expansion to a richer set of signals in the future.
 
@@ -86,9 +120,17 @@ Mark as chair says that we want to allow some of the side discussions without bl
 
 Suresh follows up to note that versioning may create a need to handle a more complex state machine than simply stale nonces.
 
-Matt from FT we can’t legislate for China, we can only set things up so that folks can detect whether or not the signals have been obeyed. Mark Nottingham notes that audit was explicitly ruled out of Timid Robot asked that we have a second use case than crawling. Mark said that when we get to attachment we will get that.
+Matt from FT we can’t legislate for China, we can only set things up so that folks can detect whether or not the signals have been obeyed. 
 
-Bryan Newbold drilled into the need for a vocabulary for meta categories like timestamps before which something becomes public or state. Suresh notes that there was conversation about this earlier, and asks him to raise specific issues that were not already covered.
+Mark Nottingham notes that audit was explicitly ruled out of scope.
+
+Timid Robot asked that we have a second use case than crawling. 
+
+Mark said that when we get to attachment we will get that.
+
+Bryan Newbold drilled into the need for a vocabulary for meta categories like timestamps before which something becomes public or state. 
+
+Suresh notes that there was conversation about this earlier, and asks him to raise specific issues that were not already covered.
 
 Mirja reinforces that the legal framework can override the preferences, and that we need to have vocabulary that doesn’t elide that.
 
@@ -98,11 +140,21 @@ Alissa wants to put a fine point on something that Paul said: the point of defin
 
 Fabrice note that there is a clear need to communicate globally about what organizations like Google or Microsoft are doing, and that this vocabulary can help. How other uses develop will over time.
 
-Glenn Dean agrees with Alissa and that we should focus on good actors. As a studio person, though, one of things we have to deal with is that we have good actor crawlers and creators today, and we have bad actor content publishers. We don’t want to get into a situation where the bad actor publisher can release content that neither of the other actors wanted to permit. He doesn’t want that outcome. Alissa responds that there are site actors who are currently blocking everything now who would do differently if they had more granular. Mark says it is not what we want to do, but what we can do with technical means. Martin notes that one of the worst features of robots.txt is that it varies with the identity asserted by the user-agent. He references the case of Brave using Googlebot’s rules, even though their uses may not be the same. He is concerned with asserted identity being a primary feature of the vocabulary, because it is discriminatory and might prevent the entrance of new market participants.
+Glenn Dean agrees with Alissa and that we should focus on good actors. As a studio person, though, one of things we have to deal with is that we have good actor crawlers and creators today, and we have bad actor content publishers. We don’t want to get into a situation where the bad actor publisher can release content that neither of the other actors wanted to permit. He doesn’t want that outcome. 
 
-Gary also notes that Google published crawling ranges and that they had a situation after one of the ranges was released to GCP, and a company was crawling as Googlebot. Martin that bot authentication is separate from what we are doing here, but that it is an important part of the work and that the robots.txt user agent is adversely affecting folks who are using.
+Alissa responds that there are site actors who are currently blocking everything now who would do differently if they had more granular. 
 
-Farzaneh is glad that we (Alissa) brought up the good actor discussion, because we have a lot of other discussions about structures of control and focus on bad actors only. But she does have an issue with it being a binary description. There is a need to be a bit more contextual, like non-commercial uses and some of the less commonly discussed actors. The binary good/bad actor is reductive. Mark interprets Alissa’s “good” to be conforming to the protocol and “bad” as not conforming, not as a broader statement.
+Mark says it is not what we want to do, but what we can do with technical means. 
+
+Martin notes that one of the worst features of robots.txt is that it varies with the identity asserted by the user-agent. He references the case of Brave using Googlebot’s rules, even though their uses may not be the same. He is concerned with asserted identity being a primary feature of the vocabulary, because it is discriminatory and might prevent the entrance of new market participants.
+
+Gary also notes that Google published crawling ranges and that they had a situation after one of the ranges was released to GCP, and a company was crawling as Googlebot. 
+
+Martin says that bot authentication is separate from what we are doing here, but that it is an important part of the work and that the robots.txt user agent is adversely affecting folks who are using.
+
+Farzaneh is glad that we (Alissa) brought up the good actor discussion, because we have a lot of other discussions about structures of control and focus on bad actors only. But she does have an issue with it being a binary description. There is a need to be a bit more contextual, like non-commercial uses and some of the less commonly discussed actors. The binary good/bad actor is reductive. 
+
+Mark interprets Alissa’s “good” to be conforming to the protocol and “bad” as not conforming, not as a broader statement.
 
 Timid Robot plus ones the idea that we should avoid hanging too much on user-agents. They also believe it is impossible to avoid mis-use of the vocabulary; if a website owner is claiming that anyone can scrape material that is pirated, that issue is out of scope for this. They are also concerned that we are conflating content holder and copyright holder. Access to the content gives you the ability to add the signal, but it may or may not be recognized in a specific jurisdiction as copyright holder.
 
@@ -116,15 +168,27 @@ Cullen thinks this moving into a more useful direction, and that in our next ses
 
 Paul notes that we cannot necessarily divorce considerations of copyright from the work; we need to be able to deal with multiple arrangements. In some, focus on copyrights will be unworkable; in others, there may be a chain of licenses from a copyright grant. We need to be able to handle both.
 
-Glenn Dean wants to highlight use cases that are weird. One is where you are publishing content, but it is not covered by copyright. We need vocabulary to express that. We also need an ability to grant of permission like that. Mark notes that we are not chartered to handle copyright preferences. Glenn says he is not trying to create a general mechanism, but something like a reference. Mark notes that still might be out of scope.
+Glenn Dean wants to highlight use cases that are weird. One is where you are publishing content, but it is not covered by copyright. We need vocabulary to express that. We also need an ability to grant of permission like that. 
 
-Alissa notes that the reason copyright is in the background of the discussion is in part because of the EU regulations that created a broad carve out for research. That’s not true in other frameworks, but it is having a big impact on the structure of discussions. Leonard notes that when we talk about attachment, we may get to how to bind these signals to objects and that we may get to the intersection these signals and preferences within that context.
+Mark notes that we are not chartered to handle copyright preferences. 
+
+Glenn says he is not trying to create a general mechanism, but something like a reference. 
+
+Mark notes that still might be out of scope.
+
+Alissa notes that the reason copyright is in the background of the discussion is in part because of the EU regulations that created a broad carve out for research. That’s not true in other frameworks, but it is having a big impact on the structure of discussions. 
+
+Leonard notes that when we talk about attachment, we may get to how to bind these signals to objects and that we may get to the intersection these signals and preferences within that context.
 
 Leonard gives an example–if the video has a preference signal, it doesn’t matter whether the video came from Amazon or Netflix or whether, it is present for the review of the conformant user agent.
 
 Gary notes that they would be very happy to see IMAP or email protocols. Google’s email SRE was intrigued by the process.
 
-Martin disagrees with Leonard’s assertion that it doesn’t matter how the expression is distributed. It matters for the distributor, who may have certain terms with those who are uploading the videos. We may well be required to handle the union or intersection of preferences. Leonard agrees that this is required, Suresh notes that this is in the charter.
+Martin disagrees with Leonard’s assertion that it doesn’t matter how the expression is distributed. It matters for the distributor, who may have certain terms with those who are uploading the videos. We may well be required to handle the union or intersection of preferences. 
+
+Leonard agrees that this is required.
+
+Suresh notes that this is in the charter.
 
 Timid Robot, their experience is that there are systems that are “first to find wins”, “last to find wins”,(missing method) and least permissive wins.
 
@@ -136,9 +200,15 @@ Ted expressed concern that attempting to resolve the contextual issue runs a rea
 
 Mark asks for a concrete example. Glenn says we have two good faith where different signals are applied based on different actors.
 
-Jari notes that there is a difference between the broader jurisdictional problem and the fundamental possibility of having multiple policies. The former may not be solvable, but the latter can be, using something like strictest policy wins approach. Glenn took an action to write his concern up but that it may as well.
+Jari notes that there is a difference between the broader jurisdictional problem and the fundamental possibility of having multiple policies. The former may not be solvable, but the latter can be, using something like strictest policy wins approach. 
 
-Timid Robot believes that there is a scope issue on whether conflicting signals get resolved; Martin notes that we had a discussion of that during the workshop and that we agreed that it must be resolved. Mark notes that it may very well be an incomplete solution.
+Glenn took an action to write his concern up but that it may as well.
+
+Timid Robot believes that there is a scope issue on whether conflicting signals get resolved; 
+
+Martin notes that we had a discussion of that during the workshop and that we agreed that it must be resolved. 
+
+Mark notes that it may very well be an incomplete solution.
 
 ## Afternoon session, 8 April 2025
 
@@ -188,7 +258,11 @@ Leonard gives the Studio Ghibli example that may allow for training but not for 
 
 Farzaneh (chat): "1) clarify it is not EU centric, 2) expand the focus from rightsholder preferences to site operators (or call it something else)."
 
-Jari: I want to make an argument that inference is actually vey important for end users. They want to use Ai tools and automated tools to explore the content in the Internet, we shouldn't cut them off by setting them the same bar for using information as the large AI companies. Inference is also a fluid concept, not easy to define. I see three options: 1/ just include training and say inference is not included, 2/ define inference and have it in the vocabulary, 3/ adopt Alissa's model of what the impact is to the partipants (e.g., linking back vs. not) rather than talk about the specific technologies like training. 
+Jari: I want to make an argument that inference is actually vey important for end users. They want to use Ai tools and automated tools to explore the content in the Internet, we shouldn't cut them off by setting them the same bar for using information as the large AI companies. Inference is also a fluid concept, not easy to define. I see three options: 
+
+1. just include training and say inference is not included, 
+2. define inference and have it in the vocabulary, 
+3. adopt Alissa's model of what the impact is to the partipants (e.g., linking back vs. not) rather than talk about the specific technologies like training. 
 
 Alissa: do you have a definition of "AI model", Paul: using GPAI definition. Gary: "AI training" is way to broad (e.g., Gmail spam filter is somehow also AI training).
 
