@@ -5,3 +5,4 @@
 
 - [🗂️ Interim-25-04](interim-25-04/): [agenda](interim-25-04/agenda.md), [minutes](interim-25-04/minutes.md)
 - [🗂️ IETF 122](ietf122/): [agenda](ietf122/agenda.md), [minutes](ietf122/minutes.md)
+- [🗂️ Designteam-25-07](designteam-25-07/): [agenda](designteam-25-07/agenda.md)
