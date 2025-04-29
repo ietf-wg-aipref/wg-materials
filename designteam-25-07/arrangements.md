@@ -18,7 +18,7 @@ The meeting will be at:
     County Hall/The Riverside Building, Belvedere Road
     London, SE1 7PB
 
-[Apple Maps](https://maps.apple.com/place?address=County%20Hall/The%20Riverside%20Building%0ABelvedere%20Road%0ALondon%0ASE1%207PB%0AEngland&coordinate=51.501981,-0.118854&name=Cloudflare%20London&place-id=IC7DE08B1FB9CDE42&map=transit) / [Google Maps](https://maps.app.goo.gl/jyv4MvaKd6SSzuFD7)
+[OpenStreetMap](https://www.openstreetmap.org/relation/1789966#map=16/51.50225/-0.11836) / [Apple Maps](https://maps.apple.com/place?address=County%20Hall/The%20Riverside%20Building%0ABelvedere%20Road%0ALondon%0ASE1%207PB%0AEngland&coordinate=51.501981,-0.118854&name=Cloudflare%20London&place-id=IC7DE08B1FB9CDE42&map=transit) / [Google Maps](https://maps.app.goo.gl/jyv4MvaKd6SSzuFD7)
 
 Enter through the South-facing plaza and pass through to the lifts in the inner courtyard. Building staff will be there to guide you; note that they will ask you to carry roller bags across the lobby floor (as it is heritage listed and can be easily damaged).
 
