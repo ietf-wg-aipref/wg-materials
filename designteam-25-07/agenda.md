@@ -2,7 +2,7 @@
 
 _See also the [meeting arrangements](arrangements.md), including information about registration._
 
-## Thursday, 17 April 2025
+## Thursday, 17 July 2025
 
 _9:15 - 17:00_
 
@@ -20,7 +20,7 @@ _9:15 - 17:00_
 
 * Balance of time - discussion of issues
 
-## Friday, 18 April 2025
+## Friday, 18 July 2025
 
 _9:15 - 17:00_
 
