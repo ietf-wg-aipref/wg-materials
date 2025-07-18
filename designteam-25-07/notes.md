@@ -357,3 +357,177 @@ Member: it is in scope to make it easier to make it easier for crawler to figure
 Chair: currently out of scope but can be added at a later date.
 
 CHAIR ENDS MEETING
+
+
+
+
+
+
+
+
+
+
+
+aipref Design team meeting Day 2
+
+Open work for the day:
+- attachment: robots.txt syntax
+- vocabulary: inference time category
+
+
+## Attachment (Morning)
+
+### robots.txt Syntax
+
+Goal: no breakage of robots.txt usage for folks not using Content-Usage / preferences
+
+Goal: easy to add preference declarations
+
+Martin: rough existing syntax is that User-Agent defines groups, and unexpected/unhandled lines should be ignored. Confidence that most implementations are robust to this (will not be disruptive to add new lines).
+
+Gary: combination of preferences seems like an important issue
+
+Martin: bots will generally look at up to two groups: any "star" ("*") default group, and then any specific/local group
+
+Some (newer?) bots don't respect "star" default groups, only named bot sections. Discussion that this violates the spec.
+
+Overall, any AI preferences need to be repeated for each group (aka, each named bot). Can't simply rely on "star" group as a default.
+
+Gary (with Google hat on): A recent issue has been robots.txt files have been getting large with many hosts listing a growing number of bots by name, in particular to control AI usage. May need education around robots.txt usage.
+
+Despite specification, in the wild crawlers often attempt to combine crawl path directives because robots.txt files contain repeated groups for the same bot name.
+
+Q: doesn't "star" group set a default, which bot-specific group refines?
+A: no, if there is a group with exact bot name, that is used and "star" group is ignored
+
+Current draft text: if there are repeated preferences for the same path ("equivalent path"), then they are treated as separate attachments and combined according to the rules in VOCAB Section 7.1
+
+In robots.txt, Content-Usage lines *do not* combine like HTTP header folding, because they (can) have a path component
+
+Conversation around the combining roles having flipped behavior from Allow/Disallow combination rule for robots.txt, and whether to stay consistent with AI preferences combining rules or robots.txt combining rules.
+
+Comment that many folks writing robots.txt files are less technical, and concern that there may be confusion around this flipped behavior.
+
+Chair: counter-proposals are needed for combination rules; preferably later today or next week
+
+Timid Robot: requiring path part to always be present (visible) instead of empty-string implicit behavior, could help reduce confusion
+
+Comment: in the examples in the draft text, the Content-Usage lines should follow the Allow/Disallow lines
+
+### Time of Attachment
+
+Content might be crawled at one point in time, with specific preferences expressed. They might then be used at a later point in time.
+
+Some attachment mechanisms may have different behaviors around this; particularly location-based (robots.txt) vs embedded or HTTP header.
+
+Presumed expectation from publishers that if new preferences are expressed, they will be factored in eventually.
+
+Cases where websites change structure, or content is no longer online.
+
+Discussion of web archiving, and whether attachment information might be re-fetched (distinct from re-crawling the content itself).
+
+Registries are likely to be distinct and introduce complications, because they do explicitly allow updates.
+
+Chair summary: the general expectation is that for the current attachments, preferences will be computed at time of acquisition and ride along
+
+Comment about the specific point-in-time change when the work of this group is released. Some actors might intentionally decide to use historical captures/crawls which pre-date AI preferences, and interpret those as being permissive
+
+### Discovering Relevant Attachments
+
+How do folks doing a specific task (such as web crawling) know which attachment mechanisms 1) exist 2) and are relevant to their task or use case.
+
+For example, a registry, or guidance in an RFC.
+
+Short discussion of motivation for having multiple attachments: limitations of robots.txt, different parties involved, etc.
+
+Current draft text mentions specific other attachments (embedded) but not others (fingerprint/registry).
+
+Chair and Editors: recommend submitting PRs to discuss further attachment mechanisms
+
+### Clarify Distinction between Usage and Acquisition
+
+Consensus this should be clarified.
+
+### Clarify lack of preference
+
+"No preference is no preference"; moves to editorial status.
+
+### Discussion of Other Attachments
+
+(filling extra time for discussion before lunch)
+
+Clarification that the string serialization may be common between HTTP headers and robots.txt, but are not necessarily universal: for example embedded prefs may be file-format specific.
+
+Discussion of HTML embedding via HTTP header meta equiv, versus robots.txt metadata. That specifying HTTP header can happen entirely in IETF.
+
+Discussion of whether this group should specify *anything* about embedded attachment. For example, requiring that the semantics match.
+
+More discussion of embeddings and obligations. For example, proprietary formats which may need a licensed parser implementation; these concerns are out of scope for this group.
+
+### Alternative Vocabulary Term to 'tdm'
+
+Question raised whether there is consensus on having a top-level grouping in general. Discussion about process, references to mailing list, referencing previous conversations.
+
+Timid Robot: recommends "usage" as alternative term to replace "tdm"
+
+
+## Inference-Time Categories
+
+The question whether to have a single broad inference-time umbrella cateogry, or to provide narrower granularity; either with a sub-category or multiple parallel categories.
+
+Reminding from the informal vote yesterday, there are many opinions and not broad agreement.
+
+Paul: summarizes current language: "using assest as input to a trained AI/ML model as part of the operation of that model (as opposed to the training of the model)". Could include or exclude user input versus external sources.
+
+Leonard: has submitted a PR which aligns inference-time categories with training-tame categories.
+
+Martin: distinction at training-time has to do with capability of model being trained; while inference-time should be about use of the model
+
+Discussion of definitions and examples: asset as input for prompts such as "how many words in this text" versus "translate this text to another language".
+
+Comments expressing concern with the overall concept of inference-time restrictions, trading off a large amount of potential social benefit; centering end users as decision makers in uses (versus intermediaries); legal backing (or not) for restricting certain uses.
+
+Chair: overall framework has been that preferences are preferences, and exceptional uses for accessibility, research, etc are already carved out.
+
+Martin: need to have text in the core specification (VOCAB?) that certain uses, such as anti-spam, are not in scope for these preferences.
+
+Discussion of unintended consequences on businesses; rights of users and creators to express preferences in general. Many comments on social impacts of AI applications in general and role and enforcement of preferences. Perspectives of publishers versus AI businesses.
+
+Reminder of discussion from yesterday that it isn't possible to go from narrow to broad (versus narrow to broad).
+
+Mention that having no inference-time category at all could result in many parties expressing preference "tdm=n,search=y", which would rule out an even broader set of uses.
+
+Chairs: not feeling consensus
+
+Discussion of what to put off versus include now, and what the impacts (harms/benefits) are with having a time gap.
+
+Mention of existing tools implementing inference-time preferences, making an inference preference important. Chair reminder that this important input, but not decisive.
+
+Discussion of what it means to be compliant with a specification in the abstract; example of Content Security policy.
+
+
+## Next Steps on Inference Category
+
+After a snack break, discussed next steps to resolve inference category.
+
+- changing the name
+- adding more context
+- giving a conformance target
+
+Chair: plan to get out additional language by next week that we can discuss
+
+Timid: additional work to be done includes user education
+
+## robots.txt Combination
+
+A bit of discussion around combination questions: multiple matching lines with different preferences; and possibly differences between robots.txt HTML metadata and robots.txt text file.
+
+In the court of editors.
+
+## End of Day
+
+Checking in on next steps. This may be last dedicated in-person meeting for this group (distinct from meetings at IETF itself).
+
+Discussion of re-chartering.
+
+Chair: will share feedback upwards about this type of working group, which is more policy-oriented.
