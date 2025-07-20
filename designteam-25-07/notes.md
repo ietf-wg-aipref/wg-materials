@@ -1,4 +1,4 @@
-# AIPref Design Team meeting 
+# AIPref Design Team Meeting Notes
 
 London 2025.07.17-18
 
