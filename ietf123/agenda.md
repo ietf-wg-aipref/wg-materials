@@ -11,6 +11,11 @@ Meetecho - [full client](https://meetings.conf.meetecho.com/ietf123/?session=342
 
 ### Administrivia
 
-*  3 min - Scribe selection / [NOTE WELL](https://www.ietf.org/about/note-well/)
-*  2 min - Agenda bashing
+	•	3 min - Scribe selection / NOTE WELL
+	•	2 min - Agenda bashing
+	•	10 min - Design team meeting recap
+  
+### Working group documents
 
+	•	30 min - Vocabulary - overview / open issues
+	•	30 min - Attachment - overview / open issues
