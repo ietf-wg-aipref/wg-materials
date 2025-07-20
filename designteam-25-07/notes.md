@@ -1,6 +1,39 @@
-AIPref Design Team meeting London 2025/07/17
+# AIPref Design Team meeting 
+
+London 2025.07.17-18
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Thursday](#thursday)
+  - [Vocabulary Editors' Overview](#vocabulary-editors-overview)
+  - [TDM](#tdm)
+  - [GenAI / AI](#genai--ai)
+  - [Search](#search)
+  - [Inference](#inference)
+  - [Hierarchy](#hierarchy)
+  - [Extensibility](#extensibility)
+- [Friday](#friday)
+  - [Attachment](#attachment)
+    - [robots.txt Syntax](#robotstxt-syntax)
+    - [Time of Attachment](#time-of-attachment)
+    - [Discovering Relevant Attachments](#discovering-relevant-attachments)
+    - [Clarify Distinction between Usage and Acquisition](#clarify-distinction-between-usage-and-acquisition)
+    - [Clarify lack of preference](#clarify-lack-of-preference)
+    - [Discussion of Other Attachments](#discussion-of-other-attachments)
+    - [Alternative Vocabulary Term to 'tdm'](#alternative-vocabulary-term-to-tdm)
+  - [Inference-Time Categories](#inference-time-categories)
+    - [Next Steps on Inference Category](#next-steps-on-inference-category)
+  - [robots.txt Combination](#robotstxt-combination)
+  - [Summary](#summary)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
+## Thursday
+
+
+### Vocabulary Editors' Overview
 
 Agenda overview from Martin going over issue list:
 
@@ -17,21 +50,21 @@ Overview of attachments: attach the preferences to the specific content. Differe
 - robots.txt
 - Expect over time different content formants (for example metadata in file). Currently not discussed.
 
-Start of meeting discussion
-
 Main contentious points:
 
 Most prevalent critique is the TDB name, not the substance.
+
 AI/Gen AI: not much discussion.
-Search: still some discussion including some sub categories. Feels like search needs a bit more discussion. Sub categories should be discussed after the definition of "search" is agreeb by the group.
-Inference: Also still need alignment to group all AI use cases vs split out futher. Even here sub category discussions should be delayed a little.
 
-//Ted Hardle:
-//Search: Is this a summary providing system or a reference providing system? does it impact all users or just atuomated systems.
+Search: still some discussion including some sub categories. Feels like search needs a bit more discussion. Sub categories should be discussed after the definition of "search" is agreed by the group.
 
-**Chair (Mark) kicks off TDM discussion**
+Inference: Also still need alignment to group all AI use cases vs split out further. Even here sub category discussions should be delayed a little.
 
-Some folks believe TDM term is important to link it to what is happening in Europe. Others beleive that's a bad idea as some of the legal definitions have not really been settled yet, therefore we should change the term.
+Ted Hardie: Search: Is this a summary providing system or a reference providing system? does it impact all users or just automated systems?
+
+### TDM
+
+Some folks believe TDM term is important to link it to what is happening in Europe. Others believe that's a bad idea as some of the legal definitions have not really been settled yet, therefore we should change the term.
 
 The text definition is quite generic at this point. TDM is the only term left that could be linked to legal definitions.
 
@@ -47,7 +80,7 @@ Chair: our role here is providing tools to allow preference but not make policy 
 
 Member: "Computation Analysis". 
 
-Member: Broader possible all ecompassing category is important as it will likely be above any jurisdictional differences. 
+Member: Broader possible all encompassing category is important as it will likely be above any jurisdictional differences. 
 
 Member: Support everything has been said. Happy with top level definition. As long as it's short.
 
@@ -59,15 +92,15 @@ Member: "automated access"
 
 Member: Should we consider non machine automated access. Creative Common licences. 
 
-Member: Need to be crisp on collection VS use. Are we saying that these preferences are agnostic to how the crawling is happening? understand this is a theoritical distincition but in reality they will be linked.
+Member: Need to be crisp on collection VS use. Are we saying that these preferences are agnostic to how the crawling is happening? understand this is a theoretical distinction but in reality they will be linked.
 
-Member: we do have a distinction between collection and use. What we are not clear on, by choice, is who makes the distiction and when. But out of scope.
+Member: we do have a distinction between collection and use. What we are not clear on, by choice, is who makes the distinction and when. But out of scope.
 
 Member: propose to continue to focus on "use" in the same way we decided not to deep dive on too many sub categories.
 
-Member: agree that people out of this room are not making the disctinction between crawling and use.
+Member: agree that people out of this room are not making the distinction between crawling and use.
 
-Chair: everyone seems to be re affarming to focus on "use". 
+Chair: everyone seems to be re affirming to focus on "use". 
 
 Member: "Computational Use".
 
@@ -95,7 +128,7 @@ Member: we are here just to understand. Are not part of the legal team. That's w
 
 Member: here as an observer just to learn and understand. It's refreshing to hear the broader view and very interesting to be here.
 
-**Chair kicks off the topic of the delineation between genAI and AI training**
+### GenAI / AI
 
 Member: if gen ai is general purpose models...
 
@@ -105,7 +138,7 @@ Member: Most, if not all, current large foundation models are capable of generat
 
 Member: When only looking at large foundation models, yes. But there are also specific-purpose models that are not designed for generating content. Those would fall into the AI training category. For example models for medical applications. Having two separate AI training categories allows declaring party to say yes to such applications while saying no to GenAI, or say no to both. The GenAI category is where most of the concerns/desire to make declarations lie.
 
-Chair: we should add examples maybe to better deliniate the definition?
+Chair: we should add examples maybe to better delineate the definition?
 
 Member: supplemental material as they would very quickly become outdated.
 
@@ -113,7 +146,7 @@ Member: Lots of protections built in gen AI models...
 
 Member: Where to classifier and preference models fall? As gen AI models can *also* do classification....
 
-Member: Agrees that delination need to be clear. Classifiers falls under which... it really depends on underlying tech
+Member: Agrees that delineation need to be clear. Classifiers falls under which... it really depends on underlying tech
 
 Member: the current definition is the best balance we could come up with. 
 
@@ -129,7 +162,7 @@ Chair: definitely being considered how we keep updating this over time
 
 Member: These two categories are fine. One view is that translation is generative, because it generates text or audio based on an input (contrary to what others have said, who argue that translation is not generating *new* content). But the question is valid: does it need to be generating of "new" content to fall under the Gen AI category? If so, "new" should be added to the definition of Generative AI Training.
 
-Chair: we should move on and discuss this issue futher over lunch.
+Chair: we should move on and discuss this issue further over lunch.
 
 Member: Anything we do now should allows us to add "more" to the definition later, but should make sure we don't "change" definitions at a later date.
 
@@ -137,41 +170,41 @@ Member: Remove capitalisation of "General Purpose".
 
 Member: will be making a number of tweaks to the definition. Idea of "new" content will be considered. Still some things to think about.
 
-Member: translation is condiered as derivative content under copyright.
+Member: translation is considered as derivative content under copyright.
 
-Member: We are talking about the trainining of the model that performs translation. not the actual use of the content as input for translation.
+Member: We are talking about the training of the model that performs translation. not the actual use of the content as input for translation.
 
-Summary: Concerns that one of the categories will be emtpy and might collapse. That might be fine. 
+Summary: Concerns that one of the categories will be empty and might collapse. That might be fine. 
 
 Chair: focus on expression of preferences. Time to move on.
 
-**Chair kicks off the topic of the search catgory training**
+### Search
 
 Member: This category is important to have as it's a use case very relevant to online content creators and did not want to risk the other categories excluding "search" as the use case.
 
 Member: note, this is not longer about training. This is about more "classical" search functionality. The goal here is to make sure that this use cases is not affected by other terms in the vocabulary.
 
-Chair: the elephanet in the room is the summarisation. From the chair perspective this could be not we are focusing about here, but understood that if this is an importnat use cases it might pop up in the vocabulary.
+Chair: the elephant in the room is the summarisation. From the chair perspective this could be not we are focusing about here, but understood that if this is an importnat use cases it might pop up in the vocabulary.
 
 Member: the intent is important here. One way to think about it: is the intent to send traffic back to source or keep the user on the search engine site.
 
-Member: Reminder this is a spearate use case from training.
+Member: Reminder this is a separate use case from training.
 
 Member: distinct set from AI training.
 
 Member: This category falls into more "old school" search.
 
-Member: this is an important category. Referrals, accuracy. It's not clear that this category enbales that.
+Member: this is an important category. Referrals, accuracy. It's not clear that this category enables that.
 
 Member: this section may have lost some flow as the context here is very different. Transformation of the content is importnat to consider as if you transform it may lose the intent of the author.
 
-Chair: reminder this category here is to make the "search" use case explicit even if someone dissalows the use of AI.
+Chair: reminder this category here is to make the "search" use case explicit even if someone disallows the use of AI.
 
-Member: the disctinciton - ca content be used in AI system VS can content be used in a search product that uses AI.
+Member: the distinction - ca content be used in AI system VS can content be used in a search product that uses AI.
 
-Member: worth investigating specific points to transformation. primary concern is comparison and how the preferences are reslved. What has been said is search is more specific is AI. If someone says AI as NO but search in YES - but that's not reppresented in the model.
+Member: worth investigating specific points to transformation. primary concern is comparison and how the preferences are resolved. What has been said is search is more specific is AI. If someone says AI as NO but search in YES - but that's not represented in the model.
 
-Member: this specific category will have a lot of focus. Robots.txt does not really address search direcly. It's focused on who but not what. Just flagging it.
+Member: this specific category will have a lot of focus. Robots.txt does not really address search directly. It's focused on who but not what. Just flagging it.
 
 Member: Definition feels fine, although transformation is important topic.
 
@@ -199,17 +232,17 @@ Chair: we put search in because we wanted to avoid uncertainty. This discussion 
 
 Editor: overall fine but need more context, so more text.
 
-Member: in the IETF process how are adjacent technology handled. How we invoke adjacent solutions that might answer the questions people have that are addressed elsehwere.
+Member: in the IETF process how are adjacent technology handled. How we invoke adjacent solutions that might answer the questions people have that are addressed elsewhere.
 
-Chair: we do have some tools, documentaiton guides, wiki, applications guides and similar.
+Chair: we do have some tools, documentation guides, wiki, applications guides and similar.
 
 Editor: explanation of process.
 
 LUNCH BREAK
 
-**Chair kicks off the topic of the inference term**
+### Inference
 
-Editor: General consensus on the need for an inference category and that there is a contextual seperation from the training category. There is some feedback though that the inference (or RAG) category coinflates with "operating" on the data VS simply "retrieving" data. But so far no one has suggested a separate category about this.
+Editor: General agreement on the need for an inference category and that there is a contextual seperation from the training category. There is some feedback though that the inference (or RAG) category conflates with "operating" on the data VS simply "retrieving" data. But so far no one has suggested a separate category about this.
 
 Member: is there a scenario where there is no inference at all after a model has been trained? Is there word "inference" the wrong word.
 
@@ -219,9 +252,9 @@ Editor: also note that the end user initiating an action (or not) should be cons
 
 Editor: is there a difference between a user requested task VS a background long running taska and full automation.
 
-Member: I'm in the broader definition camp. Does "inference" only applies to gen model? A classifier type model, assuming that is inference, should it be seperated? Feels like it's naturally more tied to the gen AI side of things.
+Member: I'm in the broader definition camp. Does "inference" only applies to gen model? A classifier type model, assuming that is inference, should it be separated? Feels like it's naturally more tied to the gen AI side of things.
 
-Member: Back to seperating based on user action vs automation. With agent in the mix at this point that line gets blurred very quick so not worth exploring that path.
+Member: Back to separating based on user action vs automation. With agent in the mix at this point that line gets blurred very quick so not worth exploring that path.
 
 Member: example use case: legally acquired a copy of a PDF report. Nobody could argue I could use a PDF reader to read it. If I use an AI agent instead, is that meaningfully different?
 
@@ -245,7 +278,7 @@ Member: proposal from member on reframing the category.
 
 Member: I think we are in the "how do we not paint ourselves into the corner" discussion now, and I think that' s probably the right place for us to be.  The previous speaker suggested we create a hierarchy, but I think it makes sense to split the categories and decide later whether or not they nest. From my perspective, the issue is not where the content comes from, but whether the content owner permits the creation of synthetic output using this or not. We can then decide whether a specific thing is synthetic output or not (I don't agree that text to speech is, and I also don't think translation is, but that's still for discussion).
 
-Member: Likes the training/inferece as two parallel paths. Gen training VS ai training - generating inference vs ai inference. Maybe that's enough of a distinction to cover translation etc.
+Member: Likes the training/inference as two parallel paths. Gen training VS ai training - generating inference vs ai inference. Maybe that's enough of a distinction to cover translation etc.
 
 Editor: that's a useful symmetry.
 
@@ -260,15 +293,16 @@ Member: likes the idea of mirroring the two categories (training vs inference).
 Member: still hard to distinguis the two suggested categories if the question is asked to a gen AI model, as that can also do more standard classification.
 
 Chair: hearing approaches and concern of schedules. Show of hands on splitting VS keeping generic.
-O1: prefer broad: 11
-O2: prefer narrow/split: 4
-O3: strongly oppose broad: 5
-O4: srongly oppose narrow: 5
-O5: need more info: 9
+
+* O1: prefer broad: 11
+* O2: prefer narrow/split: 4
+* O3: strongly oppose broad: 5
+* O4: srongly oppose narrow: 5
+* O5: need more info: 9
 
 Member: This topic is evolving so fast that it needs to be carefully considered.
 
-Member: what needs to be known to achieve more clarity. Needs to dive into more specific uses. Is it better to include an overly blunt? not satisfied with or remove it alltogether...?
+Member: what needs to be known to achieve more clarity. Needs to dive into more specific uses. Is it better to include an overly blunt? not satisfied with or remove it altogether...?
 
 Group: discussion on show of hand options. 
 
@@ -286,41 +320,41 @@ Chair: you can't coordinate across the Internet so you can evovle a definition, 
 
 Member: then we should keep it broad and add terms afterwards.
 
-Member: the specification can be broad and supplmented by external documentation.
+Member: the specification can be broad and supplemented by external documentation.
 
 Member: Given the concern about the broad category - but it's still a better outcome than not having the preference at all. So we need to start somewhere.
 
 BREAK
 
-**Chair kicks off hierarchy conversation**
+### Hierarchy
 
-Editor explains hierarchy over a whiteboard. Discussion aroind hierrachy logic and priority. Overall everyone in agreement and understands the model. All is good here for everyone.
+Editor explains hierarchy over a whiteboard. Discussion around hierarchy logic and priority. Overall everyone in agreement and understands the model. All is good here for everyone.
 
-**Chair kicks off extensibility conversation**
+### Extensibility
 
-Adding items as leaf nodes is straightoforward. The "sandwich case" is the harder one and should be avoided (adding a new category between a leaf node and a partent node). Explanation of the "sandwich case".
+Adding items as leaf nodes is straightforward. The "sandwich case" is the harder one and should be avoided (adding a new category between a leaf node and a partent node). Explanation of the "sandwich case".
 
-Discussion around registry and updates to the vocabulary / tracking and so forth. If we did not have a registry, we would have collissions. So updates will be provided by new RFC.
+Discussion around registry and updates to the vocabulary / tracking and so forth. If we did not have a registry, we would have collisions. So updates will be provided by new RFC.
 
 Member: should be hard to update values given the complexity in defining the terms.
 
 Member: agree. Having a registry makes it too easy.
 
-Editor: agrees. Publish documentation on process but IETF group should ovesee additions to the vocabulary.
+Editor: agrees. Publish documentation on process but IETF group should oversee additions to the vocabulary.
 
-Member: one extensability factor not controlled here is the attachments. Need to keep that in mind.
+Member: one extensibility factor not controlled here is the attachments. Need to keep that in mind.
 
 Member: need website with all the relevant RFC. HTTP working group does a good job at that.
 
-Editor: other type of extensions may specificy additional variables. For example, on the snippet sub category the max limit of the snippet string. This type of extension is allowed and should not be problematic. Three types of extensions:
+Editor: other type of extensions may specific additional variables. For example, on the snippet sub category the max limit of the snippet string. This type of extension is allowed and should not be problematic. Three types of extensions:
 1) new categories
 2) new attributes and adding new semantics
-3) new stipulations of refinments to the existing categories
+3) new stipulations of refinements to the existing categories
 Plan is to tackle new categories and remove any possibility of a registry.
 
 Member: leaf categories don't need too much scrutiny.
 
-Member: two concerns about hierarcy. Not sure TDM is that useful. Cateogry only makes sense if the sets are distinc sets. Else hierarchy falls above.
+Member: two concerns about hierarchy. Not sure TDM is that useful. Category only makes sense if the sets are distinct sets. Else hierarchy falls above.
 
 Editor: combinations. Assets only have one definitions (image metadata for example). Should be compatible. For now we are defining robots.txt and HTTP header. Issue is what do you do when there is a conflict? robots.txt saying yes and header saying no... current document says least permissive.
 
@@ -328,27 +362,27 @@ Member: advocating for two levels of override. Unit based override location. Spe
 
 Discussion on hierarchy. 
 
-Member: need to be very cautious when discussing overrides especially if thigs get used in other context.
+Member: need to be very cautious when discussing overrides especially if things get used in other context.
 
 Discussion on the meaning of three states: y, n, I don't know.
 
 Member: ability for changes to propagate will also be very important in the future.
 
-Member: In a world of preferences we just need to make it clear what the ovveride logic is. But beyond that it's out of the scope for this group.
+Member: In a world of preferences we just need to make it clear what the override logic is. But beyond that it's out of the scope for this group.
 
 Member: having overrides is best solution. As described is also adequate. Second: domain is not tackled.
 
 Editor: relevant meta data applies to relevant copy of content, even if the copies are identical.
 
-Member: very worried about the overrides. As ultimatley the owner is not necessaily the entitity defining the preferences.
+Member: very worried about the overrides. As ultimately the owner is not necessarily the entirety defining the preferences.
 
 Editor: maybe we don't do any override logic. We find a generic way that simplifies and simply says: whatever signal you find you process. And make that explicit in the standard.
 
-Member: Back to preference - find it hard to consider this as a preference when in some jurisdication robots.txt is already mandatanted as the official methord to declare content use.
+Member: Back to preference - find it hard to consider this as a preference when in some jurisdiction robots.txt is already mandated as the official methord to declare content use.
 
-Members: Discussuon on registries.
+Members: Discussion on registries.
 
-Editor: no general framework of combincation. As we can't predict the attachment forms.
+Editor: no general framework of communication. As we can't predict the attachment forms.
 
 Member: worthwhile adding link back to combination in attachment document.
 
@@ -361,23 +395,16 @@ CHAIR ENDS MEETING
 
 
 
-
-
-
-
-
-
-
-aipref Design team meeting Day 2
+## Friday
 
 Open work for the day:
 - attachment: robots.txt syntax
 - vocabulary: inference time category
 
 
-## Attachment (Morning)
+### Attachment
 
-### robots.txt Syntax
+#### robots.txt Syntax
 
 Goal: no breakage of robots.txt usage for folks not using Content-Usage / preferences
 
@@ -398,6 +425,7 @@ Gary (with Google hat on): A recent issue has been robots.txt files have been ge
 Despite specification, in the wild crawlers often attempt to combine crawl path directives because robots.txt files contain repeated groups for the same bot name.
 
 Q: doesn't "star" group set a default, which bot-specific group refines?
+
 A: no, if there is a group with exact bot name, that is used and "star" group is ignored
 
 Current draft text: if there are repeated preferences for the same path ("equivalent path"), then they are treated as separate attachments and combined according to the rules in VOCAB Section 7.1
@@ -414,7 +442,7 @@ Timid Robot: requiring path part to always be present (visible) instead of empty
 
 Comment: in the examples in the draft text, the Content-Usage lines should follow the Allow/Disallow lines
 
-### Time of Attachment
+#### Time of Attachment
 
 Content might be crawled at one point in time, with specific preferences expressed. They might then be used at a later point in time.
 
@@ -432,7 +460,7 @@ Chair summary: the general expectation is that for the current attachments, pref
 
 Comment about the specific point-in-time change when the work of this group is released. Some actors might intentionally decide to use historical captures/crawls which pre-date AI preferences, and interpret those as being permissive
 
-### Discovering Relevant Attachments
+#### Discovering Relevant Attachments
 
 How do folks doing a specific task (such as web crawling) know which attachment mechanisms 1) exist 2) and are relevant to their task or use case.
 
@@ -444,15 +472,15 @@ Current draft text mentions specific other attachments (embedded) but not others
 
 Chair and Editors: recommend submitting PRs to discuss further attachment mechanisms
 
-### Clarify Distinction between Usage and Acquisition
+#### Clarify Distinction between Usage and Acquisition
 
-Consensus this should be clarified.
+Agreement this should be clarified.
 
-### Clarify lack of preference
+#### Clarify lack of preference
 
 "No preference is no preference"; moves to editorial status.
 
-### Discussion of Other Attachments
+#### Discussion of Other Attachments
 
 (filling extra time for discussion before lunch)
 
@@ -464,20 +492,20 @@ Discussion of whether this group should specify *anything* about embedded attach
 
 More discussion of embeddings and obligations. For example, proprietary formats which may need a licensed parser implementation; these concerns are out of scope for this group.
 
-### Alternative Vocabulary Term to 'tdm'
+#### Alternative Vocabulary Term to 'tdm'
 
 Question raised whether there is consensus on having a top-level grouping in general. Discussion about process, references to mailing list, referencing previous conversations.
 
 Timid Robot: recommends "usage" as alternative term to replace "tdm"
 
 
-## Inference-Time Categories
+### Inference-Time Categories
 
-The question whether to have a single broad inference-time umbrella cateogry, or to provide narrower granularity; either with a sub-category or multiple parallel categories.
+The question whether to have a single broad inference-time umbrella category, or to provide narrower granularity; either with a sub-category or multiple parallel categories.
 
 Reminding from the informal vote yesterday, there are many opinions and not broad agreement.
 
-Paul: summarizes current language: "using assest as input to a trained AI/ML model as part of the operation of that model (as opposed to the training of the model)". Could include or exclude user input versus external sources.
+Paul: summarises current language: "using assest as input to a trained AI/ML model as part of the operation of that model (as opposed to the training of the model)". Could include or exclude user input versus external sources.
 
 Leonard: has submitted a PR which aligns inference-time categories with training-tame categories.
 
@@ -497,7 +525,7 @@ Reminder of discussion from yesterday that it isn't possible to go from narrow t
 
 Mention that having no inference-time category at all could result in many parties expressing preference "tdm=n,search=y", which would rule out an even broader set of uses.
 
-Chairs: not feeling consensus
+Chairs: not seeing agreement
 
 Discussion of what to put off versus include now, and what the impacts (harms/benefits) are with having a time gap.
 
@@ -506,7 +534,7 @@ Mention of existing tools implementing inference-time preferences, making an inf
 Discussion of what it means to be compliant with a specification in the abstract; example of Content Security policy.
 
 
-## Next Steps on Inference Category
+#### Next Steps on Inference Category
 
 After a snack break, discussed next steps to resolve inference category.
 
@@ -518,13 +546,13 @@ Chair: plan to get out additional language by next week that we can discuss
 
 Timid: additional work to be done includes user education
 
-## robots.txt Combination
+### robots.txt Combination
 
 A bit of discussion around combination questions: multiple matching lines with different preferences; and possibly differences between robots.txt HTML metadata and robots.txt text file.
 
 In the court of editors.
 
-## End of Day
+### Summary
 
 Checking in on next steps. This may be last dedicated in-person meeting for this group (distinct from meetings at IETF itself).
 
