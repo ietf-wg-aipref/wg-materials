@@ -1,4 +1,4 @@
-# AI Preferences
+# AI Preferences - IETF 123 Minutes
 
 Review of Drafts / Issues
 - Aim to submit in August
@@ -24,11 +24,15 @@ Try to do something that works for everybody, not looking for something perfect 
 
 There are some areas where more discussions are needed but we will have time during this session
 
-## Issues (Martin Thompson)
-There are no many issues left
+## Vocabulary Draft
 
- > Issues are used by the Editor to track what needs to be done
+(Martin Thompson)
+
+There are not many issues left
+
+> Issues are used by the Editor to track what needs to be done
  
+
 ### Closed issues
  
 - Taxonomy: covers all form of content processing
@@ -51,50 +55,62 @@ There are no many issues left
 - Lots of discussion in content in Dynamic data retrieval for prompts
 - one problem is defining higher levle Categories is ok as it cana always be refined in lower categories later. The reverse is not true
 
-The Drsft are not final and afre still work in progress
+The Drafts are not final and are still work in progress
 
-Q: Alisson Cooper
-- If you cannot sort out Translation when it will have an impact on Generative processing
+Alisson Cooper: If you cannot sort out Translation when it will have an impact on Generative processing
 
-Q: 
 R: Translation is accessibility and therefore can classified through that
-R2: 
 
 R: We need examples to establish the differences of definition
+
 R2: In trading verticals the point cames with  some details on the differences
 
-
 Q: Search and Generative are not crisp definition in the document, would be great to come on conclusions for some 
+
 R: Agree to look for more definitive 
 
-Q: Arnaud Taddei: have you look at other SDO what there are doing. OP Can provide some liks to those
+Arnaud Taddei: have you look at other SDO what there are doing. OP Can provide some links to those
 
+Erum Welling: We need to have contracts on what has been consented. Those contracts could be used to overturn the AI preferences on the usage of data.
 
-Q: Erum Welling: We need to have contracts on what has been consented. Those contracts could be used to overturn the AI preferences on the usage of data.
-R:Cannot say that all the contracts in the world can override those preferences. There are also Juridictions laws and regulations.
+R: Cannot say that all the contracts in the world can override those preferences. There are also Juridictions laws and regulations.
 
 Q: Question about accessibility, you talk about Augmented retrieval. How would those preferences apply?
+
 R: There is a model for preferences, but for accessibility it will be an implementer point. We don't have anything there yet. OP can join and contribute
+
 R2: The group has for objectives a framework than a code you can runé
+
 R3: Call for contributors for adding more to the Draft
 
 Q: Do you aim to have some source and legitimacy of why a search is made?
+
 R: There were some discussion on Transparent Audit but this is outside of the scope of the document.
 
-Q: Rony Shalit: There are a lot about the questions about the Robot.txt but it is not a robust mechanism. GenAI transforms the internet.
+Rony Shalit: There are a lot about the questions about the Robot.txt but it is not a robust mechanism. GenAI transforms the internet.
+
 R: the comment you make is more about the Attachment Draft
+
 Q: (Continuing) Opt-in, Opt-out are creating some kind of discrimination. There are good boot and Bad bot. Also lots of GenAI with lots of money will be able able to be accepted to have access to smaller organizations won't have this ability.
+
 Q: Robots.txt is not updated, poorly administrated
+
 R: You are right. This might be best to happen at other WGs. 
+
 R2: opt-in / opt-out have some values but they are not sufficient. They need vocabulary and tools
+
 Q: We need to be careful about everything happening around
+
 R: Best continue the discussion but outside here
 
-D: Alissa Cooper: With the new AI-user and AI=Search categories, what happen is fht consumer AI Preferences set are not respected . 
+D: Alissa Cooper: With the new AI-user and AI=Search categories, what happen is fht consumer AI Preferences set are not respected. 
+
 R: This Draft is not for fine grained controlled environments.
+
 R2: yes there is a case where the processing can modify the preferences on behalf of the user. We need to look into that.
 
-Q: Andrew Campling: Question about authenticating agents É
+Andrew Campling: Question about authenticating agents
+
 R: See the BoF right after
 
 ## Attachment Draft
@@ -108,16 +124,22 @@ Precision in between time of acquisition of the AI Preferences and the use of th
 ### Open Issues
 
 Normalizing the different to attach Preferences
+
 Especially for Robots TXT syntax
-Q: Jeff Lombardo: How those attachement cover the continuous control of the attachment in multiple hopes
+
+Jeff Lombardo: How those attachement cover the continuous control of the attachment in multiple hopes
+
 R: Not yet we focus on the first two attachement for the first leg
+
 R2: You are talking about the case where the requestor of the data is not the crawler of the data. We will cover that in the next iteration
 
-Q: Tommy Jenssen: Can we me more stringent in the expression of expectations instead of yes\no
+Tommy Jenssen: Can we me more stringent in the expression of expectations instead of yes\no
+
 R: Please provide a proposal
 
-Q: Alissa Cooper: What about the fidelity and the referencing of data in the generation of outputs
+Alissa Cooper: What about the fidelity and the referencing of data in the generation of outputs
 
-Q: Franck Brockners: how to propagate through MCP
+Franck Brockners: how to propagate through MCP
+
 R: yes it can be done but not in this first release
 
