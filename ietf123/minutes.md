@@ -1,5 +1,17 @@
 # AI Preferences - IETF 123 Minutes
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Vocabulary Draft](#vocabulary-draft)
+  - [Closed issues](#closed-issues)
+  - [Open Issues](#open-issues)
+- [Attachment Draft](#attachment-draft)
+  - [Closed issues](#closed-issues-1)
+  - [Open Issues](#open-issues-1)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Review of Drafts / Issues
 - Aim to submit in August
 - Still work to do
