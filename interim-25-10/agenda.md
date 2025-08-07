@@ -1,6 +1,10 @@
 # AIPREF Working Group Interim Meeting Agenda - 2025-10
 
-_See also the [meeting arrangements](arrangements.md), including information about registration._
+See also nearby:
+
+* [meeting arrangements](arrangements.md) _including information about registration for in-person registration_
+* [Meeting listing](https://datatracker.ietf.org/wg/aipref/meetings/) _including remote participation details_
+* [Meeting notepad](https://notes.ietf.org/Vc4ezWRkTMq2xcGF4MecWg)
 
 ## Tuesday, 30 September 2025
 

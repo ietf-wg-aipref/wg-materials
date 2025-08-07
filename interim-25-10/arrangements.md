@@ -1,6 +1,10 @@
 # AI Preferences 2025-10 Interim Arrangements
 
-_See also the [meeting agenda](agenda.md) nearby._
+See also nearby:
+
+* [Meeting agenda](agenda.md)
+* [Meeting listing](https://datatracker.ietf.org/wg/aipref/meetings/) _including remote participation details_
+* [Meeting notepad](https://notes.ietf.org/Vc4ezWRkTMq2xcGF4MecWg)
 
 ## Registration
 
