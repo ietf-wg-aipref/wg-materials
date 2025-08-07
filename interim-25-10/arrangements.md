@@ -6,7 +6,7 @@ _See also the [meeting agenda](agenda.md) nearby._
 
 Registration is **REQUIRED** for in-person attendance. 
 
-To register, fill out [the registration form](); you will receive confirmation from the Working Group chairs. Do not book travel before confirmation is received.
+To register, fill out [the registration form](https://forms.cloud.microsoft/r/8XRzM5WxEi); you will receive confirmation from the Working Group chairs. Do not book travel before confirmation is received.
 
 In-person registration will close on 15 September 2025.
 
