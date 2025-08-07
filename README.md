@@ -3,6 +3,7 @@
 
 ---
 
+- [🗂️ Interim-25-10](interim-25-10/)
 - [🗂️ Interim-25-06](interim-25-06/): [agenda](interim-25-06/agenda.md), [minutes](interim-25-06/minutes.md)
 - [🗂️ Interim-25-04](interim-25-04/): [agenda](interim-25-04/agenda.md), [minutes](interim-25-04/minutes.md)
 - [🗂️ IETF 123](ietf123/): [agenda](ietf123/agenda.md), [minutes](ietf123/minutes.md)
