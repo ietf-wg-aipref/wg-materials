@@ -1,4 +1,4 @@
-# AI Preferences 2025-10 Interim Arrangements
+# AI Preferences 2025-10 Interim Meeting Arrangements
 
 See also nearby:
 
