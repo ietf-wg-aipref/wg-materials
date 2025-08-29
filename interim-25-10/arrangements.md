@@ -18,12 +18,13 @@ In-person registration will close on 15 September 2025.
 
 The meeting will be at:
 
-    Google Sihlpost
-    Kasernenstrasse 95
+    Google EURH
+    Lagerstrasse 100
     8004 Zürich
     Switzerland
 
-[Google Maps](https://www.google.com/maps/place/Sihlpost,+Kasernenstrasse+95,+8004+Zürich,+Switzerland/@47.3772922,8.5353065,17z/data=!3m1!4b1!4m6!3m5!1s0x47900a0f64b2fce1:0x5377a30ca0535960!8m2!3d47.3772922!4d8.5353065!16s%2Fg%2F11bw43vpsg?entry=ttu&g_ep=EgoyMDI1MDgwNC4wIKXMDSoASAFQAw%3D%3D) | [Apple Maps](https://maps.apple.com/place?address=Kasernenstrasse%2095,%208004%20Z%C3%BCrich,%20Switzerland&coordinate=47.377006,8.534983&name=Kasernenstrasse%2095&map=transit) | [OpenStreetMap](https://osm.org/go/0C0WA5Tq)
+[Google Maps](https://maps.app.goo.gl/RsRaw9pSqAjqispY9) | 
+[Apple Maps](https://maps.apple.com/place?address=Lagerstrasse%20100,%208004%20Z%C3%BCrich,%20Switzerland&coordinate=47.379804,8.529735&name=Lagerstrasse%20100&map=transit) | [OpenStreetMap](https://osm.org/go/0C0WBLWZc?m=&node=6580366336)
 
 
 ## Remote Participation
