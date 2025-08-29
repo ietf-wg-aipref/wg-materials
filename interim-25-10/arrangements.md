@@ -23,8 +23,7 @@ The meeting will be at:
     8004 Zürich
     Switzerland
 
-[Google Maps](https://maps.app.goo.gl/RsRaw9pSqAjqispY9) |
-[Apple Maps](https://maps.apple.com/place?address=Lagerstrasse%20100,%208004%20Z%C3%BCrich,%20Switzerland&coordinate=47.379804,8.529735&name=Lagerstrasse%20100&map=transit) | [OpenStreetMap](https://osm.org/go/0C0WBLWZc?m=&node=6580366336)
+[Google Maps](https://maps.app.goo.gl/RsRaw9pSqAjqispY9) | [Apple Maps](https://maps.apple.com/place?address=Lagerstrasse%20100,%208004%20Z%C3%BCrich,%20Switzerland&coordinate=47.379804,8.529735&name=Lagerstrasse%20100&map=transit) | [OpenStreetMap](https://osm.org/go/0C0WBLWZc?m=&node=6580366336)
 
 
 ## Remote Participation
