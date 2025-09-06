@@ -5,7 +5,8 @@ See also nearby:
 * [meeting arrangements](arrangements.md) _including information about registration for in-person registration_
 * [Meeting listing](https://datatracker.ietf.org/wg/aipref/meetings/) _including remote participation details_
 * [Meeting notepad](https://notes.ietf.org/Vc4ezWRkTMq2xcGF4MecWg) _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
-* [Guidance for taking minutes](../minutes.md) 
+* [Guidance for taking minutes](../minutes.md)
+* [Guidance for remote participants](https://www.ietf.org/meeting/technology/meetecho-guide-participant/)
 
 ## Tuesday, 30 September 2025
 
