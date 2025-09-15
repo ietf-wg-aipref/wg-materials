@@ -44,5 +44,5 @@ Google is kindly providing lunch on Tuesday and Wednesday. Please indicate any d
 
 ## Transportation
 
-Google Sihlpost is adjacent to [Zürich Hauptbahnhof](https://www.sbb.ch/en/travel-information/stations/find-station/zuerich-hb-station.html), with train connectivity to most of Europe and direct access to [Flughafen Zürich](https://www.flughafen-zuerich.ch/en/passengers), which has air connectivity to numerous international destinations.
+Google is adjacent to [Zürich Hauptbahnhof](https://www.sbb.ch/en/travel-information/stations/find-station/zuerich-hb-station.html), with train connectivity to most of Europe and direct access to [Flughafen Zürich](https://www.flughafen-zuerich.ch/en/passengers), which has air connectivity to numerous international destinations.
 
