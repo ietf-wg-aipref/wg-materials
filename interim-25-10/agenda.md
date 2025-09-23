@@ -8,6 +8,8 @@ See also nearby:
 * [Guidance for taking minutes](../minutes.md)
 * [Guidance for remote participants](https://www.ietf.org/meeting/technology/meetecho-guide-participant/)
 
+_All times in Europe/Zürich_
+
 ## Tuesday, 30 September 2025
 
 _9:15 - 16:30_
