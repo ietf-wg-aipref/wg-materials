@@ -20,8 +20,11 @@ The meeting will be at:
     8004 Zürich
     Switzerland
 
+Reception and the meeting room are on the 2nd floor. To enter the building, buzz reception from the front door and tell them that you're attending the IETF meeting.
+
 [Google Maps](https://maps.app.goo.gl/RsRaw9pSqAjqispY9) | [Apple Maps](https://maps.apple.com/place?address=Lagerstrasse%20100,%208004%20Z%C3%BCrich,%20Switzerland&coordinate=47.379804,8.529735&name=Lagerstrasse%20100&map=transit) | [OpenStreetMap](https://osm.org/go/0C0WBLWZc?m=&node=6580366336)
 
+![IMG_8854](https://github.com/user-attachments/assets/381f54dc-f225-40fd-aefe-327c6d3caf81)
 
 ## Remote Participation
 
