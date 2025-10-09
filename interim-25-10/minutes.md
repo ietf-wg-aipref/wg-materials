@@ -1,6 +1,31 @@
 # AIPREF Working Group Interim Meeting - 30/9 to 2/10 2025
 
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Day 1 Morning](#day-1-morning)
+  - [Introduction](#introduction)
+    - [Poll: Is it possible to achieve consensus and meet our chartered goals (in some form)?](#poll-is-it-possible-to-achieve-consensus-and-meet-our-chartered-goals-in-some-form)
+    - [Poll: Our charter has the appropriate scope](#poll-our-charter-has-the-appropriate-scope)
+    - [Poll: It is urgent that we deliver something soon (~EOY)](#poll-it-is-urgent-that-we-deliver-something-soon-eoy)
+    - [Poll: I (personally) have the interest and availability to participate for the next six months, provided it is productive](#poll-i-personally-have-the-interest-and-availability-to-participate-for-the-next-six-months-provided-it-is-productive)
+    - [Poll: I (personally) have the interest and availability to participate for the next six months, provided it is productive](#poll-i-personally-have-the-interest-and-availability-to-participate-for-the-next-six-months-provided-it-is-productive-1)
+    - [Poll: We should focus on a minimal training preference and ship that, then shift to other preferences](#poll-we-should-focus-on-a-minimal-training-preference-and-ship-that-then-shift-to-other-preferences)
+    - [Discussion of poll on minimal ship](#discussion-of-poll-on-minimal-ship)
+  - [Presentation of state of play on vocabulary document (Paul Keller)](#presentation-of-state-of-play-on-vocabulary-document-paul-keller)
+  - [Discussion of issues](#discussion-of-issues)
+    - [issue #159: Overall Approach of the vocabulary](#issue-159-overall-approach-of-the-vocabulary)
+- [Day 1 Afternoon](#day-1-afternoon)
+  - [Doc: draft-madhavan-aipref-displaybasedpref - "A Vocabulary for Controlling Usage of Content Collected by Search and AI Crawlers"](#doc-draft-madhavan-aipref-displaybasedpref---a-vocabulary-for-controlling-usage-of-content-collected-by-search-and-ai-crawlers)
+- [Day 2 Morning](#day-2-morning)
+- [Day 2 Afternoon](#day-2-afternoon)
+- [Day 3 Morning](#day-3-morning)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
+
 ## Day 1 Morning
 
 ### Introduction
