@@ -10,7 +10,7 @@
     - [Poll: Our charter has the appropriate scope](#poll-our-charter-has-the-appropriate-scope)
     - [Poll: It is urgent that we deliver something soon (~EOY)](#poll-it-is-urgent-that-we-deliver-something-soon-eoy)
     - [Poll: I (personally) have the interest and availability to participate for the next six months, provided it is productive](#poll-i-personally-have-the-interest-and-availability-to-participate-for-the-next-six-months-provided-it-is-productive)
-    - [Poll: I (personally) have the interest and availability to participate for the next six months, provided it is productive](#poll-i-personally-have-the-interest-and-availability-to-participate-for-the-next-six-months-provided-it-is-productive-1)
+    - [Poll: I (personally) have the interest and availability to participate for the next twelve months, provided it is productive](#poll-i-personally-have-the-interest-and-availability-to-participate-for-the-next-twelve-months-provided-it-is-productive-1)
     - [Poll: We should focus on a minimal training preference and ship that, then shift to other preferences](#poll-we-should-focus-on-a-minimal-training-preference-and-ship-that-then-shift-to-other-preferences)
     - [Discussion of poll on minimal ship](#discussion-of-poll-on-minimal-ship)
   - [Presentation of state of play on vocabulary document (Paul Keller)](#presentation-of-state-of-play-on-vocabulary-document-paul-keller)
@@ -103,7 +103,7 @@ Total Participants: 44
 * No (0)
 * No opinion (0)
 
-#### Poll: I (personally) have the interest and availability to participate for the next six months, provided it is productive
+#### Poll: I (personally) have the interest and availability to participate for the next twelve months, provided it is productive
 
 Total Participants: 44
 * Yes (26)
