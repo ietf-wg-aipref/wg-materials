@@ -1,4 +1,4 @@
-# AIPREF Working Group Interim Meeting - 30/9 to 2/10 2025
+# AIPREF Working Group Interim Meeting Minutes - 30/9 to 2/10 2025
 
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
