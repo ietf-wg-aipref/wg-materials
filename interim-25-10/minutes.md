@@ -37,7 +37,7 @@ Mark Nottingham: We are trying to find out if the charter is wildly wrong. Small
 
 Suresh Krishnan: Re-chartering takes a lot of time. We can always collect new work items for a potential recharter.
 
-Farzaneh Badiei: Originally supported charter, but recent discussion that vocabulary should be useful in any scenario online and offline changed that assessment. The vocaulary should not signal preferences for offline uses.
+Farzaneh Badiei: Originally supported charter, but recent discussion that vocabulary should be useful in any scenario online and offline changed that assessment. The vocabulary should not signal preferences for offline uses.
 
 Pedro Ortiz Suarez: The charter is focused too much on the AI term. The mailing list discussed a definition of AI that didn't reach a consensus. Experts don't want to define AI. The research community does not use the term AI.
 
@@ -194,7 +194,7 @@ Display Text Length
 
 Exact Text Match
 
-Leonard: good proposal if we wanted to limit the scope of the work only to web text-based content, doesn't take into account other media formats within the web. It is an interesting proposal, but small in scope to address the vocabulary requiremeents as we are currently seeing it. 
+Leonard: good proposal if we wanted to limit the scope of the work only to web text-based content, doesn't take into account other media formats within the web. It is an interesting proposal, but small in scope to address the vocabulary requirements as we are currently seeing it. 
 
 Krishna : This is not only for web, we do not propose this as exclusive to web.
 
@@ -226,7 +226,7 @@ Krishna: the preferences we have now dictate the preferences for content - the m
 
 Elaine: proposal on separating indexing and retrieval (acked by Krishna)
 
-Pedro: question about the specific part of search and the decision between classical search vs AI overviews we see right now. the question is - my understanding of these tchnologies, at least in the backend, are very similar. In this specific framework, would it be ok for a search provider to train a model for actually serving classical search? Most of the information retrieval algorithms work with transformer models, the same underlying model as generative models (GPT, CLaude). The backend technology is exactly the same. Most of th search providers right now, in order to provide classical search with snippets, they stil need to do the same type of training. As long as the end application is search, is it ok?
+Pedro: question about the specific part of search and the decision between classical search vs AI overviews we see right now. the question is - my understanding of these technologies, at least in the backend, are very similar. In this specific framework, would it be ok for a search provider to train a model for actually serving classical search? Most of the information retrieval algorithms work with transformer models, the same underlying model as generative models (GPT, Claude). The backend technology is exactly the same. Most of th search providers right now, in order to provide classical search with snippets, they stil need to do the same type of training. As long as the end application is search, is it ok?
 
 Krishna: If gen AI is blocked, you cannot use the content for training gen AI models. If display-text is set to no, it means they don't want to have a snippet generated either. 
 
@@ -258,13 +258,13 @@ Krishna: Display-text does that
 
 Martin: you are making a statement about AI use we were talking about earlier. A question for the room: do you think that for someone who understands this and can apply these policies, it can resist the test of time?
 
-Krishna: I think it does, as far as I can see for forseeable future - but beyond 5-10 years, I don't know - something for poeple to think about.  
+Krishna: I think it does, as far as I can see for foreseeable future - but beyond 5-10 years, I don't know - something for people to think about.  
 
 Paul: I have a hard time fitting it into the context and the charter's scope. Initial conversation around the vocabulary, Leonard made a point that a number of things are not relevant in some other context / attachement mechanisms, so I am wondering how to reconcile that - a number of the categories you mentioned might be useful as additional args together with the search category. The question is where do we define those additional flags, if it good to address them in their own draft instead of the vocabulary discussion. 
 
 Krishna: I think that might be right and the cause of the heated debate. We didn't make our proposal search specific - it is applicable to other scenarios. If it should be expanded - it is an open question. 
 
-Pedro: 1. on gen AI - from a technical POV, I support that whatever we come up with, it is better to not differentiate between pretraining/finetuning/posttraining/reinforcement learning, as the capabilities are moving (for example, gen AI models for images can do things in inference --- without training -- that can adapt a certain style). My question is the specifics category in generative AI training, should that be modified a little bit so that it includes cases where the model is not trained? 
+Pedro: 1. on gen AI - from a technical POV, I support that whatever we come up with, it is better to not differentiate between pre-training/finetuning/posttraining/reinforcement learning, as the capabilities are moving (for example, gen AI models for images can do things in inference --- without training -- that can adapt a certain style). My question is the specifics category in generative AI training, should that be modified a little bit so that it includes cases where the model is not trained? 
 
 Mirja: You said this genAI training category from a different draft. What is the problem with the previous draft?
 
@@ -288,7 +288,7 @@ Mark: display makes sense if you are talking about search.
 
 Paul: this is not a group chartered with new ways of doing search. display, search is not in there.
 
-Mark: As we said before, for inference time it is not meaningful to say you cannot use AI with this content, it's just a tool, programming language, etc, it's non sense to say "dont use my content with linked lists". There's a latent argument that this can be up-leveled to everything here except AI training.
+Mark: As we said before, for inference time it is not meaningful to say you cannot use AI with this content, it's just a tool, programming language, etc, it's non sense to say "dont use my content with linked lists". There's a latent argument that this can be up-levelled to everything here except AI training.
 
 Krishna: AI inference / AI use category is overly broad which block a lot of AI operations - you couldn't run, retrieve something. By taking a more focused approach, you wanna summarise something - you can take these approaches. It does not restrict to search, but applies broadly to AI - search being a main scenario to AI. It is impossible to separate search from AI ad AI from search. 
 
@@ -299,7 +299,7 @@ Pedro: why the existing vocab does not address the things that can be addressed 
 
 Alissa: responding to what Paul was saying - when we try to standardise thing, you have an exact thing you need and when more people show up, the concerns are quite granular. I am in support of the fine-grained approach, but if we fail to address concerns people are bringing up - we are not doing the job and there will be collateral damages as Krishna as mentioned.
 
-Eric: The charter does not proclude this work - we shouldn't use the charter in this way, it shouldn't be a problem.
+Eric: The charter does not preclude this work - we shouldn't use the charter in this way, it shouldn't be a problem.
 
 Mirja: I like it's not AI vs non-AI, everything is AI. It is more fine-grained, but it has generally different approach because the previous attempt was hierarchical. Currently, it doesn't cover the full space - this is better because it leaves us room to say other stuff in the future that currently we cannot.
 
@@ -311,9 +311,9 @@ Martin: there's an implication that there is re-use in that model, but it does n
 
 Krishna: Happy to think through this with you. We are trying to cover ground for most scenarios. Part of what I think works for a proposal is the folks. The code generation is a good example and can take it offline and discuss. 
 
-Paul: I am wondering if we are having 2 different discussion that are coluding - how we discuss things changed and this is a more grnaular way to expressing our vocabulary compared the two sides with our discussion from the beginning. 90% of time was spent on discussing AI use and search - they were hard to define, one of them has disappeared from the draft, in this proposal - there's a good grasp on the functionality we want to reintegrate in the draft. It might be useful for the folks what we have aggrement on and to me it is he question you raised "Do we still have the rough starting agreement that we have a relatively clear conceptual separation between pre and post training? Do we still have that, what do we do with top-level category" We can have a more productive disucssion if we start there.
+Paul: I am wondering if we are having 2 different discussion that are colliding - how we discuss things changed and this is a more granular way to expressing our vocabulary compared the two sides with our discussion from the beginning. 90% of time was spent on discussing AI use and search - they were hard to define, one of them has disappeared from the draft, in this proposal - there's a good grasp on the functionality we want to reintegrate in the draft. It might be useful for the folks what we have agreement on and to me it is he question you raised "Do we still have the rough starting agreement that we have a relatively clear conceptual separation between pre and post training? Do we still have that, what do we do with top-level category" We can have a more productive discussion if we start there.
 
-Chris Flammang: the language for display-text "the text that you reuse in a generative AI experience". We need to include other modalities, express preferences for audio, images. Address usecases around impersonation, style transfer. 
+Chris Flammang: the language for display-text "the text that you reuse in a generative AI experience". We need to include other modalities, express preferences for audio, images. Address use cases around impersonation, style transfer. 
 
 Mark: no training is about giving clarity that it won't turn off search. There is desire to have control over summary, but we want to allow people to use the other mechanisms. 
 
@@ -321,17 +321,17 @@ Sebastian: I understood the proposal to provide better definition for categories
 
 Mark: To synthesize the discussion, as a website operator, I don't want them to train on my content. AI however is such a prevalent technology that it's problematic.
 
-Felix: This is a meta-comment. We're struggling to discuss all of the elements of the proposal at the same time. Is displa category a replacement for AI use, how it would change, shall we bring other modalities? Shall we get rid of top level categories? Do we need distinction between pre/post training. Work on only 1, i.e. display-text category to address the summary issue which is a pressing concern for many people and then revisit the rest. 
+Felix: This is a meta-comment. We're struggling to discuss all of the elements of the proposal at the same time. Is display category a replacement for AI use, how it would change, shall we bring other modalities? Shall we get rid of top level categories? Do we need distinction between pre/post training. Work on only 1, i.e. display-text category to address the summary issue which is a pressing concern for many people and then revisit the rest. 
 
 Mark: we're trying to steer the discussion. From my POV, it's about this search stuff. 
 
 Felix: Is this a replacement for the search category? There are already more fine grained control in use than the one proposed in the draft. We would be doing a diservice to those who are using those controls. More discussion is needed for the AI summary case where the display-text and exact match interesting. Can this be applied to other modalities, images, generic display-output.
 
-Gary: You said people just want to opt out. My experience with small publishers is that if you small poking them for granular stuff, they have a lot of preferences and some might be technical items that they don't like,i..e gen AI display. Eric's comment is very interesting, can we just run a study and see what people want?
+Gary: You said people just want to opt out. My experience with small publishers is that if you small poking them for granular stuff, they have a lot of preferences and some might be technical items that they don't like, i.e. gen AI display. Eric's comment is very interesting, can we just run a study and see what people want?
 
 Mirja: We want something simple, to keep it simple - you just disallow, there's no simple switch.
 
-Sebastian: reacting to Gary about search categories. The search cat. is meant to be in place to avoid that creators have to choose between preferences on AI like pre/post training and being found on the web. I have not done this study but I assume search category would be swtiched on because the creators and right holders want to be find through any available means, i.e. AI supported search. If you are too granular in that case - can we simply say "we want to be find, but dont want AI to train on our content"?
+Sebastian: reacting to Gary about search categories. The search cat. is meant to be in place to avoid that creators have to choose between preferences on AI like pre/post training and being found on the web. I have not done this study but I assume search category would be switched on because the creators and right holders want to be find through any available means, i.e. AI supported search. If you are too granular in that case - can we simply say "we want to be find, but dont want AI to train on our content"?
 
 Suri: If it's not general use, it is flat and non hierarchical - maybe people know what exactly what to do , but unclear how to generalise it. Make sure that we don't block more than it's needed. 
 
@@ -339,7 +339,7 @@ Warren: Gary's proposal on a study/survey it is very hard because we can reach s
 
 Erin: the discussion was about appropriate level of granularity where the attachement mechanism comes into play, because if you can attach the rules to a specific crawler, this drives the discussion wider - so I believe we need to narrow it. 
 
-Bradley: we don't need a survey, this is an open forum for folks to represent their perspectives, hope they all show up. Proposal as it related to search and AI use is in the right direction. It is a supplement to a doc we were working on, a potential path to start mining for definition and usecase. Worried about surface vs display, a very specific prision of search. I am hearing some folks struggling and I'm struggling too where there is a valuable case. The creation of a RAG index that does not relate to the preferances - is this included? SOmething we did not talk a lot about - the principle of combining preferences and making them dependent on each other to allow the free and effective expression of a preference (i.e no dependancy like can opt into one if you opt into another one).
+Bradley: we don't need a survey, this is an open forum for folks to represent their perspectives, hope they all show up. Proposal as it related to search and AI use is in the right direction. It is a supplement to a doc we were working on, a potential path to start mining for definition and use case. Worried about surface vs display, a very specific prision of search. I am hearing some folks struggling and I'm struggling too where there is a valuable case. The creation of a RAG index that does not relate to the preferences - is this included? Something we did not talk a lot about - the principle of combining preferences and making them dependent on each other to allow the free and effective expression of a preference (i.e no dependancy like can opt into one if you opt into another one).
 
 Paul: go back to where we got the first discussion about search. Mark you said it was unnecessary carve out of a too broad category. My point is that in some of this discussion which was based on the top level category - text and data mining. If we are moving away from linking a top level category, away from the EU discussion, we can move away search - the carve out is to remove uncertainty around saying no to this, will say no to not appearing in search results. Difference between training uses and search uses - "search engines could only find things they were trained on". The more important, if we have the carve out at the top level category, we address the uncertainty at a lower level. 
 
@@ -353,7 +353,7 @@ Chris: I'm thinking about agentic use-cases. If we rely on display as seen by a 
 
 Bradley: The RAG index thing - it is on my mind because not all deployers will create their own index, so wholesaling RAG indexes for providing predictions, it means that some could pass forward their RAG but along preferences and allow those to create products.
 
-Erin: On search category in the chat, having a category like that reduces the burdens to define each crawler (i.e. less known crawlers), but the line drawning is problematic. Search tries to draw a line between traditional search and the more contemporary generative summary, AI inflected search. This distinction draws a line that limits today product design - exact text preference is binary and easy to follow for future flexible developments. 
+Erin: On search category in the chat, having a category like that reduces the burdens to define each crawler (i.e. less known crawlers), but the line drawing is problematic. Search tries to draw a line between traditional search and the more contemporary generative summary, AI inflected search. This distinction draws a line that limits today product design - exact text preference is binary and easy to follow for future flexible developments. 
 
 Kevin: Why don't we think about the adopted draft, but instead of looking for something else - why not adopt Krishna, text-oriented ones? Training and gen AI training rom the adopted draft and from Krishna not the gen AI, but the aspects about presentation.
 
@@ -371,7 +371,7 @@ Mark: Krishna, you intended it to be open for changes?
 
 Krishna: We wrote it as a standalone pressing all the ideas together. There's good discussion around how this could evolve till we get to a draft. As a standalone, it works in my head, but I'm open to discussion.
 
-Caleb: If you take a look through ekr 's list of what preferences people might want to suggest, there categories need to be independent of each other. They are also product design questions, whilst good to proliferate choices and categories, but if one is inseparable from other, it will result in more opt-out than necessary. Fine grained decision will influence product, and we need to weight how it might affect ability to build products in the future.
+Caleb: If you take a look through ekr's list of what preferences people might want to suggest, there categories need to be independent of each other. They are also product design questions, whilst good to proliferate choices and categories, but if one is inseparable from other, it will result in more opt-out than necessary. Fine grained decision will influence product, and we need to weight how it might affect ability to build products in the future.
 
 Mark: Poll! We should limit search to being a carve-out to assure that preferences do not affect it(
 
@@ -401,11 +401,11 @@ Paul: these are preferences, the usage depends on context - it was initially AI 
 
 Mirja: most care that their content isn't used in a specific context than used in a specific way. From the users POV, they don't care so much - but they want a way to say my data is excluded. You can ignore that data - but if too many people ignore the preferences, the preferences are not useful. So if you have too many exceptions, it is not reaching its goal
 
-Eren: Prefrences aren't totally absolute is useful when there is an use case that was not captured. If there are well understood, it makes no sense that you can ignore them - there will be compliance and involuntary compliance will happen. Most online players voluntary honour no snippet request. Enforcement wont perfectly match, but we need to provide clarity - preference won't work if everyone ignores and if it's not clear what needs to be honoured, it wont be honored. 
+Eren: Preferences aren't totally absolute is useful when there is an use case that was not captured. If there are well understood, it makes no sense that you can ignore them - there will be compliance and involuntary compliance will happen. Most online players voluntary honour no snippet request. Enforcement wont perfectly match, but we need to provide clarity - preference won't work if everyone ignores and if it's not clear what needs to be honoured, it wont be honored. 
 
 Paul: We cannot capture some things into preferences, because they are fairly limited to a small group of the world. Some are really hard to meaningfully encode in the preferences themselves.
 
-Eren: I think that's a helpful motivating example, but we shouldn't attempt to match the legal contour or match legal rights, but user requested fetched isn't limited to a particular part of the broad and there is consensus it should be captured. We needto eliminate ambiguity. 
+Eren: I think that's a helpful motivating example, but we shouldn't attempt to match the legal contour or match legal rights, but user requested fetched isn't limited to a particular part of the broad and there is consensus it should be captured. We need to eliminate ambiguity. 
 
 Paul: In some cases, we might not be able. Even if we edit that into the scope of preferences and not in 3.0 where we have it right now, we cannot do it in all cases.
 
@@ -415,43 +415,43 @@ Suresh: us not being limited to a specific regime, we can only present them as p
 
 Warren: but the issue is that we're assuming it won't turn into legal terms
 
-Mark: it's one thing to make sure the preferences allow people to express themselves accurately and reduce misinpretetations where possible with some margin, but it's smth else to appeal to the effects
+Mark: it's one thing to make sure the preferences allow people to express themselves accurately and reduce misinterpretations where possible with some margin, but it's smth else to appeal to the effects
 
 Paul: we don't define anything and we make more stupid rules. The effort of this group - as a group we have a higher chance arriving at a result that minimizes the amount of damage that can occur from legislative intervention.
 
-Farz: I've been making this point and I like Kirshna's draft because it addresses some of the concerns from the beginning with TDM. However, automated processing is not as well established - put on the record when we are talking what will happen to the users, we should think about non profit, research orgs, archives that will kind of getting these signals that they cannot do the job they were doing. That's why I like Kirshna's solution
+Farz: I've been making this point and I like Krishna's draft because it addresses some of the concerns from the beginning with TDM. However, automated processing is not as well established - put on the record when we are talking what will happen to the users, we should think about non profit, research orgs, archives that will kind of getting these signals that they cannot do the job they were doing. That's why I like Krishna's solution
 
-Mark: we heard fromr other folks that these are just preferances and you are saying this is not adequate
+Mark: we heard from other folks that these are just preferences and you are saying this is not adequate
 
-Farz: if there was no incentive to follow standards, we would not come up with them in the first place. there are market incentives out there that makes following the standards better off. This is not just signaling preferences. there is a paragraph into Keller's draft thatmention that ~under what circumstances you dont need to folow the preferances. We should keep that language if we keep TDM with autoamted processing, but that language is -- in how many cases is it ok to not follow these preferances?
+Farz: if there was no incentive to follow standards, we would not come up with them in the first place. there are market incentives out there that makes following the standards better off. This is not just signalling preferences. there is a paragraph into Keller's draft that mention that ~under what circumstances you dont need to follow the preferences. We should keep that language if we keep TDM with automated processing, but that language is -- in how many cases is it ok to not follow these preferences?
 
-Suresh: Farz, the problem can still exist because it is still a preferances, I wonder why it is related to TDM.
+Suresh: Farz, the problem can still exist because it is still a preference, I wonder why it is related to TDM.
 
 Farz: TDM is better than automated processing, TDM is broad.
 
-Suresh: imagine we take away TDM, then there's still a need for someone - i.e Internet Archive has this cultural heritage reason to do it - the preferances can be overriden. Ekr's point is that if you want to express your preferances, you should be able to clearly express it. Whether it can be followed, it's not something we can express.
+Suresh: imagine we take away TDM, then there's still a need for someone - i.e Internet Archive has this cultural heritage reason to do it - the preferences can be overriden. Ekr's point is that if you want to express your preferences, you should be able to clearly express it. Whether it can be followed, it's not something we can express.
 
 ...
 
 Ekr: Some of these will need to be captured, some won't be optional and people in some cases will decide to override the decision - that's a bug
 
-Eliot: It occured to me that we're optimistic thinking that people will latch onto what we're publishing. We're worried on regulators jumping on the boat a little too quickly - 1 is coming up with a standard day 1 but considering coming up with experimental RFC and trying to get a bit more running code and understand where things are pitfalls instead of finding all the dark coners. An alternative is put smth out, try something out, revise revise, and then maybe not need the section 3.0. 
+Eliot: It occurred to me that we're optimistic thinking that people will latch onto what we're publishing. We're worried on regulators jumping on the boat a little too quickly - 1 is coming up with a standard day 1 but considering coming up with experimental RFC and trying to get a bit more running code and understand where things are pitfalls instead of finding all the dark corners. An alternative is put smth out, try something out, revise revise, and then maybe not need the section 3.0. 
 
 Leonard: From the conversation in the chat is also relevant: one of the things we've done and we are undoing is that in the vocabulary document we have "Things you can state" - 3.2 and related - how do they relate to enforcement, when are they respected? Vocabulary document instead of statement of implementation and move it to the attachement document (robots.txt, C2PA, ). This might give us the vocabulary before we move to others
 
-Paul: I wanted to come back to the initial question about top-level category - there is a purpose for it, which is we know or that anyone parsing AI instructions will run into machine readable opt outs against TDM from the EU - the good thing is to treat it as an operational signl in the vocabulary. Otherwise, you need each other attachement mechanism will need to have a proprietary specific interface to specify TDM opt-outs. The point of it is that I can interpret that based on the rules in the vocabulary otherwise I need other rules that aren't specified, esp. if someone is going on a text acquisition.
+Paul: I wanted to come back to the initial question about top-level category - there is a purpose for it, which is we know or that anyone parsing AI instructions will run into machine readable opt outs against TDM from the EU - the good thing is to treat it as an operational signal in the vocabulary. Otherwise, you need each other attachement mechanism will need to have a proprietary specific interface to specify TDM opt-outs. The point of it is that I can interpret that based on the rules in the vocabulary otherwise I need other rules that aren't specified, esp. if someone is going on a text acquisition.
 
 Paul: vocab doesn't exit
 
 Mirja: this problem already exists, why do we need to solve it now?
 
-Paul: we are trying to make a lot of signals legible, esp. in relationship with eachohter. Vocab doesn't allow to rely that isgnal to something we have in the vocab, i.e "not our problem, solve that yourself" - Is it useful, does it make the vocab more useful? We can make it.
+Paul: we are trying to make a lot of signals legible, esp. in relationship with each other. Vocab doesn't allow to rely that signal to something we have in the vocab, i.e "not our problem, solve that yourself" - Is it useful, does it make the vocab more useful? We can make it.
 
-Sonia: Categories need to be clear and actionable. TDM is definitely not that. Usecases that might seem as permisable, people will have various different interpretations of how TDM means. TDM was an exception to state that you can do TDM among other exceptions. There's lack of clarity what that means. It's not specifically to AI, but it includes AI. 
+Sonia: Categories need to be clear and actionable. TDM is definitely not that. Use cases that might seem as permissible, people will have various different interpretations of how TDM means. TDM was an exception to state that you can do TDM among other exceptions. There's lack of clarity what that means. It's not specifically to AI, but it includes AI. 
 
-James: Two viewpoints - these are preferances and they can be ignored. Yet, we need this category because it is in EU law and it needs to be contained. If we are assuming this category exists without explaining what exceptions are - and I'm not as confident this group isn't better placed than regulators to have this conversation. We don't know if someone is ok opting out and being shut down from AI or maybe there are unintended consequences when they opt in into that. Define more closely than a wide broad category
+James: Two viewpoints - these are preferences and they can be ignored. Yet, we need this category because it is in EU law and it needs to be contained. If we are assuming this category exists without explaining what exceptions are - and I'm not as confident this group isn't better placed than regulators to have this conversation. We don't know if someone is ok opting out and being shut down from AI or maybe there are unintended consequences when they opt in into that. Define more closely than a wide broad category
 
-Mirja: It's not appropriate to pun in a machine readbale document something that only a lawyer can read to know if it's ok to use. 
+Mirja: It's not appropriate to pun in a machine readable document something that only a lawyer can read to know if it's ok to use. 
 
 Mark: discussion is specifically on TDM
 
@@ -469,15 +469,15 @@ Mark: do we need this high level category
 
 Mirja: I was responding to Paul on do we need this category
 
-Ekr: Chat on implications of 3.0 and Eric made an assesment - on level setting, all IETF standards are followed and if you don't you're a jerk; implication is that no matter what we say in 3.0, if you don't do, you are a jerk - we will see regulatory requirements that will support this 3.0. 
+Ekr: Chat on implications of 3.0 and Eric made an assessment - on level setting, all IETF standards are followed and if you don't you're a jerk; implication is that no matter what we say in 3.0, if you don't do, you are a jerk - we will see regulatory requirements that will support this 3.0. 
 
-Suresh: 3.2 was added because without this people will be bamboozeled adding things they don't need. If you wanna take it out, we can have a discussion. We shouldn't loop over it. I agree it doesn't make a diff for me but some, i.e. civil society, were complaining. 
+Suresh: 3.2 was added because without this people will be bamboozled adding things they don't need. If you wanna take it out, we can have a discussion. We shouldn't loop over it. I agree it doesn't make a diff for me but some, i.e. civil society, were complaining. 
 
 Ekr: I'm not advocating pro/against 3.2, what I hear no disclaimer we put in there will be effective
 
 Eren: this debate is not about 3.2 - it's useful as far as we go, if someone has an obligation to do, they'll do. This is just level setting. the real debate is the high level top category. The reason some objectify is that 3.2 is the safety mechanism that is too broad. We need to be careful about the mechanisms were we enforce preferences.
 
-Martin: there is a lot of criticism and not a lot of leaning forward, what we are looking forward to give us some alternative. we tried to do what you describe and the reason why we are doing preferenaces and not control is because we cannot capture those exceptions.
+Martin: there is a lot of criticism and not a lot of leaning forward, what we are looking forward to give us some alternative. we tried to do what you describe and the reason why we are doing preferences and not control is because we cannot capture those exceptions.
 
 Mark: fundamental issue is whether we need a top level category - what does it really mean to "not use my content for AI at all". AI is just a technology, not a purpose. 
 
@@ -487,13 +487,13 @@ Max: Part of the issue is that it's not solvable in the vocabulary document, but
 
 Mark: if folks are interested in that - let's hear. 
 
-Suresh: My concern is that we are cycling between two things, which is ok if we make progress. I want to have some things I wanna give permissions for, but I don't want to give for things I don't know. So they would turn of high level categroy and just enable the low level. What happens about what we don't know about? (default allow or default deny)
+Suresh: My concern is that we are cycling between two things, which is ok if we make progress. I want to have some things I wanna give permissions for, but I don't want to give for things I don't know. So they would turn of high level category and just enable the low level. What happens about what we don't know about? (default allow or default deny)
 
 Eren: that's begging the question and I dont necessarily agree we need to do that. there's way to block crawlers from doing that. Having a high level automated category is too broad of a category that we are trying to carve out in a useful way.
 
 Mark: This is not just for the web, but for anyone who would use this vocabulary. 
 
-Bradley: having that cateogry would be useful, if not, we would end up saying the same somewhere else for a thing that it is important to know about. there is strong convience, efficiency argument, reduce legal risk to have all in 1 place. there is already a legal regime that recognize the ability specific activities. In London I was very verbal - it has to be there because all the other things. It seems to me it would be a mistake not to be there, because we'd put it somewhere else.
+Bradley: having that category would be useful, if not, we would end up saying the same somewhere else for a thing that it is important to know about. there is strong convenience, efficiency argument, reduce legal risk to have all in 1 place. there is already a legal regime that recognizes the ability specific activities. In London I was very verbal - it has to be there because all the other things. It seems to me it would be a mistake not to be there, because we'd put it somewhere else.
 
 Mirja: the main reason why we have this category is that is some or we need this high level category and the difference between hierarchy / no hierarchy is that you can cover the full space by default. Without, you'd go 1 by 1 through each use case. Given space is changing, I think that's a better approach. 
 
@@ -509,7 +509,7 @@ Martin: the current draft allows for any category to be a supercategory to other
 
 Mark: goes back to the previous discussion, if we do something bigger than AI, this changes and we need to define that somehow.
 
-Martin: the big question to me is if peope want to express this preferance and we are denying that
+Martin: the big question to me is if people want to express this preference and we are denying that
 
 * Can you live with shipping a vocabulary that includes a top-level preference? total participants : 39 - yes 17 no 8 - no opinion 3
 * Can you live with shipping a vocabulary that excludes a top-level preference? total participants : 39 - yes 17 - no 6 - no opinion 6
@@ -525,7 +525,7 @@ Main argument against: unintended consequences.
 Restated a point from preferences should have reasonable fidelity to people's expectations
 
 EKR: If we allow people to say, nothing allowed, it inhibits innovation.  But my point was
-that the language should be sufficientl semantically rich that people aren't put in the
+that the language should be sufficiently semantically rich that people aren't put in the
 position to simply say no no no.
 
 \[?]: If it's not in the vocabulary people will have to go elsewhere for a solution.
@@ -643,7 +643,7 @@ We began to reconvene at 10:50.
 
 Mark: before the break we were talking about top level/default.  We should perhaps defer that discussion until we have a more granular understanding of the vocabulary.
 
-Erin: we were talking about the line drawing difficulties of a substitutive category. Which uses would be more substitutive in practice, and where we thought content providers would be more likely to object or agree.  We haven't arrived at principles but are otpimistic.
+Erin: we were talking about the line drawing difficulties of a substitutive category. Which uses would be more substitutive in practice, and where we thought content providers would be more likely to object or agree.  We haven't arrived at principles but are optimistic.
 
 EKR: what is substitutive and what is not \[might be a hard question\].  This might be a deep rabbit hole.
 
@@ -659,7 +659,7 @@ Felix: It would be useful to compare Krishna's, Erin's, and Bradley's categories
 
 Martin: Search is evolving in a direction toward having generative content.  It would be helpful to walk through that use as a test.  But we have to be careful about narrowing to that use case.
 
-Erin: Presenting an [experimental feature from Google labs](https://blog.google/products/search/web-guide-labs/).  Here we are using AI to organize and provide context to a search results page (SRP).  The query is broken down into multiple subsidiary categories (comprehensive bird watching, getting started, equipment guides, etc).  Then there is a lightly longer generated bit of text that explains why it is relevant.  Should those generated texts be in scope for search?  It is generated text, and it is sentence level, and it is expressing what is in those pages, but it is not a summary of all of those pages.  There is a continuoum from search to long form summary that would be more "substitutional".
+Erin: Presenting an [experimental feature from Google labs](https://blog.google/products/search/web-guide-labs/).  Here we are using AI to organize and provide context to a search results page (SRP).  The query is broken down into multiple subsidiary categories (comprehensive bird watching, getting started, equipment guides, etc).  Then there is a lightly longer generated bit of text that explains why it is relevant.  Should those generated texts be in scope for search?  It is generated text, and it is sentence level, and it is expressing what is in those pages, but it is not a summary of all of those pages.  There is a continuum from search to long form summary that would be more "substitutional".
 
 Martin: maybe worth talking about the definition of "search" (for instance).  Summaries of content is not covered by that definition.
 
@@ -697,7 +697,7 @@ Mirja: substitution may be a bad term.  If the user avoids clicking on things th
 
 EKR: Users want answers.  They want to find specific things (the pages).  Now you can get one without getting the other.  Or "Make me a summary of a WG in the form of a Metallica song" is a completely different category.
 
-Max Gendler: pushing back on opt out styming innovation.  I don't think it holds water.  Putting a preference out there doesn't remove the possibility from the world.  \[You can always pay for the content for those new uses.]
+Max Gendler: pushing back on opt out stymying innovation.  I don't think it holds water.  Putting a preference out there doesn't remove the possibility from the world.  \[You can always pay for the content for those new uses.]
 
 Leonard: one of the reasons Bradley discusses "substitutive" is that it's not just about reducing clicks, but the scenario where the user is performing local search.  So now they've lawfully acquired the asset- you don't need links.  But you want to perform a search or get a summary, etc.
 
@@ -713,7 +713,7 @@ Felix: the text does not support Erin's use.  If we go back to Krishna's text, t
 
 Christopher: push back on reducing clicks.  There is a difference as to what is best for the user and what the user wants.  I worry about the integrity of the response.  Also maybe it teaches people to accepting answers without critically thinking.
 
-\[Daniel]: is analyzing, but choosing to not display less relevant results or information covered by substitutive use case?
+\[Daniel]: is analysing, but choosing to not display less relevant results or information covered by substitutive use case?
 
 Krishna: display text length is limited to a number of characters, and we need more clarity around the language.  Does ai substitutive use preclude using an input document for relevance and ranking?
 
@@ -729,11 +729,11 @@ A few people got together over lunch to combine the display based preferences al
 
 Erin: we will address the common desires among content creators that require direct quotation and disallow summarization and the combination of the two. We also talked about maxed links Erin will write them down to focus on them. 
 
-Do we want a list of links with titles and snippet as simple search. Do people want to be able to object to the entirety of the AI (blue link result should be included or not?)because most people would not want to control that or not. If we are going to create these categories poeople might want to disallow everything including traditional search
+Do we want a list of links with titles and snippet as simple search. Do people want to be able to object to the entirety of the AI (blue link result should be included or not?)because most people would not want to control that or not. If we are going to create these categories people might want to disallow everything including traditional search
 
 Ekr: if i do link+quote that is primarily ...?
 
-Mike (Cloudflare): Input is interesting. As a content creator it is difficult to trace how the content has been transformed. This is concerning. Focusing on AI input is more approrpriate
+Mike (Cloudflare): Input is interesting. As a content creator it is difficult to trace how the content has been transformed. This is concerning. Focusing on AI input is more appropriate
 
 Paul: It is about using as input. Deployed model: if you are concerned about something you expressed for input to have an effect on the output, this text is not for that. This is not a replacement for training or generative AI category. This is when assets are provided as input to train AI models
 
@@ -760,7 +760,7 @@ Eliot: Link is a form of attribution but there are other forms of attribution: l
 
 Suresh: Mike can you walk us through the ID you just submitted? if there is some purpose you want not met by this let us know 
 
-Krishna: one of the strenghts of display based: the text here address most concerns with the display based. Spam marking or safety marking is a different output than what we are talking about. There are limitations to think about it in terms of output. 
+Krishna: one of the strengths of display based: the text here address most concerns with the display based. Spam marking or safety marking is a different output than what we are talking about. There are limitations to think about it in terms of output. 
 
 Elaine: was it the intention to cover grounding? 
 
@@ -788,22 +788,22 @@ Erin: you can condition your preference on some requirements: AI output (ye) con
 
 Sonia: publishes harmful images
 
-Erin: by focusing on what is displayed to end user we have eliminated the cases that internally needed for safty. output is not AI process returns result, it's more about providing something. It's difficult to expresss. 
+Erin: by focusing on what is displayed to end user we have eliminated the cases that internally needed for safety. output is not AI process returns result, it's more about providing something. It's difficult to express. 
 
 Mike: AI output lives in broader context. Robots.txt doesn't solve the issue. You can carve out search. 
 
 Alissa: same question as sonia 
 
-Felix: agent question: we discussed definition of outputs could be specified. Just because you are handing off input to an agent, doesnt' mean this doesn't apply. If end result is not outcome delivered to the user then this category will not be affected
+Felix: agent question: we discussed definition of outputs could be specified. Just because you are handing off input to an agent, doesn't mean this doesn't apply. If end result is not outcome delivered to the user then this category will not be affected
 
 Ekr: I hit some API. how do you know what the end point is. It should be very clear which one it is. 
 
-Martin: the original intent was what was being presented. your point about API: the definitional part gets interesting---the text is trying to establish the susbtitutive aspect and only try to talk about that. When systems inteconnect the boundary between user and systems is unknown.The agentic question interesting. Agent producing multiple types of output, put it on a screen etc but if agent says please navigate to a web page, that would not be the intended use. 
-The question we need to ask is is it useful for some to ask for thsi and can it be professionaized 
+Martin: the original intent was what was being presented. your point about API: the definitional part gets interesting---the text is trying to establish the substitutive aspect and only try to talk about that. When systems interconnect the boundary between user and systems is unknown.The agentic question interesting. Agent producing multiple types of output, put it on a screen etc but if agent says please navigate to a web page, that would not be the intended use. 
+The question we need to ask is is it useful for some to ask for this and can it be professionalized 
 
-Leonard: introducting the agentic problem is complex: there is the output and input both. queries can be created by agents. It can be multi-agents. we should look at end user input and output. 
+Leonard: introducing the agentic problem is complex: there is the output and input both. queries can be created by agents. It can be multi-agents. we should look at end user input and output. 
 
-Ekr: what you want is that this is how you present system boundary. At the end of the day what is being spiited out follow ths signal. Maybe we can remove query. System boundary input and output. 
+Ekr: what you want is that this is how you present system boundary. At the end of the day what is being spitted out follows this signal. Maybe we can remove query. System boundary input and output. 
 
 Daniel: I don't understand if we have AI output no then it won't appear in search? 
 
@@ -815,18 +815,18 @@ Martin: we are still questioning what would happen if someone says no to AI Outp
 Leah: I wrote out categories and subs: in London we discussed sub categories tell me about them. 
 when we are talking about search, indexing etc. Search categories might benefit from sub categories overview, indexing, snippet. And then we can have AI training with its own definition etc
 
-Ekr: I read that even if you say no to AI output here is the link. I don't care about a precise product but we need to be clear to do AI processing. If that is the intent then it should be sharpet. 
+Ekr: I read that even if you say no to AI output here is the link. I don't care about a precise product but we need to be clear to do AI processing. If that is the intent then it should be sharpened. 
 
 Alissa: what do people view as the benefit of this approach to that of Krishna
 
-Paul: We see it as a merging of different approaches. Descirption of calling it output is better than display. Krishna's draft is a bit complicated we dont want to stress on different modalities and want to condense Krishna's draft. 
+Paul: We see it as a merging of different approaches. Description of calling it output is better than display. Krishna's draft is a bit complicated we dont want to stress on different modalities and want to condense Krishna's draft. 
 
-Krishna: there is a lot of discussion on output part being exponed to the users. The question is code generation aspect we didnt address as a part of display. I think the feedback is whether this is search centric or not. It is not. There still much work to be done to say what exactly an output is but it's a good start to bring all the drafts together. 
+Krishna: there is a lot of discussion on output part being exponed to the users. The question is code generation aspect we didn't address as a part of display. I think the feedback is whether this is search centric or not. It is not. There still much work to be done to say what exactly an output is but it's a good start to bring all the drafts together. 
 we have to consider that AI crawlers are collection mechanisms which we need to discuss. There needs to be reconciliation of proposals. 
 
-Mark: can we take a couple of polls? In the form of one asking: if you think Krishna's (display preference) or Erin's (AI output) proposal is the way foward? 
+Mark: can we take a couple of polls? In the form of one asking: if you think Krishna's (display preference) or Erin's (AI output) proposal is the way forward? 
 
-Mark: they are not altearnatives you can go for bothy 
+Mark: they are not alternatives you can go for both
 
 Paul: we started with Erin's draft both are there 
 
@@ -834,7 +834,7 @@ Felix: maybe we should say is this viable?
 
 Paul: maybe this would address the need for having an explicit search preference 
 
-Suresh: what are Mike and Leah (Cloudflare)thoughts?
+Suresh: what are Mike and Leah (Cloudflare) thoughts?
 
 Ekr: Concerned about how far humming is getting us. So we are trying to harmonize the drafts and it's great. But does this supersede Krishna's or are there cherry picked stuff? if the latter then it's concerning. 
 
@@ -858,13 +858,13 @@ Mark: lets see if this can be an laternative to search
 
 Suresh: Max has something too, we have a draft from Mike and Leah, see what is missing from this proposal 
 
-contentious. Other principle is simplicity so the audience at large understands it. Search, AI input, AI training. search is worth calling out. People understand traditional search better so they can easily allow it. AI input: might be slightly out of the charter, it's a good definition because we don't want the creator content be used for training down the line. AI trainig: content not to be ingested for training. 
+contentious. Other principle is simplicity so the audience at large understands it. Search, AI input, AI training. search is worth calling out. People understand traditional search better so they can easily allow it. AI input: might be slightly out of the charter, it's a good definition because we don't want the creator content be used for training down the line. AI training: content not to be ingested for training. 
 
-Paul: last sentence of each category refers to a top level category but this supposed to be a mistake and can be removed (cloudflare doesnt have a top level category)
+Paul: last sentence of each category refers to a top level category but this supposed to be a mistake and can be removed (Cloudflare doesn't have a top level category)
 
 Leonard: biggest concern is that definition of AI input locks it into search answers. AI input is better cause not limited to search. Everything is on the Internet from CF's perspective we need a set of vocabulary that work off the Internet and off the web. 
 
-Ekr: point of terminoglogy: this was not a design team that came up with a new proposal. there are 8 values here: search no input yes training yes so this means you can use this for anything but search? 
+Ekr: point of terminology: this was not a design team that came up with a new proposal. there are 8 values here: search no input yes training yes so this means you can use this for anything but search? 
 
 Mike: yes
 
@@ -880,7 +880,7 @@ Caleb: active consulting of a web index to create search results falls in 3.2. w
 
 Elaine: In defense of including the phrase "search results,"" because in each of these proposals, there us an issue of overloading terms. Unclear to stakeholders whats meant and implicated and unintended consequences so lumping them in has implications. 
 
-Paul: CF is simple but doesnt represent reality. Doesn't go into enough nuance. essentially reintroducing all the issues we have been trying to resolve. We cannot wish a reality where AI is not involved with the search result and CF's proposal seem to think we can. we need to create more understanding of creating more complexity. This looks much better than what we are producing but it won't work. 
+Paul: CF is simple but doesn't represent reality. Doesn't go into enough nuance. essentially reintroducing all the issues we have been trying to resolve. We cannot wish a reality where AI is not involved with the search result and CF's proposal seem to think we can. we need to create more understanding of creating more complexity. This looks much better than what we are producing but it won't work. 
 
 Krishna: I believe in simplicity and thats why I did an ID but this proposal has oversimplified things. if you pick AI category: by saying AI input is no or disallowed all of the safety protocol on the web will go away. this proposal is oversimplified. It's completely not viable. 
 
@@ -915,7 +915,7 @@ martin: the new category doesn't say anything about model training. so is model 
 erin: not confident we can understand and rank material if we can't train on it. 
 the thing a lot of people want to say is "i want the status quo ante with respect to search engines, but not new things"
 
-martin: because the new category doesn't say anything about training, it's irrelevant to this question. when we say yes to this ai output thing we're essnetially not saying anything about the training of the model. if we say there's a big black box and all we care about is what comes out of the box... 
+martin: because the new category doesn't say anything about training, it's irrelevant to this question. when we say yes to this ai output thing we're essentially not saying anything about the training of the model. if we say there's a big black box and all we care about is what comes out of the box... 
 
 erin: with the hybrid proposal we put together, there's a category of use that is constrained. we need to think more about how training and search interact. 
 
@@ -939,7 +939,7 @@ Gary: managed robots.txt for ten year. Kind of intuitive in its simplest form. W
 
 Suresh: yes, but AI training = yes is not straightforward to people what that means for Search. 
 
-Martin: possible solution: core insight that we have with Krishna and the hybrid design is to focus on the outputs. saying somethign about what the system can output relative to a given piece of content. The question around AI training can be answered the same way. If we change this from a process that happens in a server to a process focused onthe output, that's better. If we say you cannot use this content to produce a trained AI model, at its application boundary, then we can say something about trainign in the same way we are talking about outputs. We only talk about what's shown to the outside of a system. What artifact does the systme produce? if you think abotu the way in which meta has produced Llama, that process is a box that ultimate has inputs, which are a bunch of assets, and an output, which is a model with a set of particular weights. Might still be questions about substitution and other categories.  A model that is capable of producing somehthing that replaces some input. 
+Martin: possible solution: core insight that we have with Krishna and the hybrid design is to focus on the outputs. saying something about what the system can output relative to a given piece of content. The question around AI training can be answered the same way. If we change this from a process that happens in a server to a process focused on the output, that's better. If we say you cannot use this content to produce a trained AI model, at its application boundary, then we can say something about training in the same way we are talking about outputs. We only talk about what's shown to the outside of a system. What artifact does the system produce? if you think about the way in which meta has produced Llama, that process is a box that ultimate has inputs, which are a bunch of assets, and an output, which is a model with a set of particular weights. Might still be questions about substitution and other categories.  A model that is capable of producing something that replaces some input. 
 
 ekr: would OAI need to respect training preferences? 
 
@@ -948,23 +948,24 @@ martin: maybe. they sell access to the model.
 felix: very different from the conception of training in the EUAIAct.
 
 felix: erin you say that if you can't train on some content in the index, then maybe youcan't find it in search. is it possible that the model doing that is not a generative model, and wouldn't be covered by the generative opt out. 
-erin: probably fgenerative -- it makes the labels and summaries in the Webguide example, for example. 
+
+erin: probably generative -- it makes the labels and summaries in the Webguide example, for example. 
 
 ekr: can we go back to the use cases document? see how these structures suit those use cases? 
 
-ekr: seems to me like the nature of the .... new proposal is very output oriented. but the left hand of the diagram is very input oriented. can we reorient that to be more output-oriented as well? instead of google having to say "if you want to appear in our search index you should have these settings" it shoudl be obvious from the document what you have to say. 
+ekr: seems to me like the nature of the .... new proposal is very output oriented. but the left hand of the diagram is very input oriented. can we reorient that to be more output-oriented as well? instead of google having to say "if you want to appear in our search index you should have these settings" it should be obvious from the document what you have to say. 
 
 chris: if the result of this is that creators or publishers have to say generative ai training yes in order to appear in search, then that will not suit them. not an acceptable outcome for content creators to not have the ability to express the preference for different applications for their data, or using appearance in search as a lever. 
 
-paul: i understand th explanation you've given, erin. but i don't know if it doesn't undermine some of the essential understandings we have had so far. can you separate the use of assets to train models and the use of assets in the output of models? doesn't that violate the code of practice. lots of people had that expectation that these could be separated. if not, our work is much more complicated. 
+paul: i understand the explanation you've given, erin. but i don't know if it doesn't undermine some of the essential understandings we have had so far. can you separate the use of assets to train models and the use of assets in the output of models? doesn't that violate the code of practice. lots of people had that expectation that these could be separated. if not, our work is much more complicated. 
 
 erin: a statement about a GPAI is not necessarily a statement about a ranking system, but also there are words of limitation for a reason. 
 
 ekr: let's not use this forum to discuss whether companies are complying with commitments. 
 
-pedro: regarding martin's remark -- probably a better approach. but one quesiton is existence of open source models. some of these technologies, the problem is they have multiple applications. technology behind a search engine is very similar to technology behind a generative model. given the state of searhc today, you could probably take a model trained for search and use it to generate content. so then we focus on purpose and output. but then there are some actors training open source models, even funded by the EU to have generative models in their local languages. so these things that are open source get extremely restrained in this scenario, because an end use can use the model in whatever way they want. so what's the solution? 
+pedro: regarding martin's remark -- probably a better approach. but one question is existence of open source models. some of these technologies, the problem is they have multiple applications. technology behind a search engine is very similar to technology behind a generative model. given the state of search today, you could probably take a model trained for search and use it to generate content. so then we focus on purpose and output. but then there are some actors training open source models, even funded by the EU to have generative models in their local languages. so these things that are open source get extremely restrained in this scenario, because an end use can use the model in whatever way they want. so what's the solution? 
 
-martin: to the extent you're publishing a model with open weights, those would be governed by the preferences. it gets interesting that in the course of developing a search engine you might also develop a model capable of other things, and then you might not be able to use the model for those other things, due to the preferences. if you release amodel with open weights, and then someone uses that to operate a search engine, that would not be acceptable because they would have had to abide by those restrictions. 
+martin: to the extent you're publishing a model with open weights, those would be governed by the preferences. it gets interesting that in the course of developing a search engine you might also develop a model capable of other things, and then you might not be able to use the model for those other things, due to the preferences. if you release a model with open weights, and then someone uses that to operate a search engine, that would not be acceptable because they would have had to abide by those restrictions. 
 
 pedro: the scenario that gets a little bit complicated is that if you are a private company that is not releasing the weights, that's ok. but if you want to release your model open source that could be used for more than one thing, they'd be governed by stricter standards. disadvantaging smaller players. 
 
@@ -982,9 +983,9 @@ paul: we have had this discussion before. the point is if you train a model and 
 
 suresh: following up on pedro. common crawl crawls a lot of things. what stops someone making a smaller dataset that has more restrictive permissions, like gai ok?
 
-erin: maybe we are just at the end of a long day. but why is the open model case different from any otehr case. when you train a model you select the set of content and that conditions what you can use the model for. if you've included content that is not allowed for training a generative model, then you can't use that model for generative ai. 
+erin: maybe we are just at the end of a long day. but why is the open model case different from any other case. when you train a model you select the set of content and that conditions what you can use the model for. if you've included content that is not allowed for training a generative model, then you can't use that model for generative ai. 
 
-paul: at which point it is not an open source model anyore because downstream restrictions. 
+paul: at which point it is not an open source model anymore because downstream restrictions. 
 
 erin: do people who want to release open source models, do we train on the more restrictive set, or do we allow the models' restrictions to be passed through. 
 
@@ -992,9 +993,9 @@ ekr: this is not the right level of analysis -- the legal issues vary by jurisdi
 
 ekr: as a practical matter, all these models are generative. and you either use them generatively or you don't use them generatively. yes? is it even a meaningful distinction. 
 
-pedro: it's difficult, but yes, it's almost always generative. the distinction between ai training and gai training is exptremely complicated from a technical pov. whatever actor takes a general purpose ai they can potentially use it for generative. 
+pedro: it's difficult, but yes, it's almost always generative. the distinction between ai training and gai training is extremely complicated from a technical pov. whatever actor takes a general purpose ai they can potentially use it for generative. 
 
-pedro: yes, you can take a subset of common crawl data and take only a part with approriate permissions. but it creates an imbalance. why? because private companies get to train on more things than those training identical models with the intention to release them open source. 
+pedro: yes, you can take a subset of common crawl data and take only a part with appropriate permissions. but it creates an imbalance. why? because private companies get to train on more things than those training identical models with the intention to release them open source. 
 
 mnot: if we can to make some concrete progress that would be great. some people are going to meet between now and tomorrow's meeting and can bring back more proposed text. 
 
@@ -1002,9 +1003,9 @@ max: proposes we add an optional pointer to the terms of service. meant to be ad
 
 thom: TOS texts are not machine readable. this would just not work at scale. impractical. you can put a pointer if you like, but it would not be useful. 
 
-martin: we have link relations and there's a link relation called terms of service. but others might also be useful. tha'ts already present in http, but if you care about this, adding some generic linking capability in robtos.txt that might be interesting. but also since you're getting robots over http, you could put in a link that way. the qquestion is to what extent is it bound to the resources in robots.txt. 
+martin: we have link relations and there's a link relation called terms of service. but others might also be useful. that's already present in http, but if you care about this, adding some generic linking capability in robots.txt that might be interesting. but also since you're getting robots over http, you could put in a link that way. the question is to what extent is it bound to the resources in robots.txt. 
 
-mnot: web linking rfc also has the concept of an application, such as what are the link relations that are meaningful in that contenxt. perhaps beyond the scope. 
+mnot: web linking rfc also has the concept of an application, such as what are the link relations that are meaningful in that context. perhaps beyond the scope. 
 
 mark gray: is this going to take a single value, or multiple values? many sites have more than one source of terms. 
 
@@ -1014,15 +1015,15 @@ irina: current problem is that robots.txt sometimes mismatches terms of service.
 
 max: we could hammer that out. will probably be a conversation around which parts of this are standardizable, and perhaps TOS is not one of those places. having the pointer is just a starting place for the conversation. 
 
-James: goes to machine readability. if TOS aren't machine readibility, what's the purpose of the pointer? what are people to do with this? does it turn TOS into something machine readable? 
+James: goes to machine readability. if TOS aren't machine readability, what's the purpose of the pointer? what are people to do with this? does it turn TOS into something machine readable? 
 
 max: briefly a number of fine folks in this room have built some machines that can do some very good reading. generally it is a useful qualifier for publishers to say hey not everything here is covered in robots.txt or by this vocabulary, so hey here's a link to our TOS. at the least it's a useful signal for the ecosystem
 
-james: TOS are a legal mechanism designed for people. and robots.txt is a technical mechamism designed for bots. 
+james: TOS are a legal mechanism designed for people. and robots.txt is a technical mechanism designed for bots. 
 
-max: yeah, look, i mean the natural language component of terms of service are deisgned for people, but it migth be helpful also for the bots to look at it. 
+max: yeah, look, i mean the natural language component of terms of service are deisgned for people, but it might be helpful also for the bots to look at it. 
 
-gary: this was raised and rejected earlier -- the models will continue to hallucinate, different models think about differnt things. if tos is a legal document, how do we deal with the legal ramifications? 
+gary: this was raised and rejected earlier -- the models will continue to hallucinate, different models think about different things. if tos is a legal document, how do we deal with the legal ramifications? 
 
 max: it was more like a lukewarm no last year, which i was part of. and now the development of this discussion have convinced me this might be useful. 
 
@@ -1057,7 +1058,7 @@ Mark Nottingham: One approach would be to make approaches crisp in different dra
 
 Erin Simon: Distinguishing between product types is brittle because those evolve over time. Better to define around behavior.
 
-Chris Needham: concerns fromt he publishing industry regarding the definition of where content can be used, "all of these things are intermixed aninseperable" is not adequate
+Chris Needham: concerns fromt he publishing industry regarding the definition of where content can be used, "all of these things are intermixed and inseparable" is not adequate
 
 Krishna Madhavan: No easy way to have these conversations, we're all tired, it was nice to have something to ground our conversations on, I am optimistic, nice to see trust.  Questions that still exist: "Do we specify product categories? or do we focus on the kinds of outcomes that come from the technology?"  The focus on AI outputs is a good thing. How do we articulate better in the drafts, **should search be a category? I believe it should not.**  There are still fundamental questions that need answering.  There is a lot more space to have these trusted conversations
 
@@ -1102,7 +1103,7 @@ Subgroup report:
 
 In summary:
 1. AI output is more narrowly defined AI inference/use focussing on output/use
-2. Contention on nesting/hiearachy ("Lederhosen" as a subcategory)
+2. Contention on nesting/hierarchy ("Lederhosen" as a subcategory)
 3. Shift in training side of things
     - "Foundational model" better matches expectations than "general purpose" or "generative model"
 
