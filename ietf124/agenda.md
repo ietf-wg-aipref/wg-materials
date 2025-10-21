@@ -30,6 +30,9 @@ Meetecho - [full client](https://meetings.conf.meetecho.com/ietf124/?session=347
 
 *	3 min - Scribe selection / NOTE WELL
 *	2 min - Agenda bashing
+
+### Attachment Draft
+
 * 10 min - Summary of Status (Editors)
 * 20 min - Open issue review - [issues](https://github.com/ietf-wg-aipref/drafts/issues?q=is%3Aissue%20state%3Aopen%20-label%3Aeditorial%20label%3A%22location%20attachment%22)
 * 25 min - Discussion
