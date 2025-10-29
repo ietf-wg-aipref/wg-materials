@@ -1,5 +1,6 @@
 # AIPREF Working Group Agenda - IETF 124
 
+* [Meeting details](https://www.ietf.org/meeting/124/) _including registration_
 * [Meeting chat](https://zulip.ietf.org/#narrow/stream/aipref)
 * [Minutes](https://notes.ietf.org/notes-ietf-124-aipref) _requires [datatracker](https://datatracker.ietf.org) login_
 
