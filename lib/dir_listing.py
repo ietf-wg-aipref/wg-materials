@@ -1,6 +1,7 @@
 import re
 import os
 from os import path
+import shutil
 import sys
 
 ignore_things = ['lib', 'assets', 'README.md', 'badge']
