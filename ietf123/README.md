@@ -6,4 +6,4 @@
 
 - [Agenda](agenda.md) 
 - [Minutes](minutes.md) 
-- [aipref](summary.md) 
+- [Meeting Summary for aipref](summary.md) 

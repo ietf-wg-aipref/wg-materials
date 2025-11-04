@@ -1,6 +1,12 @@
-**Session Date/Time:** 20 Mar 2025 06:00
 
-# aipref
+# Meeting Summary for aipref
+
+**NOTE**: this is a non-normative, AI-generated summary supplied only for convenience; it does not necessarily represent an accurate record of the meeting. See the minutes for the authoriative record. See [the source](https://ietfminutes.org/) for more information.
+
+
+# Session: 20250320-0600
+
+
 
 ## Summary
 The inaugural meeting of the AI Preferences Working Group focused on defining the scope and direction of the group's work, including a vocabulary for expressing AI preferences, mechanisms for attaching these preferences to IETF protocols, and strategies for reconciling multiple preference expressions. Key discussions revolved around simplifying the vocabulary, attachment locations (Robots.txt, HTTP headers), opt-in/opt-out models, and the challenging issue of combining preferences. The meeting also addressed potential collaborations with other standards organizations and the need to manage expectations with policymakers.

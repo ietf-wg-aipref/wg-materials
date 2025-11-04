@@ -1,6 +1,12 @@
-**Session Date/Time:** 21 Jul 2025 12:30
 
-# aipref
+# Meeting Summary for aipref
+
+**NOTE**: this is a non-normative, AI-generated summary supplied only for convenience; it does not necessarily represent an accurate record of the meeting. See the minutes for the authoriative record. See [the source](https://ietfminutes.org/) for more information.
+
+
+# Session: 20250721-1230
+
+
 
 ## Summary
 The AI Preferences (aipref) working group meeting focused on reviewing the progress made at the recent design team meeting in London, discussing new drafts, and addressing open issues related to AI preferences for content crawling and processing. The group emphasized the importance of staying within the scope of their charter, which is to standardize building blocks for expressing preferences, not to dictate policy on AI usage. Discussions centered around vocabulary definitions, attachment mechanisms, and the applicability statement for the framework.
