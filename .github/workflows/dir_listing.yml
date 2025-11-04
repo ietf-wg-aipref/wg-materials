@@ -28,7 +28,7 @@ jobs:
       with:
         node-version: 24
     - name: Install doctoc
-      run: num install -g doctoc
+      run: npm install -g doctoc
     - name: doctoc summaries
       run: find . -name summary.md -exec doctoc {} \;
     - name: Push update
