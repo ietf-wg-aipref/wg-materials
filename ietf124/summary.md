@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Session Summary: 20251103-2200](#session-summary-20251103-2200)
+  - [Summary](#summary)
+  - [Key Discussion Points](#key-discussion-points)
+    - [General Context and Status](#general-context-and-status)
+    - [Foundation Model Production](#foundation-model-production)
+    - [Search (Tentatively named "Exact Text Match" / "Laterhosen")](#search-tentatively-named-exact-text-match--laterhosen)
+    - [AI Output](#ai-output)
+  - [Decisions and Action Items](#decisions-and-action-items)
+    - [Decisions](#decisions)
+    - [Action Items](#action-items)
+  - [Next Steps](#next-steps)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 
 **NOTE**: This is a non-normative, AI-generated summary supplied only for convenience; it does not necessarily represent an accurate record of the meeting. See the minutes for the authoriative record. See [the source](https://ietfminutes.org/) for more information.
