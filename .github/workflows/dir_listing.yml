@@ -7,10 +7,10 @@ jobs:
   dir_listings:
     runs-on: ubuntu-latest
     steps:
-    - name: clone gh-pages
+    - name: clone main
       uses: actions/checkout@v5
       with:
-        ref: gh-pages
+        ref: main
     - name: clone auto-minutes
       uses: actions/checkout@v5
       with:
