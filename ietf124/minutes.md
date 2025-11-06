@@ -1,5 +1,18 @@
-
 # AI Preferences - IETF 124 Minutes
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Monday, 3 November](#monday-3-november)
+  - [Overview (Martin) slides](#overview-martin-slides)
+  - [Foundation Models](#foundation-models)
+  - [Search](#search)
+  - [AI Output](#ai-output)
+- [Wednesday, 5 November](#wednesday-5-november)
+  - [Discussion on top-level category](#discussion-on-top-level-category)
+  - [Chair summary](#chair-summary)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
 
@@ -260,7 +273,7 @@ Lila: I agree with those who advocate layperson understandability.  Will try to 
 
 (Scribe: Christopher Patton)
 
-## Discussion on top-level category
+### Discussion on top-level category
 
 * Whiteboard notes from a previous meeting
     * **For top-level**
