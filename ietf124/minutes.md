@@ -1,117 +1,5 @@
 
-# AIPref, Nov. 5
 
-(Scribe: Christopher Patton)
-
-## Discussion on top-level category
-
-* Whiteboard notes from a previous meeting
-    * **For top-level**
-        * Valid to express demand
-        * Known / unknown / rapid change
-        * Complete vocabulary
-        * Alignment w/ regulation
-        * Suits opt-in / optional
-        * Promotes market
-        * Ease of use
-        * Vocabulary portability
-    * **Against top-level**
-        * Unintended consequences
-        * Inhibits innovation
-        * Misalignment w/ regulation
-        * Bleed into non-A.I.
-        * Inconsistent understanding
-        * Charter impact
-        * Definitional impossibility
-        * Learning sharp tools
-
-* Lila Bailey: Accessibility tools
-    * Many use the tools we're talking about here
-    * If the only answer to those making htis tools is "too bad, you can't follow our standard", then I think we're doing something wrong
-
-* Ted Hardie: We're looking at this as a hierarchy
-    * Category of unknown uses
-    * Trying to find ways to express how a piece of content can be used
-    * Need default behavior for unknown uses
-    * Chair followup: What would be a reasonable default?
-        * In the absence of a preference on the part of the content creator, the action is up to the consumer
-
-* Timid Robot:
-    * If we replace the hierarchy with an undefined-in-stated-preferences category, we don't remove the problem of unintended consequences
-    * If we reduce the scope of the top level category, would that address Lila's concerns?
-        * Lila: I'm in favor of narrowing the top level category to somehwere in the AI space
-            * People use AI tools for accessibility
-            * Stomps on rights a bit: There's a lot of things I'm allowed to do with a physical book; I should have the same freedom when consuming a website
-
-* Meredith: What's useful for content creators is not useful for people consuming the web
-    * Disabled peoples' advocates aren't in the conversation
-    * Some preferences should not be enshrined in the standard because they're not socially beneficial
-    * Universal design: we need to default to open (for accessibility and other things)
-
-* Martin T.: We all have different definitions of the top level hierarchy in our heads
-    * "human versus automated" maybe one way of slicing the data
-    * We're pulling from legislation that is behind the state-of-the-art => we need new text.
-    * Need constructive ideas for how to improve things rather than just hearing the standard doesn't work
-    * Question of hierarchy or not is not useful: better to try and improve what we have
-
-* Bradley: There's a worry that if we don't define this category, then someone else will
-    * "Veto power" is loaded
-    * we're not opearting in a world where there's visibility into what crawlers do
-        * if you don't tell me who you are, then let me tell you what I am willing to let you do with my content
-
-* Alissa: Geopref WG (from back in the day) had a very similar to debate
-    * People do whatever they want with the things you don't define. Nothing we can do about that.
-    * Glad Section 3.2 is there, but it's not sufficient
-    * I dno't see the value of the top-level category
-    * If the other three categories can be defined, then maybe don't bother with this one
-
-
-* EKR: Structure of the spec: if there is some use that's not written, then there's a "catch all"
-    * There doesn't seem to be consensus about whether this is the right thing to do
-    * robots.txt says: "googlebot can't scrape me"; it doesn't say "googlebot can't scrame me for reason X or reason Y"
-
-* Ted:
-    * AI preferences will change over time
-    * We're struggling with whether preferences should be *complete*. But in reality, we're not going to express a preference for every behavior.
-
-* Glenn
-    * Concurs with Ted regarding allowing AI preferences to change and be non-exhaustive
-    * Act of publishing content along with policy expresses that they want their content to be used in some way
-
-* Roberta:
-    * From side meeting this morning: From the point of view of how we deal with privacy and users' rights, users have a limited choice in practice. 
-    * we know that robotx.txt is not enforced
-
-* Victoria:
-    * Publishers are not trying to limit accessibilitty
-    * fundamental problem of a top-level category is that we don't know what unanticipated good or bad uses there will be
-    * We shouldn't do it if it limits unanticipated good uses
-    * Maybe useful for publishers or operators, but users are more important
-
-* Paul: Unware of any EU law that is relevant here
-    * Erin Simon: Not true
-        * The EU commisssion wil treat the standards that come out fo this group as binding, if the IETF can demonstrate feasibility
-        * Naive to think all we're doing is allowing websites to express preferences
-        * It's our responsibility to get this right
-        * A standard doesn't have to gover every possible use of a piece of content
-        * robots.txt applies to crawlers and not users
-        * Do we really need a category that applies to every possible use?
-    * Chair: IETF is not the protocol poiice
-    * [Back and fourth among chairs, Pual, and Erin about how EU will be applied.]
-    * Erin: We all agree that there are some categories that need not be defined. We may also agree that there are some categories that are acively harmful
-
-* Timid Robot: Argument about cost is compelling--curious about whether adding it back later is possible (when it is more mature)
-* Meredith: We're thinking of a tech sophisticated users, but most users are going to use commercially available tools to make the web accessible
-* Nate: Defaults are working for encumbents
-
-### Chair summary
-
-* No consensus on top-level.
-    * Chairs will ask folks what use cases they have for this category and how else we might address it
-* "training" term seems promising
-* "search" term seems promising
-* "AI output" term needs discussion. Text is more of a distraction than basis for future work.
-* **Consensus call on the list**
 
 
 # AIPref, Nov. 3
@@ -320,3 +208,119 @@ Victoria: does address to some extent, but will still have impacts.
 EKR: you  suggested 3rd paragraph, the undesirable consequence: even if you stipulate this is nested, there are other types of training.  Not saying it can't be fixed but you will have trouble
 
 Lila: I agree with those who advocate layperson understandability.  Will try to come up with language. Also concerned about substitutive use, but competition is important for society, need to think the balance of tools give vs. narrowing what people can do on the web.  Section 3.2 very important - need to maintain that there are good reasons not to follow the standards.  Flexibility is important, more risk averse entities may not take advantage so concerns remain, especially for those needing accessibility. 
+
+
+
+# AIPref, Nov. 5
+
+(Scribe: Christopher Patton)
+
+## Discussion on top-level category
+
+* Whiteboard notes from a previous meeting
+    * **For top-level**
+        * Valid to express demand
+        * Known / unknown / rapid change
+        * Complete vocabulary
+        * Alignment w/ regulation
+        * Suits opt-in / optional
+        * Promotes market
+        * Ease of use
+        * Vocabulary portability
+    * **Against top-level**
+        * Unintended consequences
+        * Inhibits innovation
+        * Misalignment w/ regulation
+        * Bleed into non-A.I.
+        * Inconsistent understanding
+        * Charter impact
+        * Definitional impossibility
+        * Learning sharp tools
+
+* Lila Bailey: Accessibility tools
+    * Many use the tools we're talking about here
+    * If the only answer to those making htis tools is "too bad, you can't follow our standard", then I think we're doing something wrong
+
+* Ted Hardie: We're looking at this as a hierarchy
+    * Category of unknown uses
+    * Trying to find ways to express how a piece of content can be used
+    * Need default behavior for unknown uses
+    * Chair followup: What would be a reasonable default?
+        * In the absence of a preference on the part of the content creator, the action is up to the consumer
+
+* Timid Robot:
+    * If we replace the hierarchy with an undefined-in-stated-preferences category, we don't remove the problem of unintended consequences
+    * If we reduce the scope of the top level category, would that address Lila's concerns?
+        * Lila: I'm in favor of narrowing the top level category to somehwere in the AI space
+            * People use AI tools for accessibility
+            * Stomps on rights a bit: There's a lot of things I'm allowed to do with a physical book; I should have the same freedom when consuming a website
+
+* Meredith: What's useful for content creators is not useful for people consuming the web
+    * Disabled peoples' advocates aren't in the conversation
+    * Some preferences should not be enshrined in the standard because they're not socially beneficial
+    * Universal design: we need to default to open (for accessibility and other things)
+
+* Martin T.: We all have different definitions of the top level hierarchy in our heads
+    * "human versus automated" maybe one way of slicing the data
+    * We're pulling from legislation that is behind the state-of-the-art => we need new text.
+    * Need constructive ideas for how to improve things rather than just hearing the standard doesn't work
+    * Question of hierarchy or not is not useful: better to try and improve what we have
+
+* Bradley: There's a worry that if we don't define this category, then someone else will
+    * "Veto power" is loaded
+    * we're not opearting in a world where there's visibility into what crawlers do
+        * if you don't tell me who you are, then let me tell you what I am willing to let you do with my content
+
+* Alissa: Geopref WG (from back in the day) had a very similar to debate
+    * People do whatever they want with the things you don't define. Nothing we can do about that.
+    * Glad Section 3.2 is there, but it's not sufficient
+    * I dno't see the value of the top-level category
+    * If the other three categories can be defined, then maybe don't bother with this one
+
+
+* EKR: Structure of the spec: if there is some use that's not written, then there's a "catch all"
+    * There doesn't seem to be consensus about whether this is the right thing to do
+    * robots.txt says: "googlebot can't scrape me"; it doesn't say "googlebot can't scrame me for reason X or reason Y"
+
+* Ted:
+    * AI preferences will change over time
+    * We're struggling with whether preferences should be *complete*. But in reality, we're not going to express a preference for every behavior.
+
+* Glenn
+    * Concurs with Ted regarding allowing AI preferences to change and be non-exhaustive
+    * Act of publishing content along with policy expresses that they want their content to be used in some way
+
+* Roberta:
+    * From side meeting this morning: From the point of view of how we deal with privacy and users' rights, users have a limited choice in practice. 
+    * we know that robotx.txt is not enforced
+
+* Victoria:
+    * Publishers are not trying to limit accessibilitty
+    * fundamental problem of a top-level category is that we don't know what unanticipated good or bad uses there will be
+    * We shouldn't do it if it limits unanticipated good uses
+    * Maybe useful for publishers or operators, but users are more important
+
+* Paul: Unware of any EU law that is relevant here
+    * Erin Simon: Not true
+        * The EU commisssion wil treat the standards that come out fo this group as binding, if the IETF can demonstrate feasibility
+        * Naive to think all we're doing is allowing websites to express preferences
+        * It's our responsibility to get this right
+        * A standard doesn't have to gover every possible use of a piece of content
+        * robots.txt applies to crawlers and not users
+        * Do we really need a category that applies to every possible use?
+    * Chair: IETF is not the protocol poiice
+    * [Back and fourth among chairs, Pual, and Erin about how EU will be applied.]
+    * Erin: We all agree that there are some categories that need not be defined. We may also agree that there are some categories that are acively harmful
+
+* Timid Robot: Argument about cost is compelling--curious about whether adding it back later is possible (when it is more mature)
+* Meredith: We're thinking of a tech sophisticated users, but most users are going to use commercially available tools to make the web accessible
+* Nate: Defaults are working for encumbents
+
+### Chair summary
+
+* No consensus on top-level.
+    * Chairs will ask folks what use cases they have for this category and how else we might address it
+* "training" term seems promising
+* "search" term seems promising
+* "AI output" term needs discussion. Text is more of a distraction than basis for future work.
+* **Consensus call on the list**
