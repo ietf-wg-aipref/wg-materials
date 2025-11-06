@@ -1,8 +1,9 @@
 
+# AI Preferences - IETF 124 Minutes
 
 
 
-# AIPref, Nov. 3
+## Monday, 3 November
 
 mnot: [slides](https://datatracker.ietf.org/meeting/124/materials/slides-124-aipref-overview-00). updated milestone August 2026, still in question
 
@@ -59,6 +60,7 @@ Suresh: Productive discussions need to rely on these as a foundation
 Mark: Happy to talk about the four terms. Order is based on "solidity". Goal is to get solid things out of the way first
 
 ### Foundation Models
+
 Roberta:  foundation models related to the article foundational agents that construct the LLM models?  There is a 300 page article (https://arxiv.org/abs/2504.01990). 
 Martin: No not familiar to that 
 Roberta: how is search part of this conference? It seems to be unused 
@@ -94,6 +96,7 @@ Mark: there is a broader category
     Timid Zehta: want more information on articulating IP/copyright of the declaring party.  Seems counterproductive for expressing preference. While many want expression because they are copyright holder, others want cost(? please corroborate) of the provider making the declaration. Tying back to other legal rights might reduce efficacy and duplicate controls/legislation that already exists
     
 ### Search
+
 See the slildes for 4.4 Search
 Martin: "I think the previous search definition was better" (audience laughs)
 Alissa: It is easier to consider without nesting
@@ -139,6 +142,7 @@ Victoria: all these definitions sweep up a lot but search tools now do not inlud
 
 
 ### AI Output
+
 Mark: this is new post-Zurich but we want any reflection we can get
 
 Erin: the idea was to focus only on output, use of clients re-introduces the internals that we tried to exclude.  There has to be a way to strongly define this as an external boundary not just internals talking together
@@ -211,7 +215,7 @@ Lila: I agree with those who advocate layperson understandability.  Will try to 
 
 
 
-# AIPref, Nov. 5
+## Wednesday, 5 November
 
 (Scribe: Christopher Patton)
 
