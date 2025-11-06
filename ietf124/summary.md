@@ -4,13 +4,12 @@
 - [Session Summary: 20251103-2200](#session-summary-20251103-2200)
   - [Summary](#summary)
   - [Key Discussion Points](#key-discussion-points)
-    - [General Context and Status](#general-context-and-status)
+    - [Working Group Context and Editor's Update (Martin Thomson)](#working-group-context-and-editors-update-martin-thomson)
+    - [Top-Level Category: Automated Processing](#top-level-category-automated-processing)
     - [Foundation Model Production](#foundation-model-production)
-    - [Search (Tentatively named "Exact Text Match" / "Laterhosen")](#search-tentatively-named-exact-text-match--laterhosen)
+    - [Search (previously nested under AI output)](#search-previously-nested-under-ai-output)
     - [AI Output](#ai-output)
   - [Decisions and Action Items](#decisions-and-action-items)
-    - [Decisions](#decisions)
-    - [Action Items](#action-items)
   - [Next Steps](#next-steps)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -27,84 +26,67 @@
 
 ## Summary
 
-The AIPREF Working Group met to discuss the current status of its documents and gather preliminary feedback on newly published drafts, which attempt to address issues raised during a failed Working Group Last Call (WGLC). Milestones have been extended to August 2026, reflecting the significant work still needed to reach consensus. The session focused on an editor's update and detailed discussion of four key vocabulary terms: Foundation Model Production, Search, AI Output, and the top-level "Automated Processing" category. No final decisions were made, with the meeting serving as a starting point for further deliberation. Key themes included the clarity and scope of definitions, the challenges of distinguishing between different AI uses, and the need for definitions understandable to end-users.
+The AIPREF working group met to review and discuss the latest revisions to the core drafts, which were developed following extensive discussions at the Zurich meeting. The primary goal was to gather preliminary feedback on the new conceptual framework and definitions, particularly for "Foundation Model Production," "AI Output," "Search," and the top-level "Automated Processing" category. It was acknowledged that the working group is effectively "back to square one" after a failed WG Last Call, and new milestones are set for August 2026 to reflect ongoing uncertainties. Discussions revealed significant contention and areas requiring further clarification for all proposed terms, with a notable consensus reached to un-nest "Search" from "AI Output."
 
 ## Key Discussion Points
 
-### General Context and Status
+### Working Group Context and Editor's Update (Martin Thomson)
 
-*   The previous Working Group Last Call (WGLC) for drafts failed due to strong disagreements within the group.
-*   Working Group milestones have been updated to August 2026, reflecting the significant uncertainties and progress needed for consensus.
-*   New drafts were recently published, incorporating discussions from the Zurich meeting, but these are tentative and require preliminary feedback.
-*   This meeting aimed to gauge if the new direction is fruitful, rather than making final decisions.
+*   **Current Status:** The working group experienced strong disagreements after the Brussels meeting, leading to a failed WG Last Call and a reset of milestones to August 2026.
+*   **Zurich Discussions & New Drafts:** Recent drafts attempt to reflect extensive discussions from the Zurich meeting, but are considered "tentative ideas" for preliminary feedback. The goal is to determine if this new direction is fruitful for ongoing work.
+*   **Previous Model Challenges:** The prior model, with categories like "AI training" and "generative AI training," faced issues due to differing understandings of "search" and the extent of AI involvement. Search providers indicated they not only use but also train models in the process of generating search results.
+*   **New Conceptual Framework:**
+    *   "AI training" and "generative AI training" are collapsed into "producing a foundation model."
+    *   "Search" is now distinct, alongside a new "AI output" category, though its nesting within "AI output" is currently uncertain.
+*   **Four Major Terms for Discussion:** "Foundation Model Production," "Search," "AI Output," and the top-level "Automated Processing."
+
+### Top-Level Category: Automated Processing
+
+*   This overarching category remains highly contested.
+*   A key point of disagreement revolves around its role in addressing "unexpected uses" or "unintended consequences." Some desire a top-level category to explicitly allow or disallow unknown future uses, while others view this as problematic.
 
 ### Foundation Model Production
 
-*   **Intent:** The goal was to shift focus to the *output* (the foundation model itself) rather than the internal processes of "AI training," which proved difficult to define. Foundation models are generally well-understood as having generative capabilities.
-*   **Concerns:**
-    *   The definition of "producing a foundation model" currently includes "fine-tuning," which is an unclear term with various interpretations (e.g., prompt engineering vs. weight changes). There was a call to consider fine-tuning separately.
-    *   A broad category might be too encompassing for content owners wishing to express specific preferences about the use of their content in fine-tuning applications.
-    *   The overall scope: Is the combination of "Foundation Model Production" and "AI Output" intended to cover all possible uses of AI systems?
-*   **Suggestions:**
-    *   Utilize widely-agreed-upon external definitions for "foundation model" where possible, noting minor variations.
-    *   Develop a concrete set of "use cases" to test the proposed definitions against, to ensure they address real-world scenarios.
-    *   Consider the user's *intent* for expressing preferences rather than focusing solely on the technical *how*.
-    *   Explore dimensional approaches (e.g., data aggregation, preservation of context) instead of strict taxonomies for defining uses.
-    *   Crawlers need to be able to self-categorize their activities within these definitions.
-    *   The discussion on declarant clarity (e.g., social media platforms declaring preferences on behalf of users) was noted for future discussion under "attachment."
+*   **Intent:** To focus on the *output* (the foundation model itself) rather than internal system processes, avoiding the difficult distinction between simple machine learning and "AI training." Foundation models are generally better understood than "generative AI training."
+*   **Scope:** There was a question of whether "AI output" combined with "AI model production" covers the entire universe of AI systems. The editor indicated it covers much of the space but could not definitively guarantee completeness.
+*   **"Fine-tuning" Definition:** The current definition includes "fine-tuning," but this term is ambiguous. It encompasses various techniques (e.g., prompt engineering, LoRA) and is not clearly understood or uniformly applied.
+*   **Reusing Existing Definitions:** A suggestion was made to leverage widely agreed-upon definitions for foundation models where possible, noting variations primarily in parameter count or specific training methods (e.g., self-supervised learning).
+*   **"Why" vs. "How":** Ted Hardy emphasized focusing on *why* a user would express a preference (e.g., for citations, answers, or interactions) in understandable terms, rather than complex technical "hows" of model creation.
+*   **Declarant Clarity:** Fars highlighted the need for clarity on who the "declarant" is (e.g., WordPress, social media platforms) and the transparency required when preferences are declared on behalf of others.
+*   **Preference & IP:** Timit Robot cautioned against tying AI preferences directly to intellectual property status, as it might limit efficacy or duplicate existing legal frameworks.
 
-### Search (Tentatively named "Exact Text Match" / "Laterhosen")
+### Search (previously nested under AI output)
 
-*   **Historical Context:** `search` was introduced early on to specifically allow search engines to operate, as disallowing AI training could inadvertently disable search. Modern search applications increasingly leverage foundation models.
-*   **Proposed Structure:** The current draft tentatively nests `search` as a subcategory of `AI Output`, defined by two conditions: presenting a reference to the asset's location and using verbatim excerpts.
-*   **Key Issues & Consensus:**
-    *   There was a strong, widespread consensus that **nesting `search` under `AI Output` is problematic and should be removed.** It complicates explanation for declarants and conceptually separates a specific, long-standing use case from a broader, newer category.
-    *   The term "search" itself is ambiguous due to its constantly evolving nature and differing user expectations of what "search" entails (e.g., 10 blue links vs. AI overviews).
-    *   The "verbatim excerpts" requirement was criticized for potentially still leading to "substitutive use" outcomes if the excerpt is too long or crucial.
-    *   Concerns were raised about how to define "search" in a way that allows for essential functionality (like sending traffic back to original sites) while preventing unwanted substitutive uses, especially for small content creators.
-*   **Suggestions:**
-    *   Use more precise terms like "citation search," "indexing search," or "referencing search" to clarify intent.
-    *   Consider a broader "derivative works" category that would encompass `search` but not be limited to it.
-    *   Explore concepts from Krishna's draft, which includes more granular categories like indexing, retrieval, display length, image, video, and exact match.
-    *   Definitions should facilitate a "fair exchange" where content usage leads to appropriate returns (e.g., user traffic).
-    *   Ensure definitions do not inadvertently prevent socially beneficial uses such as accessibility features or translation.
+*   **Original Intent:** "Search" was initially included as an exception to prevent general AI restrictions from inadvertently disabling search, a widely accepted application.
+*   **Nesting Controversy:** Strong feedback indicated that nesting "Search" under "AI Output" is confusing and illogical, given the broad scope of "AI output" and the distinct nature of search expectations.
+*   **User Understanding:** Meredith Jacob noted that while "search" is a concept users understand, they primarily care about *why* a tool is used (e.g., for competitive/substitutional purposes vs. assistive uses), not the tool itself. She questioned the ability to distinguish these uses, especially with open-weight models.
+*   **Definition Challenges:** Mikaela argued that the term "search" itself is problematic due to continuously evolving user expectations. The current definition's focus on "reference and link back" and "verbatim excerpts" was highlighted as key, but the "verbatim excerpts" point was debated as still potentially enabling substitutive use (Brad).
+*   **Alternative Categorization:** Mallory Nodal suggested a broader "derivative works" category that would encompass search, allowing for other forms of content reuse beyond traditional search.
+*   **Granularity:** Alyssa noted that Krishna's draft offered more granular categories (indexing, retrieval, display length, image, video, exact match) which could address some of the current definition's shortcomings. The working group's charter scope for such detail was a consideration.
+*   **Clarity for Creators:** Nate Haig, a small blogger, found the proposed definition (especially the verbatim excerpt bullet) useful and explainable to other creators, seeing it as addressing the "fair exchange" concern by ensuring traffic returns to the source.
+*   **Pro-social Uses:** Victoria Noble emphasized that current definitions risk sweeping up pro-social uses (e.g., accessibility, translation) that content producers would likely want to authorize.
 
 ### AI Output
 
-*   **Intent:** This new category aims to focus on the *observable output* of a system, regardless of its internal AI operations, to address concerns about substitutive content creation.
-*   **Major Challenges & Confusion:**
-    *   **"Automated Clients":** The draft's inclusion of "outputs presented to all automated clients" was seen as reintroducing complexities of internal system operations, contradicting the intent to focus solely on external output.
-    *   **"Presented to a Human":** The definition struggles with the concept of "human user" in the age of agentic browsing, where AI agents consume content and interact with systems. It's unclear how a system can determine if the recipient is a human or an AI agent.
-    *   **System Boundaries:** It's unclear how to delineate the "output" stage from internal processing, especially in complex, multi-component systems that might span administrative domains. The obligation to respect preferences across cascaded systems is a significant challenge.
-    *   **Conceptual Problem:** Modern AI is moving towards autonomous agents with minimal human feedback, creating a disconnect between the technical realities and the desire for human-centric preference expression and liability.
-    *   **Overly Broad Language:** The wording in the draft was found to be confusing and overly broad, encompassing various outputs like summaries, grounding, and search.
-*   **Philosophical Debates:**
-    *   The role of the IETF as a technical body in defining "tests" for compliance was questioned; it was suggested that interpretation of preferences would vary between implementers.
-    *   A core question: Are preferences primarily about the *AI tools used* or about the *nature of the output itself* (e.g., whether it is substitutive, discriminatory, or used for model training)? Many participants leaned towards the latter.
-    *   Concerns were reiterated about definitions sweeping up socially important uses (accessibility, translation) and the IETF's role in balancing these societal costs and benefits.
-    *   The importance of Section 3.2 of the draft, which provides flexibility regarding non-compliance in certain circumstances, was highlighted, though some noted risk-averse entities might still avoid beneficial uses.
+*   **Core Idea:** To focus *solely* on the observable output of systems, independent of their internal AI operations.
+*   **"Automated Clients" Ambiguity:** Aaron Simon pointed out that referring to "outputs presented to automated clients" reintroduces the complexity of internal system operations, which the definition aimed to avoid. He argued it should be limited to human users.
+*   **Agentic Browsing/System Boundaries:** A significant challenge is defining where the "obligation" from a preference ends when content is consumed by an AI agent or passed between systems across administrative domains. It's unclear how downstream systems can ensure compliance with upstream preferences.
+*   **Conceptual vs. Nitpicking:** Ecker and Roberta raised concerns that the current problems might be fundamental conceptual design issues rather than mere linguistic nitpicking, especially given the industry's move towards autonomous AI agents with little human intervention and the resulting liability questions.
+*   **Broadness and Clarity:** Alain described the definition as "very broad and confusing," particularly the sentence regarding outputs presented to "human users and outputs da-da-da-da-da."
+*   **Use Cases for Clarity:** Alyssa suggested using concrete use cases to distinguish between "human outputs" and "organizational boundary" concerns, for example, regarding internal SaaS company operations.
+*   **Testing Compliance:** The question of "what tests would we apply to determine if a preference was being followed" was debated. While the group shouldn't prescribe specific tests, the editor clarified the intent was for a system operator to internally determine compliance for a given system and preference.
+*   **Output vs. Internal Use:** Alyssa also questioned if the definition implies that an asset could be used in an AI system for *any purpose other than generating outputs*, and if the group is comfortable with that implication.
+*   **Policy vs. Technical:** Ted Hardy and Victoria Noble reiterated that balancing the costs/benefits of preferences for users vs. publishers, and addressing issues like substitutive use, are fundamentally policy or legislative tasks, not suitable for a technical standards body. They stressed that this document isn't meant to be a legislative tool.
+*   **Penultimate Paragraph:** The paragraph discussing "model training" within the AI output category was questioned, especially given the decision to un-nest search. It was suggested it might need removal or significant re-evaluation.
 
 ## Decisions and Action Items
 
-### Decisions
-
-*   The Working Group Last Call (WGLC) for previous drafts failed.
-*   Working Group milestones were updated to August 2026 to reflect the significant work remaining.
-*   This meeting's primary purpose was to gather preliminary feedback on new draft proposals, not to make final, binding decisions.
-*   There was a clear consensus that the `search` category should *not* be nested under `AI output` and should be a separate, freestanding preference.
-
-### Action Items
-
-*   **Editors/Chairs:** Revise the document to un-nest `search` from `AI output`.
-*   **Editors/Chairs:** Consider incorporating relevant concepts and granularity from Krishna's draft, which is being incorporated into issues in the repository.
-*   **Editors/Chairs:** Revisit the "substitutive use" draft (Bradley Silver's) in light of discussions about the *purpose* of AI processing and output.
-*   **Editors/Chairs:** Review and potentially remove/rewrite the penultimate paragraph of the `AI Output` definition, especially after `search` is un-nested.
-*   **Working Group:** Members are encouraged to develop and submit concrete use cases to test the proposed definitions for clarity and scope.
-*   **Working Group:** Continue the discussion on declarant clarity and transparency (e.g., WordPress, social media platforms declaring preferences on behalf of others), likely during the discussion on `attachment`.
-*   **All Participants:** Continue the discussion on the mailing list, particularly for brainstorming new ideas or providing specific language suggestions.
+*   **Decision:** The "Search" category will be separated from "AI Output" and will not be nested.
+*   **Action Item:** The chairs will coordinate on compiling a set of concrete use cases to test the proposed definitions against, drawing on existing discussions and community input.
+*   **Action Item:** Editors and chairs will continue to review Krishna's draft and the existing issues list to ensure all relevant concepts are considered and captured.
+*   **Action Item:** Participants are encouraged to continue discussions on the mailing list, especially for brainstorming and refining the draft terms.
 
 ## Next Steps
 
-*   The discussion will resume on Wednesday, starting with the `Automated Processing` term.
-*   Further discussions will include `attachment` if time permits after the vocabulary terms.
-*   Cross-cutting issues will be addressed in subsequent meetings.
+*   The working group will reconvene to discuss the "Automated Processing" (top-level) category.
+*   Further refinement of "Foundation Model Production," "AI Output," and "Search" definitions will proceed, incorporating feedback received in this meeting.
