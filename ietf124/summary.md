@@ -11,6 +11,11 @@
     - [AI Output](#ai-output)
   - [Decisions and Action Items](#decisions-and-action-items)
   - [Next Steps](#next-steps)
+- [Session Summary: 20251105-2100](#session-summary-20251105-2100)
+  - [Summary](#summary-1)
+  - [Key Discussion Points](#key-discussion-points-1)
+  - [Decisions and Action Items](#decisions-and-action-items-1)
+  - [Next Steps](#next-steps-1)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -90,3 +95,53 @@ The AIPREF working group met to review and discuss the latest revisions to the c
 
 *   The working group will reconvene to discuss the "Automated Processing" (top-level) category.
 *   Further refinement of "Foundation Model Production," "AI Output," and "Search" definitions will proceed, incorporating feedback received in this meeting.
+
+# Session Summary: 20251105-2100
+
+ Meeting Minutes
+
+## Summary
+
+The AIPREF session focused primarily on the "automated processing" top-level preference term, which had seen significant discussion since the previous meeting. Participants raised strong concerns about its broad scope, potential for unintended consequences, and impact on socially beneficial uses like accessibility tools. The discussion explored alternative approaches, including removing the hierarchical structure, narrowing the definition to AI-specific contexts, and the role of "unknown" or "uncategorized" uses. There was also a notable debate on the practical and legal implications of such preferences, particularly regarding EU law and the behavior of implementers. Ultimately, no consensus was reached on the "automated processing" term, and the chairs indicated it would likely be removed from the draft for now to allow for further conceptual development. Progress was noted on the "Foundation Model" and "Search" terms, while the "AI Output" term also required substantial revision or removal.
+
+## Key Discussion Points
+
+*   **Note Well and Agenda**: The session began with the customary IETF Note Well reminder. The agenda focused on discussing "automated processing," the last of the "four horsemen" of AI preferences, with an anticipation of spending most of the time on this topic before discussing next steps.
+*   **Concerns about "Automated Processing" Term**:
+    *   **Lila Bailey** expressed concerns that the "automated processing" term, as currently defined, is too broad, sweeping in a wide range of socially beneficial, commercial, private, and personal uses that are not even AI-related. She specifically highlighted accessibility tools (screen readers, text-to-speech, captioning, alt-text generators), questioning if such tools would be affected and if the current "ignore preferences" clause (Section 3.2) offers sufficient protection. She referenced the Marrakesh Treaty as an example of societal rejection of copyright holders preventing accessible formats.
+    *   **Meredith** emphasized the importance of considering the interests of users and the public, particularly concerning research, free expression, and equitable access to information. She worried that prioritizing the interests of AI tool developers and content creators might overlook what is truly useful for the public, especially disability rights. She argued against enshrining preferences that are not socially beneficial, such as opting out of accessibility or certain types of research.
+    *   **Victoria** echoed concerns that a "catch-all" category for automated processing is bad in principle because it inherently sweeps up unanticipated good uses, including accessibility and expression. She stressed the need to prioritize user interests above those of publishers or companies.
+*   **Defining "Unknown" and Scope Refinement**:
+    *   **Ted Hardie** suggested moving away from a hierarchical structure for preferences. Instead, he proposed treating categories as parallel, allowing for a separate declaration for "unknown uses" that is not at the top of a hierarchy. If no preference is expressed for "unknown," the default would be a null response, leaving it to the reader's best judgment (potentially guided by jurisdictional defaults). He was open to adding "assistive technology" as a specific preference if that helps address concerns.
+    *   **Timid Robot** questioned if removing the hierarchy would truly resolve unintended consequences, suggesting it might necessitate anticipating all unintended uses to categorize them. He asked if narrowing the scope of the top-level term to strictly AI-related activities would alleviate concerns.
+    *   **Martin Thomson** acknowledged the difficulty in defining "automated processing." He proposed a distinction based on "processing that happens for a human or a single human user" to separate automated from non-automated processing, which could protect accessibility tools. He also argued against Ted's "uncategorized" concept, stating that "unknown" to the preference setter is also "unknown" to the consumer, leading to ambiguity, and that categories will evolve. He encouraged constructive suggestions for improving the definition rather than debating its existence.
+    *   **Bradley** noted that external pressure from policymakers (especially regarding TDM exceptions/opt-outs) means *some* group will define such a category if AIPREF does not. He argued that the broadness of the term doesn't mean the preference shouldn't exist, and that publishers also have an interest in accessibility. He highlighted the current lack of visibility into crawlers' identity and purpose as a key reason for the need of a broad category.
+    *   **Alyssa** drew parallels to the GEO-PRIV working group, where attempts at defining very specific preferences did not lead to widespread deployment. She asserted that if the document doesn't define something, people will interpret it as they wish. She questioned the value of an "unknown/uncategorized" category without clear use cases that outweigh the cons.
+    *   **Ecker** argued for a "catch-all" category to provide determinism for site operators, preventing them from having to specify every possible use case. He differentiated between opposing a catch-all *in principle* versus opposing specific things swept in by a particular text. He also pointed out that existing mechanisms (like robots.txt) already allow for expressions that some might consider "bad policy."
+*   **Practical and Legal Implications**:
+    *   **Glenn** cautioned against creating exhaustive lists due to the rapidly evolving nature of technology. He advocated for solutions that allow for evolution and for publishers to choose between opt-in or opt-out models, recognizing that publishing content implies a desire for it to be used.
+    *   **Robert** highlighted that current privacy and rights frameworks often leave users without choice regarding their data. He questioned the effectiveness of past opt-in/opt-out solutions (e.g., robots.txt limitations) and stressed the importance of user agency regarding data use, particularly for AI training.
+    *   The chairs (Martin and Ecker) encouraged participants raising concerns about negative effects to specify the *mechanisms* causing those effects, beyond simply stating "these are just preferences."
+    *   **Victoria** suggested the legally binding effect under EU law as a mechanism, noting EU exceptions are less flexible than US fair use.
+    *   **Paul Keller** disputed the claim that current EU law directly references or makes any of this work mandatory, encouraging reference to mailing list discussions.
+    *   **Aaron Simon** argued against a "naive" view that preferences can be ignored, stating the European Commission would likely treat IETF standards (especially if an extension of robots.txt) as binding via the AI Act's code of practice. He emphasized IETF's responsibility to define an appropriate scope and avoid creating categories that are "actively harmful" or allow rights holders to govern every possible use of content.
+    *   **Ecker** pointed to text in the draft stating enforcement varies by jurisdiction and acknowledged IETF cannot control EU law but can control the breadth of the categories.
+    *   **Nate** expressed concern that, by not having more granular preferences, the net effect benefits incumbent companies who bundle services (e.g., search and AI summary) without allowing users to specify different uses.
+*   **Accessibility and User Intent**:
+    *   **Meredith** specifically highlighted that most users with disabilities rely on general-purpose commercial tools. She warned that if compliance with preferences doesn't incentivize enabling accessibility, those uses will be inadvertently excluded, not due to malicious intent, but out of necessity.
+
+## Decisions and Action Items
+
+*   **Decision**: Consensus was not reached on the "automated processing" top-level term.
+*   **Decision**: The "Foundation Model" term is a promising candidate for continued discussion and work.
+*   **Decision**: The "Search" term is also promising for continued work.
+*   **Action Item**: The current text for the "AI Output" term is seen as a distraction and will likely be pulled out by editors for now, with further discussion needed to refine its conceptual slot.
+*   **Action Item**: The "automated processing" term will likely be pulled out of the draft for now. Community members are encouraged to propose alternative functions or definitions that could achieve consensus for this conceptual slot.
+*   **Action Item**: Chairs will initiate consensus checks on the mailing list for the proposed directions regarding "Foundation Model" and "Search" categories.
+
+## Next Steps
+
+*   An interim online meeting (one or two sessions) will be held in December to continue discussions.
+*   Another hybrid face-to-face meeting is planned for late January or early February.
+*   The chairs will follow up on offers for meeting hosts (in the United States and Canada) and solicit feedback on preferred locations from the community.
+*   The chairs will start mailing list discussions and consensus checks to formalize the outcomes of this meeting and gather broader community input, especially from those unable to attend.
