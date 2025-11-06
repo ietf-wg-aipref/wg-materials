@@ -12,10 +12,13 @@ Goal: go through feedback on definitions for:
 *    search
 *    ai output
 *    automated processing
+
 We need certainty on these terms first, will get to other things if we can.
+
 Suresh: Productive discussions need to rely on these as a foundation
 
 ### Overview (Martin) [slides](https://datatracker.ietf.org/meeting/124/materials/slides-124-aipref-vocabulary-status-update-01)
+
 * https://datatracker.ietf.org/doc/draft-ietf-aipref-vocab/
 * Discussion in Zurich seemed to be a positive direction but turned out to be difficult.
 * We started with a picture (in prior drafts as of 2 weeks ago)
@@ -62,22 +65,39 @@ Mark: Happy to talk about the four terms. Order is based on "solidity". Goal is 
 ### Foundation Models
 
 Roberta:  foundation models related to the article foundational agents that construct the LLM models?  There is a 300 page article (https://arxiv.org/abs/2504.01990). 
+
 Martin: No not familiar to that 
+
 Roberta: how is search part of this conference? It seems to be unused 
+
 Mark: added search early on because needed a way to accept search for that appliation so that intent was clear.  In discussion, some want more fine-grained search controls but original intent was.
+
 Martin: understanding is exception would be necessary. Those building search use foundation models. Some are exclusively foundation models. Have been tweaked but are still foundation models
+
 Bradley Silver: question on fine tuning.  right now focus is on foundation models because they have the broadest foundation upon others are based. For some the focus will be on fine tuning, creating different apps on top of the foundation model.  These seem distinct enough to warrant being dealt with separately.  The value/use of the data used to fine tune could be very different.  Eg: medical journals as a fine tuning to a more generic model. The focus on foundation model could become less important over time
+
 Alissa: if we imagine the foundation model production category was an AI production category, would the fan of prophesies be the total span of everything anyone can do with AI?  ie is this a case of input + output = everything (please corroborate)
+
 Martin: I think it would cover a lot but it might not cover everything
+
 Alissa: if the AI output category was the foundation model category, would THAT cover it all?
+
 Martin: I don't know that there would be things that could be called foundation model but would be called AI.  Maybe this is different for everyone
+
 Alissa: other entities have defined these terms, if we can reuse we should
+
 Martin: all of the definitions agree except some specific things might disagree (eg: number of parameters).  Most are very much in agreement. Self-supervised learning is different as it uses the term "probably"
+
 Alissa: because defn's are in flux, a set of use cases to test every time they change that cover all the subjects of discussion would be helpful.  
+
 Martin: we all have our own tests, it would be helpful, but it might be early
+
 Mark: wiki page would work?
+
 Alissa: yes
+
 Ted: IANAL but lawyers shepherdize.  Go back through precedents to look at what is cited in context.  Manual search had citations that you then followed at great pain.  I worry we are focused on how and not why somebody would express a preference.  We are not shipping an org chart but we are close. Given we want to express a preference, what is the middle ground of those who create and those who identify with a preference. Many small creators for example if asked whether an expression could be possible using short crisp words. 
+
 Three broad categories: 1) citations back from interaction.  2) Asking for an answer. 3) I don't want either 1 or 2 I want an interaction.  That is a conversation that can be had in places like a fanfic community.  This is AI preferences, think about the people that need to be expressing.
 
 Shay: came up with a couple of definitions: historical search, where direction exists to original content.  2) pulling data to permanently modify a model 3) summarize but dont modify
@@ -87,30 +107,51 @@ Is there a broad category? Don't have, there are other definitions that need to 
 Eric: thoughts similar to last 2 comments - can we be quantitative about dimensional use - eg, a lot of elements are how much does data get aggregated and mixed in, vs how much is preserved. Foundation model building mixes much together and context is lost, difference is less about things being separate as how many things have been pulled together. Can we have a quantitative scale of 1:1 in/out or "agregated according to this scale". 
 
 Nick: I like the proposed changes - a way to help decide could be, AI crawlers need to know themselves & which category they fit into.  Teams in companies who build small tools may not know where they fit in, may cause deeper analysis of who does what, but if crawlers can self-categorize that is a good metric
+
 Roberta: when you say other ML techniques I think about foundation models too, to take a foundational model and see it as an LLM it is a way to see how agents will interact within a system. When you put that into perspective there are people in chat talking about singular models, which is broader if we are talking about deep learning we are missing some things, is this a common issue? 
+
 Mark: there is a broader category
-    Any other feedback?  May not be worth polling. Ted's suggestion could be fruitful. A large part of complexity is that use cases are broader than the search & chat context Ted covered
-    Farzaneh: we need to be clear that by publisher we don't only mean those with protected content.  Eg: social media/media may be the owner of the content
-    Mark: interpreting as we need attachment use cases
-    Farzaneh: yes needs to be transparency from declarent to those doing the declaring
-    Timid Zehta: want more information on articulating IP/copyright of the declaring party.  Seems counterproductive for expressing preference. While many want expression because they are copyright holder, others want cost(? please corroborate) of the provider making the declaration. Tying back to other legal rights might reduce efficacy and duplicate controls/legislation that already exists
+
+Any other feedback?  May not be worth polling. Ted's suggestion could be fruitful. A large part of complexity is that use cases are broader than the search & chat context Ted covered
+
+Farzaneh: we need to be clear that by publisher we don't only mean those with protected content.  Eg: social media/media may be the owner of the content
+
+Mark: interpreting as we need attachment use cases
+
+Farzaneh: yes needs to be transparency from declarent to those doing the declaring
+
+Timid Zehta: want more information on articulating IP/copyright of the declaring party.  Seems counterproductive for expressing preference. While many want expression because they are copyright holder, others want cost(? please corroborate) of the provider making the declaration. Tying back to other legal rights might reduce efficacy and duplicate controls/legislation that already exists
     
 ### Search
 
 See the slildes for 4.4 Search
+
 Martin: "I think the previous search definition was better" (audience laughs)
+
 Alissa: It is easier to consider without nesting
+
 Martin: getting sense that nesting doesn't make sense, according to Ted's principle
+
 Meredith: Search is the only category that layusers don't understand.  Users care why you are using a tool, not what tool you are using.  Is this competitive & substitutional. Search def is good, I don't think it matters what you use, imprecise defs is fine, they care if you create a book that competes in the market, not that you create one for yourself, even if the same tool is used
+
 Martin: tere is a 2nd order effect - something used innocently is then used destructively.
+
 Meredith: can you distinguish a childrens book creator from another use such as a disabled person creating a simplified/altered version.
+
 Martin: good point, counterpoint earlier was open white models have no hope/control over what someone does downstream, no ability to differentiate between good/competitive uses  Maybe you mean we shouldn't try
+
 Meredith: little bit
+
 Mirja: people who think they have a preference and want to express may get something else, no way to match to expectations.  What is better is to point out two features - reference & asset.  
+
 Martin: I disagree
+
 Mark: you say these two constraints are not adequate?\
+
 Mirja: they might be but they also may not be 
+
 Martin: providing the location is the very definition of search, we are trying to narrow things down to something that may not match what people are intending to do
+
 Mallory: Instead of search could we define the broader category as derivative? ie a summary or a blurb. CMS or other things train web admins to build metadata for search, eg title, thumbnail.  Search different from any other kind of derivative, not just webpage but also attached metadata.  This is important special case but other things are there too where no metadata taxonomy is needed, there might be more intelligent ways to smash things together.  Important to create a derivative def'n that includes search but has more
 
 Bradley: the 2nd bullet (asset can only be represented) gets us in trouble.   Also concerned about bootstrapping training into these categories.  Puts a blindfold on because those expressing don't know what kind of training will be required. This dilutes the power of making an informed preference.  Biggest problem with nesting: search is about saying "yes", everything else is right to say "no". This creates lack of clarity. Should be brought to higher level so it is clear what prefs are expressed. 
