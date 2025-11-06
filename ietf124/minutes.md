@@ -70,7 +70,7 @@ Martin: No not familiar to that
 
 Roberta: how is search part of this conference? It seems to be unused 
 
-Mark: added search early on because needed a way to accept search for that appliation so that intent was clear.  In discussion, some want more fine-grained search controls but original intent was.
+Mark: added search early on because needed a way to accept search for that application so that intent was clear.  In discussion, some want more fine-grained search controls but original intent was.
 
 Martin: understanding is exception would be necessary. Those building search use foundation models. Some are exclusively foundation models. Have been tweaked but are still foundation models
 
@@ -104,7 +104,7 @@ Shay: came up with a couple of definitions: historical search, where direction e
 
 Is there a broad category? Don't have, there are other definitions that need to happen first
 
-Eric: thoughts similar to last 2 comments - can we be quantitative about dimensional use - eg, a lot of elements are how much does data get aggregated and mixed in, vs how much is preserved. Foundation model building mixes much together and context is lost, difference is less about things being separate as how many things have been pulled together. Can we have a quantitative scale of 1:1 in/out or "agregated according to this scale". 
+Eric: thoughts similar to last 2 comments - can we be quantitative about dimensional use - eg, a lot of elements are how much does data get aggregated and mixed in, vs how much is preserved. Foundation model building mixes much together and context is lost, difference is less about things being separate as how many things have been pulled together. Can we have a quantitative scale of 1:1 in/out or "aggregated according to this scale". 
 
 Nick: I like the proposed changes - a way to help decide could be, AI crawlers need to know themselves & which category they fit into.  Teams in companies who build small tools may not know where they fit in, may cause deeper analysis of who does what, but if crawlers can self-categorize that is a good metric
 
@@ -118,13 +118,13 @@ Farzaneh: we need to be clear that by publisher we don't only mean those with pr
 
 Mark: interpreting as we need attachment use cases
 
-Farzaneh: yes needs to be transparency from declarent to those doing the declaring
+Farzaneh: yes needs to be transparency from declarant to those doing the declaring
 
 Timid Zehta: want more information on articulating IP/copyright of the declaring party.  Seems counterproductive for expressing preference. While many want expression because they are copyright holder, others want cost(? please corroborate) of the provider making the declaration. Tying back to other legal rights might reduce efficacy and duplicate controls/legislation that already exists
     
 ### Search
 
-See the slildes for 4.4 Search
+See the slides for 4.4 Search
 
 Martin: "I think the previous search definition was better" (audience laughs)
 
@@ -132,11 +132,11 @@ Alissa: It is easier to consider without nesting
 
 Martin: getting sense that nesting doesn't make sense, according to Ted's principle
 
-Meredith: Search is the only category that layusers don't understand.  Users care why you are using a tool, not what tool you are using.  Is this competitive & substitutional. Search def is good, I don't think it matters what you use, imprecise defs is fine, they care if you create a book that competes in the market, not that you create one for yourself, even if the same tool is used
+Meredith: Search is the only category that lay users don't understand.  Users care why you are using a tool, not what tool you are using.  Is this competitive & substitutional. Search def is good, I don't think it matters what you use, imprecise defs is fine, they care if you create a book that competes in the market, not that you create one for yourself, even if the same tool is used
 
 Martin: tere is a 2nd order effect - something used innocently is then used destructively.
 
-Meredith: can you distinguish a childrens book creator from another use such as a disabled person creating a simplified/altered version.
+Meredith: can you distinguish a children's book creator from another use such as a disabled person creating a simplified/altered version.
 
 Martin: good point, counterpoint earlier was open white models have no hope/control over what someone does downstream, no ability to differentiate between good/competitive uses  Maybe you mean we shouldn't try
 
@@ -164,7 +164,7 @@ Martin: we struggled to do that, thought it could be "this plus"additional const
 
 Alissa: fact is we can't ignore it, not worth doing something super simple if it fails to work in the broader context of search
 
-Nate: I run a small travel blog, agree it is important to talk about why this is even important.  This is a simple definition, I could explain it to my travel blogger friends. Concern is that lines between search and other AI applicaitons is blurred. W/o the 2nd bullet point the definition is problematic.  The Why is: is there a fundamental fair exchange where enough people make it bak to the website.  Mere existance of a reference isn't enough because no user will click 91 times (for 91 pages of results). 
+Nate: I run a small travel blog, agree it is important to talk about why this is even important.  This is a simple definition, I could explain it to my travel blogger friends. Concern is that lines between search and other AI applications is blurred. W/o the 2nd bullet point the definition is problematic.  The Why is: is there a fundamental fair exchange where enough people make it bak to the website.  Mere existence of a reference isn't enough because no user will click 91 times (for 91 pages of results). 
 
 Farzaneh: Krishna's draft should be reconsidere.  Need to go back and see what can be taken, not perfect but... I am a small operator but somebody else expresses prefs. I don't know what they do on my behalf when I get busy.
 
@@ -178,7 +178,7 @@ Martin: we have overwhelming feedback, consider the separation done.
 
 Timid Robot: asking for more clarity from Victoria, is unintended consequences more about the unlimiting 
 
-Victoria: all these definitions sweep up a lot but search tools now do not inlude verbatims but summarize helpfully for some users more than other.  It isn't just abouot search.
+Victoria: all these definitions sweep up a lot but search tools now do not include verbatim but summarize helpfully for some users more than other.  It isn't just about search.
 
 
 
@@ -198,7 +198,7 @@ Erin: if you are going to express a pref about end state output, nobody should b
 
 EKR: if I have a procedure, have a corpus of data. Spit out 50 exemplars & user hates it. Now foundation model is on, AI output is off. Is this legal.  I don't think org boundary is right - create a foundation model that generates code (true vibe coder). Is that AI output?
 
-Roberta: the idea is the agents talk to each other, no human interaction in the middle.  No visibility for the last node. Think it is a design issue. Building systems where AI is a human in the system. Not covering it such that opt out is clear, yet also not stopping progression of data.  Hard to have all 3 groups agreeing at the same livel of control
+Roberta: the idea is the agents talk to each other, no human interaction in the middle.  No visibility for the last node. Think it is a design issue. Building systems where AI is a human in the system. Not covering it such that opt out is clear, yet also not stopping progression of data.  Hard to have all 3 groups agreeing at the same level of control
 
 Elaine:  this is written to be broad.  Can someone explain intention. Don't understand 3rd paragraph. 
 
@@ -238,11 +238,11 @@ Martin: Bradley Silver's draft is clear about intent, we haven't had much discus
 
 Elaine: do we need something about model training in AI output?
 
-Martin: right now everything is in jeopardy, but that is a good point. Concern is if we don't allow some training, but without search maybe it doesn' matter. 
+Martin: right now everything is in jeopardy, but that is a good point. Concern is if we don't allow some training, but without search maybe it doesn't matter. 
 
-Meredith: a lot of unintended consequences come back to substitantive use may solve some issues but create downstream problems
+Meredith: a lot of unintended consequences come back to substantive use may solve some issues but create downstream problems
 
-Roberta: One example for AI prefs: if we are trying to get maximal data about medication information and provide to users.  Whole system will have training etc, but medication might not be open to market yet still be crawled, informatoin could put user at risk, they might know that the content was trained by an AI etc.  Even internally, those models are classified as high risk. Behavior of someone who ignores preferences must be considered. Lots of crawlers ignore robots.txt. Is liability/enforcement out of scope?
+Roberta: One example for AI prefs: if we are trying to get maximal data about medication information and provide to users.  Whole system will have training etc, but medication might not be open to market yet still be crawled, information could put user at risk, they might know that the content was trained by an AI etc.  Even internally, those models are classified as high risk. Behavior of someone who ignores preferences must be considered. Lots of crawlers ignore robots.txt. Is liability/enforcement out of scope?
 
 Victoria: +1 to unintended consequences, not sure we adequately value all the use cases, or cost vs. benefit. That is not a task for standards bodies, that is policy etc. 
 
@@ -284,7 +284,7 @@ Lila: I agree with those who advocate layperson understandability.  Will try to 
 
 * Lila Bailey: Accessibility tools
     * Many use the tools we're talking about here
-    * If the only answer to those making htis tools is "too bad, you can't follow our standard", then I think we're doing something wrong
+    * If the only answer to those making these tools is "too bad, you can't follow our standard", then I think we're doing something wrong
 
 * Ted Hardie: We're looking at this as a hierarchy
     * Category of unknown uses
@@ -296,7 +296,7 @@ Lila: I agree with those who advocate layperson understandability.  Will try to 
 * Timid Robot:
     * If we replace the hierarchy with an undefined-in-stated-preferences category, we don't remove the problem of unintended consequences
     * If we reduce the scope of the top level category, would that address Lila's concerns?
-        * Lila: I'm in favor of narrowing the top level category to somehwere in the AI space
+        * Lila: I'm in favor of narrowing the top level category to somewhere in the AI space
             * People use AI tools for accessibility
             * Stomps on rights a bit: There's a lot of things I'm allowed to do with a physical book; I should have the same freedom when consuming a website
 
@@ -313,10 +313,10 @@ Lila: I agree with those who advocate layperson understandability.  Will try to 
 
 * Bradley: There's a worry that if we don't define this category, then someone else will
     * "Veto power" is loaded
-    * we're not opearting in a world where there's visibility into what crawlers do
+    * we're not operating in a world where there's visibility into what crawlers do
         * if you don't tell me who you are, then let me tell you what I am willing to let you do with my content
 
-* Alissa: Geopref WG (from back in the day) had a very similar to debate
+* Alissa: Geopriv WG (from back in the day) had a very similar to debate
     * People do whatever they want with the things you don't define. Nothing we can do about that.
     * Glad Section 3.2 is there, but it's not sufficient
     * I dno't see the value of the top-level category
@@ -325,7 +325,7 @@ Lila: I agree with those who advocate layperson understandability.  Will try to 
 
 * EKR: Structure of the spec: if there is some use that's not written, then there's a "catch all"
     * There doesn't seem to be consensus about whether this is the right thing to do
-    * robots.txt says: "googlebot can't scrape me"; it doesn't say "googlebot can't scrame me for reason X or reason Y"
+    * robots.txt says: "googlebot can't scrape me"; it doesn't say "googlebot can't scrape me for reason X or reason Y"
 
 * Ted:
     * AI preferences will change over time
@@ -340,26 +340,26 @@ Lila: I agree with those who advocate layperson understandability.  Will try to 
     * we know that robotx.txt is not enforced
 
 * Victoria:
-    * Publishers are not trying to limit accessibilitty
+    * Publishers are not trying to limit accessibility
     * fundamental problem of a top-level category is that we don't know what unanticipated good or bad uses there will be
     * We shouldn't do it if it limits unanticipated good uses
     * Maybe useful for publishers or operators, but users are more important
 
-* Paul: Unware of any EU law that is relevant here
+* Paul: Unaware of any EU law that is relevant here
     * Erin Simon: Not true
-        * The EU commisssion wil treat the standards that come out fo this group as binding, if the IETF can demonstrate feasibility
+        * The EU commission will treat the standards that come out fo this group as binding, if the IETF can demonstrate feasibility
         * Naive to think all we're doing is allowing websites to express preferences
         * It's our responsibility to get this right
-        * A standard doesn't have to gover every possible use of a piece of content
+        * A standard doesn't have to govern every possible use of a piece of content
         * robots.txt applies to crawlers and not users
         * Do we really need a category that applies to every possible use?
-    * Chair: IETF is not the protocol poiice
+    * Chair: IETF is not the protocol police
     * [Back and fourth among chairs, Pual, and Erin about how EU will be applied.]
-    * Erin: We all agree that there are some categories that need not be defined. We may also agree that there are some categories that are acively harmful
+    * Erin: We all agree that there are some categories that need not be defined. We may also agree that there are some categories that are actively harmful
 
 * Timid Robot: Argument about cost is compelling--curious about whether adding it back later is possible (when it is more mature)
 * Meredith: We're thinking of a tech sophisticated users, but most users are going to use commercially available tools to make the web accessible
-* Nate: Defaults are working for encumbents
+* Nate: Defaults are working for incumbents
 
 ### Chair summary
 
