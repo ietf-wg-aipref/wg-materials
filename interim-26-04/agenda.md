@@ -8,14 +8,14 @@ See also nearby:
 * [Guidance for taking minutes](../minutes.md)
 * [Guidance for remote participants](https://www.ietf.org/meeting/technology/meetecho-guide-participant/)
 
-_All times in Europe/Zürich_
+_All times in North America/Toronto_
 
 ## Tuesday, 14 April 2026
 
 _9:15 - 16:30_
 
-* [Morning remote participation]() _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
-* [Afternoon remote participation]() _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
+* [Morning remote participation](https://meetings.conf.meetecho.com/interim/?session=35173) _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
+* [Afternoon remote participation](https://meetings.conf.meetecho.com/interim/?session=35174) _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
 
 ### Administrivia
 
@@ -35,8 +35,8 @@ _9:15 - 16:30_
 
 _9:15 - 16:30_
 
-* [Morning remote participation]() _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
-* [Afternoon remote participation]() _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
+* [Morning remote participation](https://meetings.conf.meetecho.com/interim/?session=35180) _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
+* [Afternoon remote participation](https://meetings.conf.meetecho.com/interim/?session=35177) _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
 
 ### Administrivia
 
@@ -51,7 +51,7 @@ _9:15 - 16:30_
 
 _9:15 - 13:00_
 
-* [Morning remote participation]() _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
+* [Morning remote participation](https://meetings.conf.meetecho.com/interim/?session=35178) _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
 
 ### Administrivia
 

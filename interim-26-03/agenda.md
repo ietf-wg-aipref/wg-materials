@@ -3,7 +3,7 @@
 See also nearby:
 
 * [Meetecho](https://meetings.conf.meetecho.com/interim/?session=35269) _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
-* [Meeting notepad]() _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
+* [Meeting notepad](https://notes.ietf.org/notes-ietf-interim-2026-aipref-08-aipref) _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
 * [Guidance for taking minutes](../minutes.md)
 * [Guidance for Meetecho](https://www.ietf.org/meeting/technology/meetecho-guide-participant/)
 

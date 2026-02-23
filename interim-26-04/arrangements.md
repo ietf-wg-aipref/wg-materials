@@ -4,7 +4,6 @@ See also nearby:
 
 * [Meeting agenda](agenda.md)
 * [Meeting listing](https://datatracker.ietf.org/wg/aipref/meetings/) _including remote participation details_
-* [Meeting notepad]()
 
 ## Registration
 
