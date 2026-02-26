@@ -23,7 +23,13 @@ _[21:00 - 22:30 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?iso=2
 
 ### Vocabulary Issues
 
-* Balance of time - discussion of issues
+* Balance of time - discussion of issues. Includes (but not limited to):
+  * [terminology issues](https://github.com/ietf-wg-aipref/drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3Aterminology): #151, #152, #162, #163, #179
+  * [Training issues](https://github.com/ietf-wg-aipref/drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3Atraining): #157, #179, #183
+  * [Search issues](https://github.com/ietf-wg-aipref/drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3Asearch): #171, #173, #181, #187
+  * [Use issues](https://github.com/ietf-wg-aipref/drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3Ause): #150, #172
+  * [model issues](https://github.com/ietf-wg-aipref/drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3Amodel): #153, #154, #159, #170
+  * [context issues](https://github.com/ietf-wg-aipref/drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3Avocabulary%20label%3Acontext): #158, #160, #164, #167, #192
 
 ### Other Business
 
