@@ -1,5 +1,36 @@
 # AIPREF Working Group Interim Meeting - March 2026
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Terminology Issues](#terminology-issues)
+  - [Use of “fine-tune” in “Foundation AI Model Production” category](#use-of-fine-tune-in-foundation-ai-model-production-category)
+  - [Replacing: "digital assets" with "digital content"](#replacing-digital-assets-with-digital-content)
+  - [Removing normative language: respect, ignore](#removing-normative-language-respect-ignore)
+  - [Use of 'Machine Learning'](#use-of-machine-learning)
+  - [Definition of AI](#definition-of-ai)
+- [Training Issues](#training-issues)
+  - [Quantified thresholds in definition of Foundation Model Production are ambiguous](#quantified-thresholds-in-definition-of-foundation-model-production-are-ambiguous)
+  - [AI Training and Generative AI Training are Too Broad](#ai-training-and-generative-ai-training-are-too-broad)
+- [Search Issues](#search-issues)
+  - [Search Category May Lead to Unintended Effects](#search-category-may-lead-to-unintended-effects)
+  - [Search category definition attempts to redefine established search behavior](#search-category-definition-attempts-to-redefine-established-search-behavior)
+  - [Search is too Broad](#search-is-too-broad)
+  - [Search should be removed and replaced with display-based preferences](#search-should-be-removed-and-replaced-with-display-based-preferences)
+- [Use Issues](#use-issues)
+- [Model Issues](#model-issues)
+  - [Hierarchical structure is problematic and introduces unnecessary complexity · Issue #170](#hierarchical-structure-is-problematic-and-introduces-unnecessary-complexity-%C2%B7-issue-170)
+  - [Focus on purpose of use rather than time of ingestion · Issue #159](#focus-on-purpose-of-use-rather-than-time-of-ingestion-%C2%B7-issue-159)
+  - [Defaults, Difference between "unknown" and "allowed"](#defaults-difference-between-unknown-and-allowed)
+- [Context Issues](#context-issues)
+  - [Introduction clarity re: relation to existing laws](#introduction-clarity-re-relation-to-existing-laws)
+  - [Distinguishing access and use](#distinguishing-access-and-use)
+  - [3.1 Conformance](#31-conformance)
+  - [3.2 Respecting Preferences](#32-respecting-preferences)
+  - [Bots Collect Data for Multiple Purposes](#bots-collect-data-for-multiple-purposes)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ## Terminology Issues
 
