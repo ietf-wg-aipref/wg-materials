@@ -1,11 +1,11 @@
-# AIPREF Working Group Interim Meeting - 2026-03
+# AIPREF Working Group Interim Meeting - March 2026
 
-[AIPREF Working Group Interim Meeting Agenda - 2026-03](https://ietf-wg-aipref.github.io/wg-materials/interim-26-03/agenda.html)
 
-## terminology issues
-terminology issues search: https://github.com/ietf-wg-aipref/drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3Aterminology
+## Terminology Issues
 
-### RE: [Use of “fine-tune” in “Foundation AI Model Production” category · Issue #179](https://github.com/ietf-wg-aipref/drafts/issues/179)
+### Use of “fine-tune” in “Foundation AI Model Production” category
+
+[Issue #179](https://github.com/ietf-wg-aipref/drafts/issues/179)
 
 Phase in question: "Fine-tuning can specialize a general-purpose foundation model for a narrower set of use cases." ()
 
@@ -20,7 +20,9 @@ Alissa: Something to think about that might help is "when does a model stop bein
 Pedro: There is something that can be done from a technical research point of view, this can mean several different things.  But if we worry about just production, it might be easier to talk about whether the model weights are changing.  That might be a better framing.  There is no single technical term, but weights changing might be more specific.
 
 
-### RE: [Replacing: "digital assets" with "digital content" · Issue #163](https://github.com/ietf-wg-aipref/drafts/issues/163)
+### Replacing: "digital assets" with "digital content"
+
+[Issue #163](https://github.com/ietf-wg-aipref/drafts/issues/163)
 
 Martin: Asset often means someone owns something (agreeing with issue description). Maybe too tied to the notion of copyright.
 
@@ -30,17 +32,23 @@ Farzaneh: Agreeing (avoid "asset"). Could lead to complications with asset-level
 
 Sarah: Agreeing (avoid "asset").
 
-### RE: [Removing normative language: respect, ignore · Issue #162](https://github.com/ietf-wg-aipref/drafts/issues/162)
+### Removing normative language: respect, ignore 
+
+[Issue #162](https://github.com/ietf-wg-aipref/drafts/issues/162)
 
 No comments
 
-### RE: [Use of 'Machine Learning' · Issue #152](https://github.com/ietf-wg-aipref/drafts/issues/152)
+### Use of 'Machine Learning'
+
+[Issue #152](https://github.com/ietf-wg-aipref/drafts/issues/152)
 
 Timid Robot: I have heard this term being used constructively that carries far more meaning than an unadorned "AI".
 
 Nate: Also agree.  AI is marketing that doesn't mean anything. Without the term machine learning it is too amorphous.
 
-### RE: [Definition of AI · Issue #151](https://github.com/ietf-wg-aipref/drafts/issues/151)
+### Definition of AI 
+
+[Issue #151](https://github.com/ietf-wg-aipref/drafts/issues/151)
 
 Martin: Hard to find good definitions.  This extrapolates from a bunch of other definitions, with an eye to our goals.
 
@@ -64,10 +72,11 @@ Erik Stallman: There's a separate NIST definition. My sense was that the OECD de
 
 MT: yes. It was one of the main sources; it is a pretty good definition, there were a few adjustments necessary because they're so broad.
 
-## training issues
-issues search: https://github.com/ietf-wg-aipref/drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3Atraining
+## Training Issues
 
-### RE: [Quantified thresholds in definition of Foundation Model Production are ambiguous · Issue #183](https://github.com/ietf-wg-aipref/drafts/issues/183)
+### Quantified thresholds in definition of Foundation Model Production are ambiguous
+
+[Issue #183](https://github.com/ietf-wg-aipref/drafts/issues/183)
 
 Pedro: there's an issue if we say it's too small or too large. could be easy to confuse with foundation model and clasical search
 
@@ -83,14 +92,17 @@ Chris: Trying to quantify is likely to be counterproductive.  This needs to be u
 
 Alissa: asn't Maybe take the "large" part out.  Focus on the operative part: capabilities, etc...
 
-### RE: [AI Training and Generative AI Training are Too Broad · Issue #157](https://github.com/ietf-wg-aipref/drafts/issues/157https://github.com/ietf-wg-aipref/drafts/issues/157)
+### AI Training and Generative AI Training are Too Broad
+
+[Issue #157](https://github.com/ietf-wg-aipref/drafts/issues/157https://github.com/ietf-wg-aipref/drafts/issues/157)
 
 Martin: overtaken by events. Current draft has "Foundation Model". Don't need to remove "AI training" from 5.2. We do still need to address previously discussed issues on terminology.
 
-## search issues
-serach issues: https://github.com/ietf-wg-aipref/drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3Asearch
+## Search Issues
 
-### RE: [Search Cateogry May Lead to Unintended Effects · Issue #187](https://github.com/ietf-wg-aipref/drafts/issues/187)
+### Search Cateogry May Lead to Unintended Effects 
+
+[Issue #187](https://github.com/ietf-wg-aipref/drafts/issues/187)
 
 Caleb: happy to propose a resolution. 
 
@@ -100,7 +112,9 @@ Erik: need clarification on what is/isn't allowed by this category
 
 Pedro: reminder that currently there is no non-AI search. only the output differs between "classic" and "AI" search
 
-### RE: [Search category definition attempts to redefine established search behavior · Issue #181](https://github.com/ietf-wg-aipref/drafts/issues/181)
+### Search category definition attempts to redefine established search behavior 
+
+[Issue #181](https://github.com/ietf-wg-aipref/drafts/issues/181)
 
 Alisa: may be worthwhile to use specific categories in issue instead of single category. not sure if it was considered/discussed
 
@@ -118,18 +132,21 @@ Pedro: Maintaining two technologies, especially if one is outdated, is not pract
 
 Paul: It is fair to say that we didn't discuss this in full detail.  It is valuable to discuss them.  Two points to make: we need clarity for the context: vocab or specific attachment.  Some items in Microsoft's draft are very attachment-mechanism-specific.
 
-### RE: [Search is too Broad · Issue #173 · ietf-wg-aipref/drafts](https://github.com/ietf-wg-aipref/drafts/issues/173)
+### Search is too Broad 
+
+[Issue #173](https://github.com/ietf-wg-aipref/drafts/issues/173)
 
 Mark: already covered in previous dicussions
 
 Chris: no further dicussion needed (pending proposal from Caleb)
 
-### RE: [Search should be removed and replaced with display-based preferences · Issue #171](https://github.com/ietf-wg-aipref/drafts/issues/171)
+### Search should be removed and replaced with display-based preferences 
+
+[Issue #171](https://github.com/ietf-wg-aipref/drafts/issues/171)
 
 Mark: also previous covered, with more discussion in Toronto
 
-## use issues
-issue search: https://github.com/ietf-wg-aipref/drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3Ause
+## Use Issues
 
 Mark: encourage group to add/update proposals to move this forward
 
@@ -141,29 +158,33 @@ Mark: also see https://github.com/ietf-wg-aipref/drafts/wiki/Use-Proposals
 
 Chris: agree with Nate--this is fundamental. vocabulary must address RAG, post-training, etc. Misattribution.  Can cause reputational damage unless we have some way to cover post-training usage.  Not sure on why things stalled and happy to work on something.
 
-## model issues
-issues search: https://github.com/ietf-wg-aipref/drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3Amodel
+## Model Issues
 
-### RE: Hierarchical structure is problematic and introduces unnecessary complexity · Issue #170
+### Hierarchical structure is problematic and introduces unnecessary complexity · Issue #170
 
 Martin: in limbo pending other category discussions
 
-### RE: Focus on purpose of use rather than time of ingestion · Issue #159 
+### Focus on purpose of use rather than time of ingestion · Issue #159 
 
 no comments
 
-### RE: [Defaults · Issue #154](https://github.com/ietf-wg-aipref/drafts/issues/154), [Difference between "unknown" and "allowed" · Issue #153](https://github.com/ietf-wg-aipref/drafts/issues/153)
+### Defaults, Difference between "unknown" and "allowed"
+
+[Issue #154](https://github.com/ietf-wg-aipref/drafts/issues/154), [Issue #153](https://github.com/ietf-wg-aipref/drafts/issues/153)
 
 Martin: EKR is trying to 'refactor the code'; I'm struggling to identify the concrete reason to change here. What's proposed is reasonable but I'm not sure there's value in doing so. Not substantive. Prefer we defer this.
 
-## context issues
-issue search: https://github.com/ietf-wg-aipref/drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3Avocabulary%20label%3Acontext
+## Context Issues
 
-### RE: [Introduction clarity re: relation to existing laws · Issue #192](https://github.com/ietf-wg-aipref/drafts/issues/192)
+### Introduction clarity re: relation to existing laws
+
+[Issue #192](https://github.com/ietf-wg-aipref/drafts/issues/192)
 
 Max: Want to spend a lot of time at April meeting on this. Two perspectives: 1) work we do is isolated 2) work is more contextual. We need more time to get into nuances.
 
-### RE: [Distinguishing access and use · Issue #167](https://github.com/ietf-wg-aipref/drafts/issues/167)
+### Distinguishing access and use
+
+[Issue #167](https://github.com/ietf-wg-aipref/drafts/issues/167)
 
 Margin: we haven't been clear in our intent. there are two actions involves with robots.txt: 1) existing crawl directives 2) AI Pref only apply to downstream uses of "stuff"
 
@@ -177,7 +198,9 @@ Victoria: echo what Lila said. the importance of clarity is hard to overstate fo
 
 Jo: what we did in ARDC standard, was to specify it should be carried with.
 
-### RE: [3.1 Conformance · Issue #164](https://github.com/ietf-wg-aipref/drafts/issues/164)
+### 3.1 Conformance
+
+[Issue #164](https://github.com/ietf-wg-aipref/drafts/issues/164)
 
 EKR: is non-conformance possible with volunteer document
 
@@ -193,11 +216,15 @@ Elaine: i found it confusing because there are very few MUSTs and MUST NOTs.
 
 Mark: ask for proposals that clarify
 
-### RE: [3.2 Respecting Preferences · Issue #160](https://github.com/ietf-wg-aipref/drafts/issues/160)
+### 3.2 Respecting Preferences
+
+[Issue #160](https://github.com/ietf-wg-aipref/drafts/issues/160)
 
 no comments
 
-### RE: [Bots Collect Data for Multiple Purposes · Issue #158](https://github.com/ietf-wg-aipref/drafts/issues/158)
+### Bots Collect Data for Multiple Purposes
+
+[Issue #158](https://github.com/ietf-wg-aipref/drafts/issues/158)
 
 Mark: appears to be related to use
 
