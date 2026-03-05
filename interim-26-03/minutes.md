@@ -183,7 +183,9 @@ Mark: encourage group to add/update proposals to move this forward
 
 Nate: there must be something to ground RAG--to address summaries
 
-Martin: please provide proposals 1+ weeks before meeting (ideally 2+). this is the central issue, very important for the future of the web
+Martin: please provide proposals 1+ weeks before meeting (ideally 2+). 
+
+Nate: This is the central issue, very important for the future of the web
 
 Mark: also see https://github.com/ietf-wg-aipref/drafts/wiki/Use-Proposals
 
