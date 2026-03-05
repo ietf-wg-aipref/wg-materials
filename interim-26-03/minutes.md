@@ -7,7 +7,7 @@
 
 [Issue #179](https://github.com/ietf-wg-aipref/drafts/issues/179)
 
-Phase in question: "Fine-tuning can specialize a general-purpose foundation model for a narrower set of use cases." ()
+Phase in question: "Fine-tuning can specialise a general-purpose foundation model for a narrower set of use cases." ()
 
 Martin: Overly broad is objectionable as overly emotive language.  However, this is about the scope of the definition of what we call "AI training".
 
@@ -28,7 +28,7 @@ Martin: Asset often means someone owns something (agreeing with issue descriptio
 
 Lila: Agreeing (avoid "asset"). "Asset" seems too specific. "Content" seems better.
 
-Farzaneh: Agreeing (avoid "asset"). Could lead to complications with asset-level signaling.
+Farzaneh: Agreeing (avoid "asset"). Could lead to complications with asset-level signalling.
 
 Sarah: Agreeing (avoid "asset").
 
@@ -78,9 +78,9 @@ MT: yes. It was one of the main sources; it is a pretty good definition, there w
 
 [Issue #183](https://github.com/ietf-wg-aipref/drafts/issues/183)
 
-Pedro: there's an issue if we say it's too small or too large. could be easy to confuse with foundation model and clasical search
+Pedro: there's an issue if we say it's too small or too large. could be easy to confuse with foundation model and classical search
 
-Martin: all defitions appear to share a comon setem, but diverge significantly when concrete numbers are used. Agreeing with Pedro, we should use other means to distinguish.
+Martin: all definitions appear to share a common setem, but diverge significantly when concrete numbers are used. Agreeing with Pedro, we should use other means to distinguish.
 
 Suresh: EU doesn't talk about specific numbers.
 
@@ -100,7 +100,7 @@ Martin: overtaken by events. Current draft has "Foundation Model". Don't need to
 
 ## Search Issues
 
-### Search Cateogry May Lead to Unintended Effects 
+### Search Category May Lead to Unintended Effects 
 
 [Issue #187](https://github.com/ietf-wg-aipref/drafts/issues/187)
 
@@ -124,7 +124,7 @@ Alisa: they make more sense to me
 
 Martin: may be worth more discussion, maybe room for split into discrete categories
 
-Mark: there wass concern about additional attachment mechanisms
+Mark: there was concern about additional attachment mechanisms
 
 Meredith: If there is any difference between search and model building: would it be considered neutral/negative if people change their technology to work around definitions.  Is that a likely outcome and would that be good?
 
@@ -136,9 +136,9 @@ Paul: It is fair to say that we didn't discuss this in full detail.  It is valua
 
 [Issue #173](https://github.com/ietf-wg-aipref/drafts/issues/173)
 
-Mark: already covered in previous dicussions
+Mark: already covered in previous discussions
 
-Chris: no further dicussion needed (pending proposal from Caleb)
+Chris: no further discussion needed (pending proposal from Caleb)
 
 ### Search should be removed and replaced with display-based preferences 
 
@@ -186,7 +186,7 @@ Max: Want to spend a lot of time at April meeting on this. Two perspectives: 1) 
 
 [Issue #167](https://github.com/ietf-wg-aipref/drafts/issues/167)
 
-Margin: we haven't been clear in our intent. there are two actions involves with robots.txt: 1) existing crawl directives 2) AI Pref only apply to downstream uses of "stuff"
+Martin: we haven't been clear in our intent. there are two actions involves with robots.txt: 1) existing crawl directives 2) AI Pref only apply to downstream uses of "stuff"
 
 Timid Robot: much of our conversations have focused on access. we may need more documentation about how preferences travel with "stuff" so they are available to downstream users
 
@@ -206,11 +206,11 @@ EKR: is non-conformance possible with volunteer document
 
 Suresh: it's not about compliance
 
-Mark: if an entity claims conformance--separation of conformance to porocessing and conformance to prefernces
+Mark: if an entity claims conformance--separation of conformance to processing and conformance to preferences
 
-Jo: my concern is that it pertains to enforcement. if there isn't an enforcement mechnaism built in, it should be obvious
+Jo: my concern is that it pertains to enforcement. if there isn't an enforcement mechanism built in, it should be obvious
 
-Paul: there mighte be some misunderstanding about what layer this applies to. this is about conformance of attachment layers to the vocabulary. it is not about enforcement. (compliance vs conformance)
+Paul: there might be some misunderstanding about what layer this applies to. this is about conformance of attachment layers to the vocabulary. it is not about enforcement. (compliance vs conformance)
 
 Elaine: i found it confusing because there are very few MUSTs and MUST NOTs.
 
