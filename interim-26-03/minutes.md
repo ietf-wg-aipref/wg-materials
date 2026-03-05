@@ -7,7 +7,7 @@
 
 [Issue #179](https://github.com/ietf-wg-aipref/drafts/issues/179)
 
-Phase in question: "Fine-tuning can specialise a general-purpose foundation model for a narrower set of use cases." ()
+Phase in question: "Fine-tuning can specialise a general-purpose foundation model for a narrower set of use cases."
 
 Martin: Overly broad is objectionable as overly emotive language.  However, this is about the scope of the definition of what we call "AI training".
 
