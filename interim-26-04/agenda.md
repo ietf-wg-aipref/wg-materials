@@ -39,39 +39,39 @@ _Balance of time_
 
 #### Model
 
-* [Focus on purpose of use rather than time of ingestion](https://github.com/ietf-wg-aipref/drafts/issues/159)
-* [Replace current vocabulary with a display-based preferences vocabulary](https://github.com/ietf-wg-aipref/drafts/issues/149)
-* [Hierarchical structure is problematic and introduces unnecessary complexity](https://github.com/ietf-wg-aipref/drafts/issues/170)
+* #159: [Focus on purpose of use rather than time of ingestion](https://github.com/ietf-wg-aipref/drafts/issues/159)
+* #149: [Replace current vocabulary with a display-based preferences vocabulary](https://github.com/ietf-wg-aipref/drafts/issues/149)
+* #170: [Hierarchical structure is problematic and introduces unnecessary complexity](https://github.com/ietf-wg-aipref/drafts/issues/170)
 
 #### Training
 
-* [Quantified thresholds in definition of Foundation Model Production are ambiguous](https://github.com/ietf-wg-aipref/drafts/issues/183)
-* [Use of “fine-tune” in “Foundation AI Model Production” category](https://github.com/ietf-wg-aipref/drafts/issues/179)
+* #183: [Quantified thresholds in definition of Foundation Model Production are ambiguous](https://github.com/ietf-wg-aipref/drafts/issues/183)
+* #179: [Use of “fine-tune” in “Foundation AI Model Production” category](https://github.com/ietf-wg-aipref/drafts/issues/179)
 
 #### Context
 
-* [Introduction clarity re: relation to existing laws](https://github.com/ietf-wg-aipref/drafts/issues/192)
-* [3.1 Conformance](https://github.com/ietf-wg-aipref/drafts/issues/164)
-* [3.2 Respecting Preferences](https://github.com/ietf-wg-aipref/drafts/issues/160)
-* [Distinguishing access and use](https://github.com/ietf-wg-aipref/drafts/issues/167)
-* [Bots Collect Data for Multiple Purposes](https://github.com/ietf-wg-aipref/drafts/issues/158)
+* #192: [Introduction clarity re: relation to existing laws](https://github.com/ietf-wg-aipref/drafts/issues/192)
+* #164: [3.1 Conformance](https://github.com/ietf-wg-aipref/drafts/issues/164)
+* #160: [3.2 Respecting Preferences](https://github.com/ietf-wg-aipref/drafts/issues/160)
+* #167: [Distinguishing access and use](https://github.com/ietf-wg-aipref/drafts/issues/167)
+* #158: [Bots Collect Data for Multiple Purposes](https://github.com/ietf-wg-aipref/drafts/issues/158)
 
 #### Search
 
-* [Search is too Broad](https://github.com/ietf-wg-aipref/drafts/issues/173)
-* [Search category definition attempts to redefine established search behavior](https://github.com/ietf-wg-aipref/drafts/issues/181)
-* [Search Cateogry May Lead to Unintended Effects](https://github.com/ietf-wg-aipref/drafts/issues/187)
+* #173: [Search is too Broad](https://github.com/ietf-wg-aipref/drafts/issues/173)
+* #181: [Search category definition attempts to redefine established search behavior](https://github.com/ietf-wg-aipref/drafts/issues/181)
+* #187: [Search Cateogry May Lead to Unintended Effects](https://github.com/ietf-wg-aipref/drafts/issues/187)
 
 #### Use
 
-* [Category for RAG and Grounding](https://github.com/ietf-wg-aipref/drafts/issues/172)
-* [Add a Substitutive Use Category to the Vocab Doc](https://github.com/ietf-wg-aipref/drafts/issues/150)
+* #172: [Category for RAG and Grounding](https://github.com/ietf-wg-aipref/drafts/issues/172)
+* #150: [Add a Substitutive Use Category to the Vocab Doc](https://github.com/ietf-wg-aipref/drafts/issues/150)
 
 #### Terminology
 
-* [Definition of AI](https://github.com/ietf-wg-aipref/drafts/issues/151)
-* [Use of 'Machine Learning'](https://github.com/ietf-wg-aipref/drafts/issues/152)
-* [Replacing: "digital assets" with "digital content"](https://github.com/ietf-wg-aipref/drafts/issues/163)
+* #151: [Definition of AI](https://github.com/ietf-wg-aipref/drafts/issues/151)
+* #152: [Use of 'Machine Learning'](https://github.com/ietf-wg-aipref/drafts/issues/152)
+* #163: [Replacing: "digital assets" with "digital content"](https://github.com/ietf-wg-aipref/drafts/issues/163)
 
 
 ## Wednesday, 15 April 2026
