@@ -61,6 +61,7 @@ _Balance of time_
 * #173: [Search is too Broad](https://github.com/ietf-wg-aipref/drafts/issues/173)
 * #181: [Search category definition attempts to redefine established search behavior](https://github.com/ietf-wg-aipref/drafts/issues/181)
 * #187: [Search Cateogry May Lead to Unintended Effects](https://github.com/ietf-wg-aipref/drafts/issues/187)
+* #196: [Proposed revision of search category to focus on "substantial" generative use](https://github.com/ietf-wg-aipref/drafts/issues/196)
 
 #### Use
 
