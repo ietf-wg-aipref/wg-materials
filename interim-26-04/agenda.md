@@ -48,13 +48,6 @@ _Balance of time_
 * #183: [Quantified thresholds in definition of Foundation Model Production are ambiguous](https://github.com/ietf-wg-aipref/drafts/issues/183)
 * #179: [Use of “fine-tune” in “Foundation AI Model Production” category](https://github.com/ietf-wg-aipref/drafts/issues/179)
 
-#### Context
-
-* #192: [Introduction clarity re: relation to existing laws](https://github.com/ietf-wg-aipref/drafts/issues/192)
-* #164: [3.1 Conformance](https://github.com/ietf-wg-aipref/drafts/issues/164)
-* #160: [3.2 Respecting Preferences](https://github.com/ietf-wg-aipref/drafts/issues/160)
-* #167: [Distinguishing access and use](https://github.com/ietf-wg-aipref/drafts/issues/167)
-* #158: [Bots Collect Data for Multiple Purposes](https://github.com/ietf-wg-aipref/drafts/issues/158)
 
 #### Search
 
@@ -63,16 +56,25 @@ _Balance of time_
 * #187: [Search Cateogry May Lead to Unintended Effects](https://github.com/ietf-wg-aipref/drafts/issues/187)
 * #196: [Proposed revision of search category to focus on "substantial" generative use](https://github.com/ietf-wg-aipref/drafts/issues/196)
 
-#### Use
-
-* #172: [Category for RAG and Grounding](https://github.com/ietf-wg-aipref/drafts/issues/172)
-* #150: [Add a Substitutive Use Category to the Vocab Doc](https://github.com/ietf-wg-aipref/drafts/issues/150)
-
 #### Terminology
 
 * #151: [Definition of AI](https://github.com/ietf-wg-aipref/drafts/issues/151)
 * #152: [Use of 'Machine Learning'](https://github.com/ietf-wg-aipref/drafts/issues/152)
 * #163: [Replacing: "digital assets" with "digital content"](https://github.com/ietf-wg-aipref/drafts/issues/163)
+
+#### Context
+
+* #192: [Introduction clarity re: relation to existing laws](https://github.com/ietf-wg-aipref/drafts/issues/192)
+* #164: [3.1 Conformance](https://github.com/ietf-wg-aipref/drafts/issues/164)
+* #160: [3.2 Respecting Preferences](https://github.com/ietf-wg-aipref/drafts/issues/160)
+* #167: [Distinguishing access and use](https://github.com/ietf-wg-aipref/drafts/issues/167)
+* #158: [Bots Collect Data for Multiple Purposes](https://github.com/ietf-wg-aipref/drafts/issues/158)
+
+#### Use
+
+* #172: [Category for RAG and Grounding](https://github.com/ietf-wg-aipref/drafts/issues/172)
+* #150: [Add a Substitutive Use Category to the Vocab Doc](https://github.com/ietf-wg-aipref/drafts/issues/150)
+
 
 
 ## Wednesday, 15 April 2026
