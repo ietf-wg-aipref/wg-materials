@@ -8,7 +8,7 @@ See also nearby:
 * [Guidance for taking minutes](../minutes.md)
 * [Guidance for remote participants](https://www.ietf.org/meeting/technology/meetecho-guide-participant/)
 
-_All times in North America/Toronto_
+_All times in Great Britain/London_
 
 ## Monday, 24 August 2026
 
