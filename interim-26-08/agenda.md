@@ -10,8 +10,6 @@ See also nearby:
 
 _All times in Great Britain/London_
 
-## Monday, 24 August 2026
-
 _12:30 - 16:30_
 
 * [Remote participation]() _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
