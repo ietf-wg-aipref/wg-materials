@@ -17,7 +17,7 @@
   - [4. Distinguishing Access and Use (Issue 167 / Issue 150)](#4-distinguishing-access-and-use-issue-167--issue-150)
   - [5. AI "Use" / RAG Category (Issue 172 / Issue 150)](#5-ai-use--rag-category-issue-172--issue-150)
   - [6. Defining "AI Training" (Issue 1908)](#6-defining-ai-training-issue-1908)
-  - [7. Defining "Search" (PR 201 / PR 1909)](#7-defining-search-pr-201--pr-1909)
+  - [7. Defining "Search" (PR 201 / PR 199)](#7-defining-search-pr-201--pr-199)
   - [Preliminary Decisions (Subject to Mailing List Confirmation)](#preliminary-decisions-subject-to-mailing-list-confirmation-1)
   - [Action Items](#action-items-1)
 - [Thursday, 16 April 2026](#thursday-16-april-2026)
@@ -34,28 +34,28 @@
 
 ### 1. Introduction and Use Case Review
 * **Meeting Kickoff**: Mark Nottingham opened the meeting, reviewing the IETF Note Well policies, agenda, and the group's timeline. Mark Nottingham noted the need for concrete progress outside of meetings to ship specifications successfully.
-* **Granularity of Preferences**: The working group reviewed the use cases documented on the wiki (training, use, and presentation). Bradley Silver and Chaerin Lim noted that preference signals should allow for granularity, particularly regarding how private agreements override general preference signals.
-* **Scope of Use Cases**: Kaustubh Phatak and Bradley Silver discussed whether use cases should capture the specific reasons an entity might train on content or if the focus should remain strictly on the preferences expressed by content owners.
+* **Granularity of Preferences**: The working group reviewed the use cases documented on the wiki (training, use, and presentation). Bradley Silver and Erin Simon noted that preference signals should allow for granularity, particularly regarding how private agreements override general preference signals.
+* **Scope of Use Cases**: Timid Robot and Bradley Silver discussed whether use cases should capture the specific reasons an entity might train on content or if the focus should remain strictly on the preferences expressed by content owners.
 
 ### 2. Purpose-Based vs. Technology-Based Model
 * **Core Philosophy**: Mark Nottingham and Suresh Krishnan noted that the working group has transitioned away from defining preferences based on specific technical ingestion methods, focusing instead on purpose-based categories.
 * **Handling Evolving Use Cases**: Eric Rescorla, Andrew Sullivan, and Bradley Silver debated how to handle secondary use cases and future technology evolutions. Andrew Sullivan cautioned against trying to specify every possible exception, emphasizing that the protocol should focus on the most common, clear preference expressions.
 
 ### 3. Training Preference Category (`draft-ietf-aipref-vocab`)
-* **Removal of "Large"**: The group discussed Issue #183 regarding the subjective nature of the word "large" when describing models. Chaerin Lim, Suresh Krishnan, and Bradley Silver agreed that quantifying model size thresholds is impractical. The group agreed to remove "large" from the text.
+* **Removal of "Large"**: The group discussed Issue #183 regarding the subjective nature of the word "large" when describing models. Erin Simon, Suresh Krishnan, and Bradley Silver agreed that quantifying model size thresholds is impractical. The group agreed to remove "large" from the text.
 * **Generative vs. Classification Models**:
   * A major technical discussion occurred regarding whether the training category should encompass simple machine learning models (e.g., spam classifiers, security analysis, or CSAM detection). 
   * Eric Rescorla, Andrew Sullivan, and Bradley Silver debated whether a model trained for classification purposes inherently possesses generative capabilities. 
   * Bradley Silver and Andrew Sullivan expressed concerns that overly broad definitions could unintentionally sweep in benign, non-generative utilities.
-  * A self-organized subgroup (including Bradley Silver, Eric Rescorla, Chaerin Lim, Andrew Sullivan, and Kaustubh Phatak) met over lunch to draft a refined training model definition (Issue #1908). They proposed separating definitions into "general-purpose generative models" and "specialized generative models" while explicitly excluding simple classifiers.
+  * A self-organized subgroup (including Bradley Silver, Eric Rescorla, Erin Simon, Andrew Sullivan, and Timid Robot) met over lunch to draft a refined training model definition (Issue #1908). They proposed separating definitions into "general-purpose generative models" and "specialized generative models" while explicitly excluding simple classifiers.
 
 ### 4. Search and Non-Generative Search Preference
 * **Defining the Search Exception**: The group debated how to formulate a search exception (often referred to as "traditional search" or "laterhosen search") to allow indexation and snippet generation while opting out of broader training.
 * **Proposals and PRs**: The group examined two primary text proposals:
-  1. **PR 1909 (Amended by Chaerin Lim)**: Focuses on allowing the backend processing of assets to perform indexing and ranking, utilizing models exclusively for the search application, while explicitly excluding generative search summaries.
-  2. **PR 201 (Proposed by Jo Levy)**: A single-sentence definition outlining search output capabilities (links, snippets) with detailed sub-bullets specifying exclusions for generative outputs.
+  1. **PR 199 (Amended by Erin Simon)**: Focuses on allowing the backend processing of assets to perform indexing and ranking, utilizing models exclusively for the search application, while explicitly excluding generative search summaries.
+  2. **PR 201 (Proposed by Leah Romm, refined by Chris Needham)**: A single-sentence definition outlining search output capabilities (links, snippets) with detailed sub-bullets specifying exclusions for generative outputs.
 * **Points of Contention**:
-  * **Verbatim Snippets vs. Adapted Content**: Kaustubh Phatak, Bradley Silver, and Chaerin Lim discussed whether translation, transcription, or non-substitutive modifications should be permitted under the search preference. Chaerin Lim argued that search preferences should not regulate translations, while Bradley Silver highlighted how minor text rewrites can assist user navigation.
+  * **Verbatim Snippets vs. Adapted Content**: Timid Robot, Bradley Silver, and Erin Simon discussed whether translation, transcription, or non-substitutive modifications should be permitted under the search preference. Erin Simon argued that search preferences should not regulate translations, while Bradley Silver highlighted how minor text rewrites can assist user navigation.
   * **Model Training for Search**: Bradley Silver and Andrew Sullivan debated whether it is technically necessary to allow model training to evaluate and rank content for a non-generative search index.
 
 ### Preliminary Decisions (Subject to Mailing List Confirmation)
@@ -63,7 +63,7 @@
 * **Simplifying Terms**: Agreed to remove the high-level definitions for "Artificial Intelligence (AI)" and "Machine Learning" from the draft, as they are not technically required to define the specific vocabulary terms.
 
 ### Action Items
-* **Editors of [draft-ietf-aipref-vocab](https://datatracker.ietf.org/doc/draft-ietf-aipref-vocab/)**: Synthesize the feedback from the interim meeting to generate an amalgamated proposal combining the concepts from PR 1909 and PR 201 regarding the "search" preference category.
+* **Editors of [draft-ietf-aipref-vocab](https://datatracker.ietf.org/doc/draft-ietf-aipref-vocab/)**: Synthesize the feedback from the interim meeting to generate an amalgamated proposal combining the concepts from PR 199 and PR 201 regarding the "search" preference category.
 * **All Participants**: Review the proposed text for the training model definitions in Issue #1908 and the search exception proposals, and file GitHub issues highlighting specific objections or required refinements (specifically regarding translation/transcription and snippet boundaries) ahead of the next session.
 
 
@@ -103,8 +103,8 @@
 * **Tim** and others expressed concern that Option 1's focus on "design purpose" allows a "bait-and-switch" scenario where a model trained for non-generative purposes is later used generatively.
 * A poll of the room was taken, indicating a strong preference for Option 2 (broader definition).
 
-### 7. Defining "Search" (PR 201 / PR 1909)
-* The group compared PR 201 (paragraph style) and PR 1909 (bulleted list).
+### 7. Defining "Search" (PR 201 / PR 199)
+* The group compared PR 201 (paragraph style) and PR 199 (bulleted list).
 * **Warren** expressed concern that explicitly banning "generative" capabilities in search might inadvertently prohibit non-substantive AI utilities, such as intelligent image cropping/resizing or semantic search term matching.
 * A poll of the room indicated a preference to use PR 201 as the baseline. 
 * A subsequent poll was taken on whether to keep or remove the word "verbatim" in relation to snippets. A strong majority favored removing "verbatim" (75% to 25%) to allow placeholders for non-substantive accessibility transformations (e.g., translation and text-to-speech).
