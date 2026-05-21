@@ -6,3 +6,4 @@
 
 - [Agenda](agenda.md) 
 - [AI Preferences 2026-04 Interim Meeting Arrangements](arrangements.md) 
+- [Minutes](minutes.md) 
