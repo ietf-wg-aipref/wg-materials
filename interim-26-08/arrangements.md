@@ -32,9 +32,9 @@ Remote participation will be via MeetEcho; see the 'Materials' pages on the [mee
 
 ## Schedule
 
-* Tuesday, 24 August: 12:30pm - 4:30pm
-* Wednesday, 25 August: 9:15am - 4:30pm
-* Thursday, 26 August: 9:15am - 4:30pm
+* Monday, 24 August: 12:30pm - 4:30pm
+* Tuesday, 25 August: 9:15am - 4:30pm
+* Wednesday, 26 August: 9:15am - 4:30pm
 
 Please be prompt for the start time, but do not arrive before 12pm Monday / 9am other days.
 
