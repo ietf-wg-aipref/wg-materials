@@ -3,7 +3,7 @@
 See also nearby:
 
 * [Meeting agenda](agenda.md)
-* [Meeting listing](https://datatracker.ietf.org/wg/aipref/meetings/) _including remote participation details_
+* [Meeting listing](https://datatracker.ietf.org/wg/aipref/meetings/)
 
 ## Registration
 
@@ -28,7 +28,7 @@ The meeting will be at:
 
 ## Remote Participation
 
-Remote participation will be via MeetEcho; see the 'Materials' pages on the [meeting list](https://datatracker.ietf.org/wg/aipref/meetings/) for each session. Note that a [Datatracker account](https://datatracker.ietf.org/accounts/create/) is required for remote participation.
+Remote participation details will be added shortly.
 
 ## Schedule
 
