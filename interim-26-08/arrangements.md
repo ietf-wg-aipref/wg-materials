@@ -1,4 +1,4 @@
-# AI Preferences 2026-06 Interim Meeting Arrangements
+# AI Preferences 2026-08 Interim Meeting Arrangements
 
 See also nearby:
 
@@ -7,7 +7,7 @@ See also nearby:
 
 ## Registration
 
-All in-person attendees need to fill out the [registration form](). Registration is first-come, first-served.
+All in-person attendees need to fill out the [registration form](https://forms.gle/VSNpt5Qa5xuGDfdX8). Registration is first-come, first-served.
 
 Online attendees do not need to register; see below.
 
