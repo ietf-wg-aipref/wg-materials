@@ -1,6 +1,10 @@
 # [AIPREF](../wg/aipref.html) June 2026 Meeting Minutes
 
-Scribe: Chris Needham
+* Scribe: Chris Needham
+* See also:
+  * [MeetEcho recording](https://meetecho-player.ietf.org/playout/?session=IETF-AIPREF-20260617-2100)
+  * [YouTube recording](https://youtu.be/8rWjyJ4nKbY)
+  * [AI-Generated Summary](https://ietfminutes.org/minutes/2026-06-17/aipref.html)
 
 Paul gave an overview of updates in the draft 06 spec. There's a statement at the top saying that it doesn't reflect consensus.
 
