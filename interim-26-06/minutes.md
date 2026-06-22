@@ -62,7 +62,7 @@ Timid Robot expressed hope in a use category, with clear definitions of what hap
 
 Martin said that based on today's discussion, we're in good shape going into the August meeting.
 
-Coming back to section 4.1, the AI training definition, Paul indicated that he didn't want to revisit this. Farzaneh has raised comments against this, which Paul wants to take into account. Suresh asked her to consider use cases that a definition may not cover. Suresh suggested a deadline of a month from now for comments on the AI training category for Jordan and Farzaneh. Martin said a deadline wasn't needed, and the docu
+Coming back to section 4.1, the AI training definition, Paul indicated that he didn't want to revisit this. Farzaneh has raised comments against this, which Paul wants to take into account. Suresh asked her to consider use cases that a definition may not cover. Suresh suggested a deadline of a month from now for comments on the AI training category for Jordan and Farzaneh. Martin said a deadline wasn't needed.
 
 
 
