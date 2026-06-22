@@ -1,6 +1,6 @@
-AI Preferences meeting 17 June 2026
+# [AIPREF](../wg/aipref.html) June 2026 Meeting Minutes
 
-Minutes by Chris Needham.
+Scribe: Chris Needham
 
 Paul gave an overview of updates in the draft 06 spec. There's a statement at the top saying that it doesn't reflect consensus.
 
@@ -24,9 +24,9 @@ Paul pointed to the current changes being suggested: the need for an inference t
 
 Regarding the inference time category, Erin said that she's still thinking about this given recent developments (i.e., the recent UK CMA decision), and may come back with a proposal.
 
-Paul said that he has reviewed the CMA decision against the existing category definitions, but there is currenly nothing in our draft regarding grounding. He shared a proposed definition.
+Paul said that he has reviewed the CMA decision against the existing category definitions, but there is currently nothing in our draft regarding grounding. He shared a proposed definition.
 
-Chris said that he's looking for a standardized definition that works across a wide range of AI systems and it's not just about Google. He suggested should look for a definition that is both compatible with the CMA decision, but is also more broadly applicable to other providers of AI systems.
+Chris said that he's looking for a standardised definition that works across a wide range of AI systems and it's not just about Google. He suggested should look for a definition that is both compatible with the CMA decision, but is also more broadly applicable to other providers of AI systems.
 
 Lila said that she'd organise a discussion on section 3.2, with Chris, Nate, Leonard (and others, possibly) ahead the IETF meeting in Vienna.
 
@@ -40,9 +40,9 @@ Leonard said that grounding is a subset of inference time usage. He agrees with 
 
 Nate said that inference is broader than grounding, his proposal starts where the existing training category ends, so those definitions intentionally work together to cover the entire range of usage. He suggested that these two categories could, in future, be enumerated as exceptions. 
 
-Paul discussed AI system vs the user selection of assets as input. He explained that the previous AI Input category failed in our previous London meeting. Martin suggested that the heirarchical nature doesn't change things meaningfully.
+Paul discussed AI system vs the user selection of assets as input. He explained that the previous AI Input category failed in our previous London meeting. Martin suggested that the hierarchical nature doesn't change things meaningfully.
 
-Titusz supports adding a category, and supports making the distinction between whether the input comes from the AI system or from the user. Content given as input might be used invisibly, and then there's a spectrum of how substitutive it is. He prefers inference as a term over grounding, as grounding is a specific kind of inference.
+Titus supports adding a category, and supports making the distinction between whether the input comes from the AI system or from the user. Content given as input might be used invisibly, and then there's a spectrum of how substitutive it is. He prefers inference as a term over grounding, as grounding is a specific kind of inference.
 
 Nate wants to avoid us having a vocabulary where some use cases aren't covered, as this creates incentive for bad actors. There should be a way to say no to all AI. Suresh suggested identifying some of those use cases to add to the wiki for consideration. Nate said he'd coordinate with Chris to do that.
 
@@ -58,7 +58,7 @@ Timid Robot expressed hope in a use category, with clear definitions of what hap
 
 Martin said that based on today's discussion, we're in good shape going into the August meeting.
 
-Coming back to section 4.1, the AI training definition, Paul indicated that he didn't want to revisit this. Farzaneh has raised comments agsinst this, which Paul wants to take into account. Suresh asked her to consider use cases that a definition may not cover. Suresh suggested a deadline of a month from now for comments on the AI training category for Jordan and Farzaneh. Martin said a deadline wasn't needed, and the docu
+Coming back to section 4.1, the AI training definition, Paul indicated that he didn't want to revisit this. Farzaneh has raised comments against this, which Paul wants to take into account. Suresh asked her to consider use cases that a definition may not cover. Suresh suggested a deadline of a month from now for comments on the AI training category for Jordan and Farzaneh. Martin said a deadline wasn't needed, and the docu
 
 
 
