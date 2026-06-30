@@ -8,7 +8,7 @@
 
 Paul gave an overview of updates in the draft 06 spec. There's a statement at the top saying that it doesn't reflect consensus.
 
-The changes are updates the two categories discussed in the Toronto meeting. Those definitions have not received many comments since that meeting.
+The changes are updates to the two categories discussed in the Toronto meeting. Those definitions have not received many comments since that meeting.
 
 Section 3.2 is considered placeholder text as there's disagreement on the overall approach that this section should take.
 
