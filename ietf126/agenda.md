@@ -18,6 +18,7 @@ Meetecho - [full client](https://meetings.conf.meetecho.com/ietf126/?session=355
 ### Vocabulary Draft
 
 *	10 min - Summary of Status (Editors and Chairs)
+* 10 min - [PR #213](https://github.com/ietf-wg-aipref/drafts/pull/213/changes) - Timid Robot Zehta
 * 20 min - Open issue review - [issues](https://github.com/ietf-wg-aipref/drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3Avocabulary%20%20-label%3Aeditorial)
 * Balance of time - Discussion
 
