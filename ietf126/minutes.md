@@ -16,7 +16,7 @@ https://github.com/ietf-wg-aipref/drafts/pull/213
 
 MN: Proposal to cut down scope of section in Vocab document. There has been both support and objections to this PR.
 
-Timidrobot (author of PR): This WG is in a difficult place b/c there is already legislation in place which puts pressure on the outputs of the group. With that in mind want to reduce scope. Request to keep feedback in the form of proposed changes to the text. Please restrict criticisms to what is actually in the text. Goal to ensure that this work is not an extension of legislation.
+Timid robot (author of PR): This WG is in a difficult place b/c there is already legislation in place which puts pressure on the outputs of the group. With that in mind want to reduce scope. Request to keep feedback in the form of proposed changes to the text. Please restrict criticisms to what is actually in the text. Goal to ensure that this work is not an extension of legislation.
 
 Glenn (Universal): The IETF does not write legislation. Legislation can evolve to change based on what the (IETF) community does. Disagrees with last line of current PR, supports a change proposed by Sebastian on the mailing list. Wants to avoid getting this work in to copyright and other concerns, and Sebastian's proposed change.
 
@@ -36,7 +36,7 @@ Sebastian's text:
 
 MN: This seems like the only contested part of the PR, so will focus on this aspect.
 
-Timidrobot: Largely agree with Glenn. But think that we can be more helpful in the environment this document will be published in. Thinks that the current PR is preferable, but happy that the proposed change only applies to that one paragraph.
+Timid robot: Largely agree with Glenn. But think that we can be more helpful in the environment this document will be published in. Thinks that the current PR is preferable, but happy that the proposed change only applies to that one paragraph.
 
 MT: Has another proposed text:
 
@@ -74,11 +74,11 @@ EKR: Think that this text is good. Can you give an example where a model might b
 
 Kevin: Good question. No, can't give such an example, though in theory such a model could be trained. Just made this change to be clearer.
 
-EKR: Ok, not going to debate, just wanted to udnerstand.
+EKR: Ok, not going to debate, just wanted to understand.
 
-Farz: Previously raised concerns in Toronto that the proposal made the category broader. Kevin has mostly addressed those since then. Cautiously optimisitc that we can support this language.
+Farz: Previously raised concerns in Toronto that the proposal made the category broader. Kevin has mostly addressed those since then. Cautiously optimistic that we can support this language.
 
-Martin Duke: Not an expert here, but regarding "synthetic" term (gave an example about retrieving colluseum photos)
+Martin Duke: Not an expert here, but regarding "synthetic" term (gave an example about retrieving colosseum photos)
 
 Nate: Concern about replacement of "production" and "refinement" terms. Don't think that models really "learn".
 
@@ -110,7 +110,7 @@ Nate: Wrote a proposal in PR 172 which has not gotten many comments (on RAG and 
 
 MN: See some nodding heads in the room.
 
-Timidrobot: Want to repeat something said in Toronoto, which is that fuzziness can be resolved by defining what should happen if categories do overlap.
+Timid robot: Want to repeat something said in Toronto, which is that fuzziness can be resolved by defining what should happen if categories do overlap.
 
 Paul: What Nate proposed is sort of a rewording of the very first attempt at this in London. There is fundamental disagreement around "who is using the content"? Is it the AI model (or the party operating the model), versus a user providing the thing to the model. And whether this preferences should apply to individual user's behavior. We know some people want to include this, some want to exclude this, so probably need to separate them.
 
@@ -118,17 +118,17 @@ Nate: yes, maybe need two separate categories, one for users and one for automat
 
 Faraz: Agree with what has been said. We are not here to do content moderation. Have discussed the impact on end user if preferences are too broad or impact things like translation and accessibility. We need to address those concerns when discussing inference. Users taking direction action should be out of discussion.
 
-EKR: As a practical matter, trying to enforce against user-supplied artifacts will not be effective, so we shouldn't worry about them.
+EKR: As a practical matter, trying to enforce against user-supplied artefacts will not be effective, so we shouldn't worry about them.
 
-SK: To address Mirj's earlier question (...)
+SK: To address Mirja's earlier question (...)
 
-MN: It seems like the user-supplied artifacts is the controversy.
+MN: It seems like the user-supplied artefacts is the controversy.
 
-Mirj: A category which covers both cases would be quite broad.
+Mirja: A category which covers both cases would be quite broad.
 
-Timidrobot: Responding to EKR's statement about user-supplied artifacts, previously Leonard had provided several examples of flows where software might refuse to take actions based on metadata and preferences. Share the Faraz's concern that this ends up very broad.
+Timid robot: Responding to EKR's statement about user-supplied artefacts, previously Leonard had provided several examples of flows where software might refuse to take actions based on metadata and preferences. Share the Faraz's concern that this ends up very broad.
 
-Paul: We know that people have different expectations about the expression of preferences, and honoring them. Autonomously fetching versus user-provided does seem to be the split.
+Paul: We know that people have different expectations about the expression of preferences, and honouring them. Autonomously fetching versus user-provided does seem to be the split.
 
 Sebastian: Do we have terminology for the modes that we want to separate? (autonomous and user-provided). Eg, RAG. This will have an impact on attachment document, eg if preferences need to be attached to assets. Nate's proposal to not distinguish might make this simpler, but if we do separate them, we need clear terminology.
 
@@ -138,9 +138,9 @@ Nate: Agree with Paul. Having two categories which together cover the whole fiel
 
 Faraz: We have discussed a lot, and have heard from public-interest groups that this could have an impact on the consumer side. Concerning to me that we are discussing having preferences apply in situations where user takes a direct action.
 
-Timidrobot: Agree with Faraz, but think that this WG is not focused on social or political concepts like the open web or public interest. And that a good approach is to focus on clear definitions of when preferences apply (eg section 3.2).
+Timid robot: Agree with Faraz, but think that this WG is not focused on social or political concepts like the open web or public interest. And that a good approach is to focus on clear definitions of when preferences apply (eg section 3.2).
 
-(no futher talks)
+(no further talks)
 
 ## Wrap Up
 
