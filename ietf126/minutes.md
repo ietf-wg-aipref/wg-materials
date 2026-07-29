@@ -2,6 +2,18 @@
 
 Note taker: bnewbold
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [WG Status and Meetings](#wg-status-and-meetings)
+- [PR 213 Discussion](#pr-213-discussion)
+- [Second PR ("Refine section 4.1...")](#second-pr-refine-section-41)
+- [Use / Inference](#use--inference)
+- [Wrap Up](#wrap-up)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
 ## WG Status and Meetings
 
 MN (Chair): Status: had an interim meeting which went well, encouraging progress and momentum.
