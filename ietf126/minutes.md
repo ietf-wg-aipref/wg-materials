@@ -8,7 +8,7 @@ MN (Chair): Status: had an interim meeting which went well, encouraging progress
 
 SK (Chair): Pattern of stronger process at interim meetings to date.
 
-MN (Chair): Will push for more interactions on mailing list, pushing towards decision making, but still plan to schedule some interim meeting. Next interim in London (in September?), with additional to follow. Call for hosts.
+MN (Chair): Will push for more interactions on mailing list, pushing towards decision making, but still plan to schedule more interim meetings. Next interim in London (late August), with additional to follow. Call for hosts.
 
 ## PR 213 Discussion
 
