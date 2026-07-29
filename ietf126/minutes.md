@@ -1,15 +1,13 @@
-
-AIPREF IETF 126 WG Meeting Notes (2026-07-24)
-==============================================
+# IETF 126 AIPREF Working Group Minutes
 
 Note taker: bnewbold
-
-These notes are terse summaries.
 
 ## WG Status and Meetings
 
 MN (Chair): Status: had an interim meeting which went well, encouraging progress and momentum.
+
 SK (Chair): Pattern of stronger process at interim meetings to date.
+
 MN (Chair): Will push for more interactions on mailing list, pushing towards decision making, but still plan to schedule some interim meeting. Next interim in London (in September?), with additional to follow. Call for hosts.
 
 ## PR 213 Discussion
@@ -157,5 +155,3 @@ Thom: Have a draft trying to define what "machine readability" means, as it is b
 MN: Collaboration is helpful and results in better outputs, want to encourage it.
 
 SK: Want to thank Lila for her work on docs.
-
--- end
