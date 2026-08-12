@@ -24,7 +24,7 @@ The meeting will be at:
 
 [Google Maps](https://maps.app.goo.gl/tCFFbXu3q8q5RpgM8) | [Apple Maps](https://maps.apple/p/dHCwpn2B7AbUkq) | [OpenStreetMap](https://osm.org/go/euu4v~ku1--?node=11576882513)
 
-*Entrance on the Mallow St. side (next to Shell).*
+*CHANGED: Use entrance on City Road*
 
 ## Remote Participation
 
