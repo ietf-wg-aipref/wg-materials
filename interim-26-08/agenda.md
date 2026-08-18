@@ -2,11 +2,10 @@
 
 See also nearby:
 
-* [meeting arrangements](arrangements.md) _including information about registration for in-person registration_
-* [Meeting listing](https://datatracker.ietf.org/wg/aipref/meetings/) _including remote participation details_
+* [meeting arrangements](arrangements.md) _including information about registration for in-person participation_
+* [Meeting listing](https://datatracker.ietf.org/wg/aipref/meetings/)
 * [Meeting notepad](https://notes.ietf.org/aipref-2026-08) _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
 * [Guidance for taking minutes](../minutes.md)
-* [Guidance for remote participants](https://www.ietf.org/meeting/technology/meetecho-guide-participant/)
 
 _All times in Great Britain/London_
 
@@ -14,7 +13,7 @@ _All times in Great Britain/London_
 
 _12:30 - 16:30_
 
-* [Remote participation]() _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
+* [Remote participation](https://teams.microsoft.com/meet/236525377710864?p=IedwJm4ej1InZMBPvo) _Microsoft Teams_
 
 ### Administrivia
 
@@ -57,8 +56,7 @@ A number of old issues have been marked `ready to close` -- we intend to close t
 
 _9:15 - 16:30_
 
-* [Morning remote participation]() _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
-* [Afternoon remote participation]() _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
+* [Remote participation](https://teams.microsoft.com/meet/239788998499069?p=hbiCdza1S1gpb0uwub) _Microsoft Teams_
 
 ### Administrivia
 
@@ -72,8 +70,8 @@ _9:15 - 16:30_
 
 _9:15 - 16:30_
 
-* [Morning remote participation]() _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
-* [Afternoon remote participation]() _requires a [datatracker account](https://datatracker.ietf.org/accounts/create/)_
+* [Remote participation](https://teams.microsoft.com/meet/287326471358090?p=Q1rWUUwoVuUybcpbbZ) _Microsoft Teams_
+
 
 ### Administrivia
 
