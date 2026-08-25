@@ -28,7 +28,7 @@ The meeting will be at:
 
 ## Remote Participation
 
-Remote participation details will be added shortly.
+Remote participation details are on the agenda.
 
 ## Schedule
 
