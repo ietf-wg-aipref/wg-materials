@@ -1,5 +1,31 @@
-
 # AI Preferences WG Interim Meeting Minutes
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Monday, 24 August 2026](#monday-24-august-2026)
+  - [Attendees](#attendees)
+  - [Issue Discussion](#issue-discussion)
+    - [AI Training Terminology](#ai-training-terminology)
+    - [Break](#break)
+    - [Model](#model)
+    - [Search](#search)
+    - [Context](#context)
+- [Tuesday, 25 August 2026](#tuesday-25-august-2026)
+  - [New attendees not present Monday](#new-attendees-not-present-monday)
+  - [Use - Pre-lunch](#use---pre-lunch)
+  - [Use - Post-lunch](#use---post-lunch)
+    - [Break](#break-1)
+- [Wednesday, 26 August 2026](#wednesday-26-august-2026)
+  - [Use, continued](#use-continued)
+  - [AI Use (post lunch)](#ai-use-post-lunch)
+  - [User/System Split Discussion](#usersystem-split-discussion)
+  - [Drawing the line between user and system inference](#drawing-the-line-between-user-and-system-inference)
+  - [Extensibility](#extensibility)
+  - [Next Steps](#next-steps)
+  - [Martin's new text about user/system split](#martins-new-text-about-usersystem-split)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Monday, 24 August 2026
 
