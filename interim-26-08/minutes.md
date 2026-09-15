@@ -113,7 +113,7 @@ ekr: No information from the crawer to the site about intended use
 Alissa: There's a spectrum between search and generative
 
 Timid Robot: We're excluding a group of uses that people can't express a preference on  
-I didn't realize how much work "synthetic" was doin
+I didn't realize how much work "synthetic" was doing
 
 Nate: We need to figure out of this is an issue of wording or if it affects the whole scope of what we're doing  
 We have to have a discussion about what is the scope of AI
@@ -776,7 +776,7 @@ Now definition of user vs autonomous/system occurs nowhere
 
 Discuss: `[, or made available for use,]` in Generative AI model definition
 
-ekr: I continue to have the same object as I did yesterday  
+ekr: I continue to have the same objection as I did yesterday
 Consequence is to make open weight models extremely difficult to deploy  
 Responsibility to carry preferences with content
 
@@ -964,11 +964,11 @@ Options 2) and 3) require defining where the split is
 Martin drew boxes on the whiteboard
 
 ~~~
-(a) AI Use  
-  \(b) User  
-  \(c) System  
+(a) AI Use
+  (b) User
+  (c) System
     Asset selected by the system
-    
+
 (b) could be out of scope
 ~~~
 
