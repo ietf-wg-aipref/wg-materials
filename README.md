@@ -11,6 +11,7 @@
 - [🗂️ Interim-25-10](interim-25-10/): [agenda](interim-25-10/agenda.md), [minutes](interim-25-10/minutes.md)
 - [🗂️ Interim-25-06](interim-25-06/): [agenda](interim-25-06/agenda.md), [minutes](interim-25-06/minutes.md)
 - [🗂️ Interim-25-04](interim-25-04/): [agenda](interim-25-04/agenda.md), [minutes](interim-25-04/minutes.md)
+- [🗂️ IETF 127](ietf127/): [agenda](ietf127/agenda.md)
 - [🗂️ IETF 126](ietf126/): [agenda](ietf126/agenda.md), [minutes](ietf126/minutes.md), [summary](./ietf126/summary.md)
 - [🗂️ IETF 125](ietf125/): [agenda](ietf125/agenda.md), [minutes](ietf125/minutes.md), [summary](./ietf125/summary.md)
 - [🗂️ IETF 124](ietf124/): [agenda](ietf124/agenda.md), [minutes](ietf124/minutes.md), [summary](./ietf124/summary.md)
