@@ -3,7 +3,7 @@
 
 ---
 
-- [🗂️ Interim-26-10](interim-26-10/): [agenda](interim-26-10/agenda.md)
+- [🗂️ Interim-26-10](interim-26-10/): [agenda](interim-26-10/agenda.md), [minutes](interim-26-10/minutes.md)
 - [🗂️ Interim-26-08](interim-26-08/): [agenda](interim-26-08/agenda.md), [minutes](interim-26-08/minutes.md)
 - [🗂️ Interim-26-06](interim-26-06/): [agenda](interim-26-06/agenda.md), [minutes](interim-26-06/minutes.md)
 - [🗂️ Interim-26-04](interim-26-04/): [agenda](interim-26-04/agenda.md), [minutes](interim-26-04/minutes.md)
