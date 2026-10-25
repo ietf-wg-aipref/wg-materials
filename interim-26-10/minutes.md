@@ -1,22 +1,43 @@
+# AI Preferences WG Interim Meeting Minutes
+
+
+## Wednesday, 21 October 2026
+
 Mark introduced the meeting, as a checkpoint before IETF San Francisco, to continue the conversation.
 
 The most recent draft is vocabulary-08. It doesn't have consensus, but we want to get to consensus soon. This meeting will go through the issues list.
 
+### Issue 208
+
 Can we close 208? The word "substantive" doesn't appear in the draft. No-one voiced a concern about closing.
 
+### Issue 172
+
 Mark: Issue 172, RAG and grounding category, we now have the ai-use category. Closing.
+
+### Issue 150
 
 Mark: Issue 150, substitutive use category, from Brad. Brad confirms this can be closed.
 
 Keep open the display based preferences issue.
 
+### Issues 153 and 154
+
 Two issues from EKR, 153 and 154. EKR wants to re-read those.
+
+### Issue 163
 
 Issue 163: Asset terminology. Martin has waited for other discussion to settle down, but has now created a PR to replace "asset" with "artifact", and suggests leaving until other issues are settled. Timid pointed out that the PR needs updating to change the terminology section. Mark suggested sending objections to the list.
 
+### Issue 167
+
 Issue 167. Distinguishing access from use. Martin created a PR to edit section 3.3. Mark suggests the word "prevent" might be too strong, an alternative might be "restrict" or "constrain". EKR suggested how it correspond to things like robots.txt, and not to focus so much on the mechanisms. Kevin agreed with EKR.
 
+### Issue 192
+
 Issue 192, relation to existing laws. Max should come back with a revised proposal if he still wants to pursue this.
+
+### Issue 217
 
 Issue 217, use of "synthetic". The draft still uses that word. Chris explain that synthetic opens a distinction where material that's quoted. Mark suggested that the word should do work, if we included. 
 
@@ -54,7 +75,11 @@ Poll result: Yes: 3, No: 15, No Opinion: 1
 
 Mark and Suresh asked that people coordinate to make the case, and to come up with a definition, and to flesh out the argument for removing, going into San Francisco.
 
+### Issue 231
+
 Issue 231, de-minimis content generation. Erin suggested that it may have been folded into the draft already, but wasn't sure. Martin pointed to the last comment in the issue, which explains where it's addressed. There was discussion about whether the issue operates at a higher level across the draft, so will need to be reviewed carefully.
+
+### Issue 245
 
 Mark: Issue 245, redistribution of models.
 
@@ -84,6 +109,8 @@ Mark: We'll revisit in San Francisco.
 
 Timid: Common Crawl already bundles preferences with headers and robots.txt. They help with internet archive, so a significant part of the archiving community is already doing this.
 
+### Issue 246
+
 Mark: Issue 246, caching and embedding.
 
 Martin: There was a concern that someone would collect stuff and apply a transformation, e.g., HTML to markdown or creating an embedding and distributing it. We expect preferences to be carried forward. Leonard raised 240, which is an alternate spelling of it.
@@ -112,11 +139,13 @@ Martin: A system could span organisations. We could say different parties if it 
 
 Mark: We nee more discussion, e.g., on the list.
 
+### Issue 247
+
 Mark: Issue 247 on creating a data model, from Leonard.
 
 Martin: I see this as an editorial issue. It doesn't change the meaning. But the discussion is whether the draft describes the data model clearly enough.
 
-Mark: Issue 249.
+### Issue 249
 
 Martin: This is where Chris and Kevin's proposal to come in.
 
