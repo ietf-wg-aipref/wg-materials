@@ -1,5 +1,24 @@
 # AI Preferences WG Interim Meeting Minutes
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Wednesday, 21 October 2026](#wednesday-21-october-2026)
+  - [Issue 208](#issue-208)
+  - [Issue 172](#issue-172)
+  - [Issue 150](#issue-150)
+  - [Issues 153 and 154](#issues-153-and-154)
+  - [Issue 163](#issue-163)
+  - [Issue 167](#issue-167)
+  - [Issue 192](#issue-192)
+  - [Issue 217](#issue-217)
+  - [Issue 231](#issue-231)
+  - [Issue 245](#issue-245)
+  - [Issue 246](#issue-246)
+  - [Issue 247](#issue-247)
+  - [Issue 249](#issue-249)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Wednesday, 21 October 2026
 
