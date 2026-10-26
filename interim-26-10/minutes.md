@@ -72,7 +72,7 @@ Mark: For people who want to keep it, can they create a definition?
 
 Brad: Agree with Chris, and share EKR's concern. The main rationale that's already covered. There needs to be a line between a generative and non-generative AI mode. I worry about keeping the word, your suggestion to define it makes sense. I'd vote for deleting it.
 
-Nate: I also think we should delete it. In copyright context, AI companies can argue that the content is original content. Absence evidence the word is load-bearing, we should remove it.
+Nate: I also think we should delete it. In copyright context, AI companies have been willing to argue that the content is original content. Absence evidence the word is load-bearing, we should remove it.
 
 Kevin: The output Nate describes is what the definition intends to cover. We're not trying to create a loophole, there needs to be trust.
 
@@ -146,7 +146,7 @@ Kevin: What does 253 change? In an AI system, text is tokenised and transformed 
 
 Timid: This tries to target processes pre-training and pre-tokenisation. Nate spoke about existing markets where third parties selling data APIs, where the data has been transformed from the data crawled or collected.
 
-Nate: There are 3P APIs that will sell the embeddings, drawn from the materials. It's important that the preferences applies to those embeddings. Tyler also raised the concerns.
+Nate: There are commercial APIs that will sell the embeddings, drawn from the materials. It's important that the preferences applies to those embeddings. Tyler also raised the concerns.
 
 Kevin: Does this make sense as part of the crawling conversation, if that's the case you want to cover?
 
@@ -212,6 +212,6 @@ Mark: Good discussion today. There's things to work on for San Francisco. Bring 
 
 Suresh: Farzaneh, you were going to write a document on the use case. Please do for San Francisco if you can.
 
-Nate: Important we don't abandon artists, and make this a publisher focused protocol. I've been told to add to the use case wiki, but it's not being used in the discussion. If we have a carve out for user intent, the onus needs to be on those proposing it. Arguments for accessibility usage being non consensual. If there's other usage that animates it, let's discuss. I've put forward examples in the wiki that are harmful, but there's no engagement. Some of us want to preserve a human internet. We're talking about abandoning artists and creators. That perspective is under represented here. I'm concerned about the direction here.
+Nate: Important we don’t abandon artists, and make this a publisher focused protocol. I’ve repeatedly raised examples of uses covered by this exception that should be expressible, but just been told to add to the use case wiki, but it’s not being used in the discussion. If we have a carve out for user intent, the onus needs to be on those proposing it to explain why they want such a broad carve-out. If we're saying you can't express a preference about some use, then that means we're saying that usage should always be non-consensual. I have heard arguments for accessibility usage being non consensual. But, beyond that, I've not heard anyone make actual arguments for why other generative user use should be non-consensual. If there’s other usage that animates it this exception, let’s discuss in public for all to hear. I’ve put forward examples in the wiki that are harmful, but there’s no engagement. Some of us want to preserve a human internet. We’re talking about abandoning artists and creators. That perspective is under represented here. I’m concerned about the direction here.
 
 Mark: We're at time. Take thoughts to the mailing list. Be ready for San Francisco. Thanks all.
