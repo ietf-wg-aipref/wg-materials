@@ -15,6 +15,9 @@ Meetecho - [full client](https://meetings.conf.meetecho.com/ietf127/?session=359
 *	3 min - Scribe selection / NOTE WELL
 *	2 min - Agenda bashing
 
+### Attachment Draft
+
+
 
 ## Thursday, 19 November 2026
 
@@ -26,3 +29,26 @@ Meetecho - [full client](https://meetings.conf.meetecho.com/ietf127/?session=359
 
 *	3 min - Scribe selection / NOTE WELL
 *	2 min - Agenda bashing
+
+### Vocabulary Draft
+
+#### Generative AI model definition
+
+* #217: [Use of "synthetic" in AI definitions](https://github.com/ietf-wg-aipref/drafts/issues/217)
+* #231: [De minimis content generation](https://github.com/ietf-wg-aipref/drafts/issues/231)
+
+#### Acquisition, retention and derived forms
+
+* #167: [Distinguishing access and use](https://github.com/ietf-wg-aipref/drafts/issues/167)
+* #245: [Concern about redistribution of models](https://github.com/ietf-wg-aipref/drafts/issues/245)
+* #246: [Address concerns of caching, embeddings and other derived forms](https://github.com/ietf-wg-aipref/drafts/issues/246)
+
+#### Scope of `ai-use` and accessibility
+
+* #249: [Does direct provision include URLs?](https://github.com/ietf-wg-aipref/drafts/issues/249)
+* #257: [Accessibility](https://github.com/ietf-wg-aipref/drafts/issues/257)
+
+#### Other issues
+
+* #247: [Moving the "Exemplary Serialization" into a Data Model + exemplary serialization](https://github.com/ietf-wg-aipref/drafts/issues/247)
+* #192: [Introduction: relation to existing laws](https://github.com/ietf-wg-aipref/drafts/issues/192)
