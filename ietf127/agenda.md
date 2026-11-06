@@ -17,6 +17,11 @@ Meetecho - [full client](https://meetings.conf.meetecho.com/ietf127/?session=359
 
 ### Attachment Draft
 
+#### Issues
+
+* #223: [Propagation of preferences in PUT](https://github.com/ietf-wg-aipref/drafts/issues/223)
+* #103: [Should the path in Content-Usage of Robots.txt be part of a structured field?](https://github.com/ietf-wg-aipref/drafts/issues/103)
+* #166: [Add non-enforceability provision similar to what is in the Vocab document](https://github.com/ietf-wg-aipref/drafts/issues/166)
 
 
 ## Thursday, 19 November 2026
@@ -40,6 +45,7 @@ Meetecho - [full client](https://meetings.conf.meetecho.com/ietf127/?session=359
 #### Acquisition, retention and derived forms
 
 * #167: [Distinguishing access and use](https://github.com/ietf-wg-aipref/drafts/issues/167)
+* #193: [Carrying preferences with stuff](https://github.com/ietf-wg-aipref/drafts/issues/193) _attachment issue_
 * #245: [Concern about redistribution of models](https://github.com/ietf-wg-aipref/drafts/issues/245)
 * #246: [Address concerns of caching, embeddings and other derived forms](https://github.com/ietf-wg-aipref/drafts/issues/246)
 
