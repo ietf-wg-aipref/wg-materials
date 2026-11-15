@@ -22,7 +22,7 @@ Meetecho - [full client](https://meetings.conf.meetecho.com/ietf127/?session=359
 * #223: [Propagation of preferences in PUT](https://github.com/ietf-wg-aipref/drafts/issues/223)
 * #103: [Should the path in Content-Usage of Robots.txt be part of a structured field?](https://github.com/ietf-wg-aipref/drafts/issues/103)
 * #166: [Add non-enforceability provision similar to what is in the Vocab document](https://github.com/ietf-wg-aipref/drafts/issues/166)
-
+* [PR#260](https://github.com/ietf-wg-aipref/drafts/pull/260) _Kevin Kelley_
 
 ## Thursday, 19 November 2026
 
