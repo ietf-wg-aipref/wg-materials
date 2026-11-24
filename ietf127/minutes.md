@@ -1,48 +1,46 @@
 AI Preferences - IETF 127
 
 
-# First session Monday, 16-Nov-26 11:30-12:30
+## Monday, 16-Nov-26 11:30-12:30
 
 Agenda: https://datatracker.ietf.org/meeting/127/session/aipref/
+
 Chair slides: https://datatracker.ietf.org/meeting/127/materials/slides-127-aipref-chair-slides-00
 
-The session was well attended
-
-## Agenda for Monday - Focus on Attachments
 
 ### Issue #223: Propagation of preferences in PUT
  
- Martin Thomson: The current version of the draft doesn't say this anymore
- ... Far more defensible than the previous text
+Martin Thomson: The current version of the draft doesn't say this anymore
+... Far more defensible than the previous text
  
- Eric Rescorla (ekr): Not meaningful of what the broswer does
+Eric Rescorla (ekr): Not meaningful of what the browser does
  ... I think this is silly
  
- Mark Nottingham: Asked if ekr if OK closing the issue.  Yes.
+Mark Nottingham: Asked if ekr if OK closing the issue.  Yes.
  ... Issue closed
  
- ### Issue #193: Carrying preferences with stuff
+### Issue #193: Carrying preferences with stuff
  
- Martin: Suggested continuning discussion in the Vocabulary draft
+Martin: Suggested continuing discussion in the Vocabulary draft
  
- ### Issue #166: Add non-enforceability provision similar to what is in the Vocab document
+### Issue #166: Add non-enforceability provision similar to what is in the Vocab document
  
- Jo Levy: Concern that we have the same language in the Vocabulary document as the Attachment document
+Jo Levy: Concern that we have the same language in the Vocabulary document as the Attachment document
  
- Mark: We've taken the enforcement language out of the Vocabulary document, so we can probably close this
+Mark: We've taken the enforcement language out of the Vocabulary document, so we can probably close this
  ... Closed
  
- ### Issue #103: Should the path in Content-Usage of Robots.txt be part of a structured field?
+### Issue #103: Should the path in Content-Usage of Robots.txt be part of a structured field?
  
- Martin: I'd like to hear from Kevin on this point
+Martin: I'd like to hear from Kevin on this point
  
- ### New draft posted last week
+### New draft posted last week
  
- https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/
+https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/
  
- Mark: Goal this week is to make sure people understand it and have an opportunity to ask questions about it
+Mark: Goal this week is to make sure people understand it and have an opportunity to ask questions about it
 ... The IETF likes to see early adoption of protocols
-... Wnat to make sure there aren't objections to it
+... Want to make sure there aren't objections to it
 
 Suresh: We want to talk about the ideas behind the draft
 
@@ -51,7 +49,7 @@ Kevin Kelley: Presented deck Attaching Preferences with cross-vendor policy toke
 https://datatracker.ietf.org/meeting/127/materials/slides-127-aipref-sessa-attaching-preferences-with-cross-vendor-policy-tokens-00
 
 Kevin: Try to get as close to what people expect out of robots.txt
-... Eliminte duplication
+... Eliminate duplication
 ... robots.txt files are size constrained
 
 Goals:
@@ -77,7 +75,7 @@ Piece 2: The "usage" namespace
 - Discussed particular interpretation rules
 - Allow opt-in and opt-out
 - Paths allowed
-- Described reasons for proposing particular behaviors
+- Described reasons for proposing particular behaviours
 - 
 
 Would love feedback on PR #260 and draft-kelley-rep-namespaces
@@ -103,15 +101,15 @@ Alissa Cooper: Understand that proposal desires to integrate with existing parse
 Kevin: Gosh, this is really painful
 ... We may have missed quirks of existing implementation on the Internet
 
-Mark: Our path forward is understanding thiese issues
+Mark: Our path forward is understanding these issues
 ... And feedback on PR #260
 ... Now feedback from the Attachments editors
 
 Martin: I'm not wed to the existing spellings
 ... Kevin has identified problems
-... We want to make sure that when we extend robots.txt, we aren't changing existing behaviors
+... We want to make sure that when we extend robots.txt, we aren't changing existing behaviours
 ... New syntax is ignored when not understood
-... I was surprised by some of these things - but at the same time, I'm not surprosed
+... I was surprised by some of these things - but at the same time, I'm not surprised
 ... This is how the Internet works
 ... The empty groups issue concerns me
 
@@ -142,7 +140,7 @@ Watson Ladd: This is a clever signalling thing
 ... No, this is not a user agent
 
 Teresa O'Connor - Apple
-... I apprecaite the analysis of breakage
+... I appreciate the analysis of breakage
 ... We sometimes implement hacks when they solve problems
 ... This violates the semantics of the user-agent string
 
@@ -155,13 +153,12 @@ Mark: Might be useful to have a design team forum for discussing these issues
 Mark: We will have an interim meeting in February
 ... We hope to have an announcement about this very soon
 
-Mark: We will have a dicussion about the Vocabulary on Thursday
+Mark: We will have a discussion about the Vocabulary on Thursday
 
-# First session Thursday, 19-Nov-26 11:00-12:30
+## Thursday, 19-Nov-26 11:00-12:30
 
 Mark: Today we're talking about the Vocabulary document
 
-## Vocabulary Document
 
 ### Issue #217: Use of "synthetic" in AI definitions
 
@@ -171,21 +168,21 @@ Martin: If no argument is strongly present in either direction, then the issue i
 
 Mark: A word in the specification should have an effect.  If it doesn't, that's a reason to remove it.
 
-Chris Needham: AI system could produce outputs that are not synthentic.  Inviting us to make a distinction that not's useful.
+Chris Needham: AI system could produce outputs that are not synthetic.  Inviting us to make a distinction that not's useful.
 
 Mike Bishop: Asked if the right people are here to discuss the issue
 
-Nate Hake: I think the word is very clear.  The definition includes "Made artifically".
+Nate Hake: I think the word is very clear.  The definition includes "Made artificially".
 
 Kevin Kelley: We were trying to be evocative of something like Brad Silver's "substantive use"
 
 Timid Robot Zehta - Creative Commons: Having it or not could cause things to be excluded or not in ways that we don't want.  The challenge is finding word to address those things separately.
 
-Paul Keller: Asked on the mailing list for people wanting to keep it to provide definitions.  Having neard nothing, I believe we're trending towards removing it.
+Paul Keller: Asked on the mailing list for people wanting to keep it to provide definitions.  Having heard nothing, I believe we're trending towards removing it.
 
 Eric Rescorla (ekr): I don't feel strongly about this.  If people can produce examples of where this word helps, we can keep it.  Otherwise, I suggest we drop it.
 
-Pablo González: The opposite of synthetic is natural.  What are examples of generating natural content?  I strongly believe it should be removed because it could draw an unuseful distinction, causing some generated content to not be regulated.
+Pablo González: The opposite of synthetic is natural.  What are examples of generating natural content?  I strongly believe it should be removed because it could draw an useful distinction, causing some generated content to not be regulated.
 
 Mark: If we don't have examples of where the word helps by the next meeting, we'll remove it then.
 
@@ -225,8 +222,8 @@ Martin: I agree.  I've reopened the issue.
 ### Issue #245: Concern about redistribution of models
 
 Martin: We just merged #252.
-... This is not resposive to the question about carrying things with models
-... We alredy have language in the draft about this, but it's marked "at risk"
+... This is not responsive to the question about carrying things with models
+... We already have language in the draft about this, but it's marked "at risk"
 
 Timid Robot: Section 3.3 is the one satisfying #245
 ... This is marked whether to be included or not
@@ -316,10 +313,10 @@ Bradley Silver: Focusing on anything that doesn't offer a full spectrum could ha
 
 Farzaneh: I have consistently objected to bringing in the user and what the user does with an AI
 ... I have explained how it can hamper access, even if it's voluntary
-... It could have the consequnce of blocking users from relevant content
+... It could have the consequence of blocking users from relevant content
 ... If we have categories about the user, it could impact access
 
-ekr: We've recently been talking about philosopy.  Our job is to craft text.
+ekr: We've recently been talking about philosophy.  Our job is to craft text.
 ... A useful place to start would be to look at Martin's text about this
 
 Chris Needham: I think the third row is the way forward
@@ -367,47 +364,64 @@ Mark: Let's proceed to
 
 
 Agenda: https://datatracker.ietf.org/meeting/127/session/aipref/
+
 Chair slides: https://datatracker.ietf.org/meeting/127/materials/slides-127-aipref-chair-slides-00
+
 Note-taker: Altanai B
-This session is well attended as well
 
 ## Agenda for thursday : Vocabulary 
 
-### Issue 127 on use of synethtic in AI definitaions
+### Issue 127 on use of synthetic in AI definitions
 
 Martin Thompson: redundant words dont do good ...
-Chris Needham: preferences should be expressable
+
+Chris Needham: preferences should be expressible
+
 Mike Bishop: find historical references from interim
-Nate: Artifical vs synthetic
+
+Nate: Artificial vs synthetic
+
 Ken: keep the word synthetic
+
 Timid :  ?
+
 Paul : remove it
-depends on the model if it is genarating new or reusing natural content
+
+depends on the model if it is generating new or reusing natural content
+
 split vote on this issues in general
-chairs : group leaning towards rmeoving it, remove it by next meeting
+
+chairs : group leaning towards removing it, remove it by next meeting
 
 ### Issue 231
 closed 
 
-### Issue 167: distinguising access and use
+### Issue 167: distinguishing access and use
 
 Martin: insists on language clear
 
 ### Issue 193
+
 Already closed  with PR 252
-Martin: will not premptively close issues 
+
+Martin: will not preemptively close issues 
 
 ### Issue 245
+
 P@ 253 and 252 address this 
 
-Timid: on communicatinf preferences with trained models 
+Timid: on communicating preferences with trained models 
+
 Martin: remove the note in the draft ... 
 
 Question from Audience: obligation on crawlers that are not AI related, will they break compliance.
+
 chair: cannot control all actors
+
 risk associated 
 
 Bradley: improvements needed 
+
 suggestion to the chairs from audience : Editorial issues 
 
 
@@ -416,48 +430,70 @@ suggestion to the chairs from audience : Editorial issues
 Martin: PR 253 adds the required phrasing for preferences 
 
 minimum common preference 
+
 Martin: Common crawl is what this para is calling out
+
 Achim: maintain pref to downstream use
+
 Jon:..
+
 Pedro: not a common crawl case
 
-Suggestion ( Lila): tranform has a legal menaing in US copyright
+Suggestion ( Lila): tranform has a legal meaning in US copyright
 use like "derived"
 
-Mark (chair) : "user provided artifcats" 
+Mark (chair) : "user provided artefacts" 
+
 Paul : have discussion elsewhere first
+
 slides on matrix of conflicting opinions 
+
 Full / limited Spectrum 
+
 All or nothing/ limited/ Selective
 
 Audience more or less agree 
+
 Nate: agrees
-Alysa: AI use + AI user dirceted makes the most sense 
+
+Alissa: AI use + AI user directed makes the most sense 
+
 Bradly: subjected to pref
-audience suggestion: do not want the access seprated like open source developers
+
+audience suggestion: do not want the access separated like open source developers
+
 Eric: .. ( sorry i missed grabbing the conclusion of this)
+
 chris: 
 
+Timid: Misuse of preferences
 
-Timid: Misue of preferences
-Nate : artists and creators have a usecase for preference
+Nate : artists and creators have a use case for preference
 
 Chairs : option 3 
 
-Alisa presnted a standalone def for user chosen input and URL
+Alisa presented a standalone def for user chosen input and URL
+
 Martin: already work on removing ambiguity
+
 chairs : no consensus on URLS
-Thressa : not belive this is the best approach cites wikipeda turtle page
-Audience : User exeprience will get bumpy with URLS " did u really mean this ".. 
-Eric: dircetly provided is good
+
+Tess : not believe this is the best approach cites Wikipedia turtle page
+
+Audience : User experience will get bumpy with URLS " did u really mean this ".. 
+
+Eric: directly provided is good
+
 Chris: content should be user visible 
-Alissa: introduces a usecase of user provided a content but doesnt interact 
+
+Alissa: introduces a use case of user provided a content but doesn't interact 
 
 ### Issues Accessibility 
 
 tbd 
+
 Timid: Supportive
 
-chairs mentioned the Interms are shaping up. Asked audience to look out for them in thr mailing list. 
+chairs mentioned the Interms are shaping up. Asked audience to look out for them in the mailing list. 
 
 
