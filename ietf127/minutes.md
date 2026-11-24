@@ -1,105 +1,6 @@
 AI Preferences - IETF 127
 
 
-
-# Second Session : Thursday, 19-Nov-26 11:00-12:30 
-
-
-Agenda: https://datatracker.ietf.org/meeting/127/session/aipref/
-Chair slides: https://datatracker.ietf.org/meeting/127/materials/slides-127-aipref-chair-slides-00
-Note-taker: Altanai B
-This session is well attended as well
-
-## Agenda for thursday : Vocabulary 
-
-### Issue 127 on use of synethtic in AI definitaions
-
-Martin Thompson: redundant words dont do good ...
-Chris Needham: preferences should be expressable
-Mike Bishop: find historical references from interim
-Nate: Artifical vs synthetic
-Ken: keep the word synthetic
-Timid :  ?
-Paul : remove it
-depends on the model if it is genarating new or reusing natural content
-split vote on this issues in general
-chairs : group leaning towards rmeoving it, remove it by next meeting
-
-### Issue 231
-closed 
-
-### Issue 167: distinguising access and use
-
-Martin: insists on language clear
-
-### Issue 193
-Already closed  with PR 252
-Martin: will not premptively close issues 
-
-### Issue 245
-P@ 253 and 252 address this 
-
-Timid: on communicatinf preferences with trained models 
-Martin: remove the note in the draft ... 
-
-Question from Audience: obligation on crawlers that are not AI related, will they break compliance.
-chair: cannot control all actors
-risk associated 
-
-Bradley: improvements needed 
-suggestion to the chairs from audience : Editorial issues 
-
-
-### Issue 246: Caching concerns, embedding and other concerns
-
-Martin: PR 253 adds the required phrasing for preferences 
-
-minimum common preference 
-Martin: Common crawl is what this para is calling out
-Achim: maintain pref to downstream use
-Jon:..
-Pedro: not a common crawl case
-
-Suggestion ( Lila): tranform has a legal menaing in US copyright
-use like "derived"
-
-Mark (chair) : "user provided artifcats" 
-Paul : have discussion elsewhere first
-slides on matrix of conflicting opinions 
-Full / limited Spectrum 
-All or nothing/ limited/ Selective
-
-Audience more or less agree 
-Nate: agrees
-Alysa: AI use + AI user dirceted makes the most sense 
-Bradly: subjected to pref
-audience suggestion: do not want the access seprated like open source developers
-Eric: .. ( sorry i missed grabbing the conclusion of this)
-chris: 
-
-
-Timid: Misue of preferences
-Nate : artists and creators have a usecase for preference
-
-Chairs : option 3 
-
-Alisa presnted a standalone def for user chosen input and URL
-Martin: already work on removing ambiguity
-chairs : no consensus on URLS
-Thressa : not belive this is the best approach cites wikipeda turtle page
-Audience : User exeprience will get bumpy with URLS " did u really mean this ".. 
-Eric: dircetly provided is good
-Chris: content should be user visible 
-Alissa: introduces a usecase of user provided a content but doesnt interact 
-
-### Issues Accessibility 
-
-tbd 
-Timid: Supportive
-
-chairs mentioned the Interms are shaping up. Asked audience to look out for them in thr mailing list. 
-
-
 # First session Monday, 16-Nov-26 11:30-12:30
 
 Agenda: https://datatracker.ietf.org/meeting/127/session/aipref/
@@ -460,4 +361,103 @@ Mark: Is this text a better alternative than the existing text
 Martin: This is much clearer than the previous
 
 Mark: Let's proceed to 
+
+
+# Second Session : Thursday, 19-Nov-26 11:00-12:30 
+
+
+Agenda: https://datatracker.ietf.org/meeting/127/session/aipref/
+Chair slides: https://datatracker.ietf.org/meeting/127/materials/slides-127-aipref-chair-slides-00
+Note-taker: Altanai B
+This session is well attended as well
+
+## Agenda for thursday : Vocabulary 
+
+### Issue 127 on use of synethtic in AI definitaions
+
+Martin Thompson: redundant words dont do good ...
+Chris Needham: preferences should be expressable
+Mike Bishop: find historical references from interim
+Nate: Artifical vs synthetic
+Ken: keep the word synthetic
+Timid :  ?
+Paul : remove it
+depends on the model if it is genarating new or reusing natural content
+split vote on this issues in general
+chairs : group leaning towards rmeoving it, remove it by next meeting
+
+### Issue 231
+closed 
+
+### Issue 167: distinguising access and use
+
+Martin: insists on language clear
+
+### Issue 193
+Already closed  with PR 252
+Martin: will not premptively close issues 
+
+### Issue 245
+P@ 253 and 252 address this 
+
+Timid: on communicatinf preferences with trained models 
+Martin: remove the note in the draft ... 
+
+Question from Audience: obligation on crawlers that are not AI related, will they break compliance.
+chair: cannot control all actors
+risk associated 
+
+Bradley: improvements needed 
+suggestion to the chairs from audience : Editorial issues 
+
+
+### Issue 246: Caching concerns, embedding and other concerns
+
+Martin: PR 253 adds the required phrasing for preferences 
+
+minimum common preference 
+Martin: Common crawl is what this para is calling out
+Achim: maintain pref to downstream use
+Jon:..
+Pedro: not a common crawl case
+
+Suggestion ( Lila): tranform has a legal menaing in US copyright
+use like "derived"
+
+Mark (chair) : "user provided artifcats" 
+Paul : have discussion elsewhere first
+slides on matrix of conflicting opinions 
+Full / limited Spectrum 
+All or nothing/ limited/ Selective
+
+Audience more or less agree 
+Nate: agrees
+Alysa: AI use + AI user dirceted makes the most sense 
+Bradly: subjected to pref
+audience suggestion: do not want the access seprated like open source developers
+Eric: .. ( sorry i missed grabbing the conclusion of this)
+chris: 
+
+
+Timid: Misue of preferences
+Nate : artists and creators have a usecase for preference
+
+Chairs : option 3 
+
+Alisa presnted a standalone def for user chosen input and URL
+Martin: already work on removing ambiguity
+chairs : no consensus on URLS
+Thressa : not belive this is the best approach cites wikipeda turtle page
+Audience : User exeprience will get bumpy with URLS " did u really mean this ".. 
+Eric: dircetly provided is good
+Chris: content should be user visible 
+Alissa: introduces a usecase of user provided a content but doesnt interact 
+
+### Issues Accessibility 
+
+tbd 
+Timid: Supportive
+
+chairs mentioned the Interms are shaping up. Asked audience to look out for them in thr mailing list. 
+
 
