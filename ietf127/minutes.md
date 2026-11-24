@@ -1,5 +1,25 @@
 # IETF 127 AIPREF Working Group Minutes
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Monday, 16-Nov-26 11:30-12:30](#monday-16-nov-26-1130-1230)
+  - [Issue #223: Propagation of preferences in PUT](#issue-223-propagation-of-preferences-in-put)
+  - [Issue #193: Carrying preferences with stuff](#issue-193-carrying-preferences-with-stuff)
+  - [Issue #166: Add non-enforceability provision similar to what is in the Vocab document](#issue-166-add-non-enforceability-provision-similar-to-what-is-in-the-vocab-document)
+  - [Issue #103: Should the path in Content-Usage of Robots.txt be part of a structured field?](#issue-103-should-the-path-in-content-usage-of-robotstxt-be-part-of-a-structured-field)
+  - [New draft posted last week](#new-draft-posted-last-week)
+- [Thursday, 19-Nov-26 11:00-12:30](#thursday-19-nov-26-1100-1230)
+  - [Issue #217: Use of "synthetic" in AI definitions](#issue-217-use-of-synthetic-in-ai-definitions)
+  - [Issue #231: De minimis content generation](#issue-231-de-minimis-content-generation)
+  - [Issue #167: Distinguishing access and use](#issue-167-distinguishing-access-and-use)
+  - [Issue #193: Carrying preferences with stuff](#issue-193-carrying-preferences-with-stuff-1)
+  - [Issue #245: Concern about redistribution of models](#issue-245-concern-about-redistribution-of-models)
+  - [Issue #246: Address concerns of caching, embeddings and other derived forms](#issue-246-address-concerns-of-caching-embeddings-and-other-derived-forms)
+  - [Issue #249: Does direct provision include URLs](#issue-249-does-direct-provision-include-urls)
+  - [PR #258: Use Alissa's proposed AI Use definition](#pr-258-use-alissas-proposed-ai-use-definition)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Monday, 16-Nov-26 11:30-12:30
 
@@ -358,142 +378,5 @@ Mark: Is this text a better alternative than the existing text
 Martin: This is much clearer than the previous
 
 Mark: Let's proceed to 
-
-
-# Second Session : Thursday, 19-Nov-26 11:00-12:30 
-
-
-Agenda: https://datatracker.ietf.org/meeting/127/session/aipref/
-
-Chair slides: https://datatracker.ietf.org/meeting/127/materials/slides-127-aipref-chair-slides-00
-
-Note-taker: Altanai B
-
-## Agenda for thursday : Vocabulary 
-
-### Issue 127 on use of synthetic in AI definitions
-
-Martin Thompson: redundant words dont do good ...
-
-Chris Needham: preferences should be expressible
-
-Mike Bishop: find historical references from interim
-
-Nate: Artificial vs synthetic
-
-Ken: keep the word synthetic
-
-Timid :  ?
-
-Paul : remove it
-
-depends on the model if it is generating new or reusing natural content
-
-split vote on this issues in general
-
-chairs : group leaning towards removing it, remove it by next meeting
-
-### Issue 231
-closed 
-
-### Issue 167: distinguishing access and use
-
-Martin: insists on language clear
-
-### Issue 193
-
-Already closed  with PR 252
-
-Martin: will not preemptively close issues 
-
-### Issue 245
-
-P@ 253 and 252 address this 
-
-Timid: on communicating preferences with trained models 
-
-Martin: remove the note in the draft ... 
-
-Question from Audience: obligation on crawlers that are not AI related, will they break compliance.
-
-chair: cannot control all actors
-
-risk associated 
-
-Bradley: improvements needed 
-
-suggestion to the chairs from audience : Editorial issues 
-
-
-### Issue 246: Caching concerns, embedding and other concerns
-
-Martin: PR 253 adds the required phrasing for preferences 
-
-minimum common preference 
-
-Martin: Common crawl is what this para is calling out
-
-Achim: maintain pref to downstream use
-
-Jon:..
-
-Pedro: not a common crawl case
-
-Suggestion ( Lila): tranform has a legal meaning in US copyright
-use like "derived"
-
-Mark (chair) : "user provided artefacts" 
-
-Paul : have discussion elsewhere first
-
-slides on matrix of conflicting opinions 
-
-Full / limited Spectrum 
-
-All or nothing/ limited/ Selective
-
-Audience more or less agree 
-
-Nate: agrees
-
-Alissa: AI use + AI user directed makes the most sense 
-
-Bradly: subjected to pref
-
-audience suggestion: do not want the access separated like open source developers
-
-Eric: .. ( sorry i missed grabbing the conclusion of this)
-
-chris: 
-
-Timid: Misuse of preferences
-
-Nate : artists and creators have a use case for preference
-
-Chairs : option 3 
-
-Alisa presented a standalone def for user chosen input and URL
-
-Martin: already work on removing ambiguity
-
-chairs : no consensus on URLS
-
-Tess : not believe this is the best approach cites Wikipedia turtle page
-
-Audience : User experience will get bumpy with URLS " did u really mean this ".. 
-
-Eric: directly provided is good
-
-Chris: content should be user visible 
-
-Alissa: introduces a use case of user provided a content but doesn't interact 
-
-### Issues Accessibility 
-
-tbd 
-
-Timid: Supportive
-
-chairs mentioned the Interms are shaping up. Asked audience to look out for them in the mailing list. 
 
 
