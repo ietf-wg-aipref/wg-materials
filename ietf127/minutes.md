@@ -328,7 +328,7 @@ Alissa Cooper: I believe the best path is in the third row, because we can decom
 Bradley Silver: Focusing on anything that doesn't offer a full spectrum could have the consequence of making choices for the marketplace
 ... A substantial portion of the value is user directed
 ... It almost gets to the concept of intent
-... Substantial pushback on the concept of a user providing an asset themselves to a model
+... Has been no substantial pushback on the concept of a user providing an asset themselves to a model
 ... Use versus user directed is a difficult divde to draw
 
 Farzaneh: I have consistently objected to bringing in the user and what the user does with an AI
@@ -377,6 +377,30 @@ Mark: Is this text a better alternative than the existing text
 
 Martin: This is much clearer than the previous
 
-Mark: Let's proceed to 
+Mark: Let's proceed to incorporate that with your adjustments. Not with consensus, just for further consideration.
+
+Tess: We seem to be focusing too much on URLs; for example, someone might say "The wikipedia article on turtles".
+
+Mark: Text is definitely still under development.
+
+Erin: I was going to say something similar; current text is limited and proscriptive. I prefer the other language (Kevin and Chris).
+
+EKR: I share some of the concerns that Tess and Erin raise. We should consider preserving some of the language Kevin had about 'directly provided' and leave slop around other things. Flexibility here is future proofing.
+
+Chris Needham: The intent of our text is to specifically exclude things where the language model infers a URL. The rationale was that this is a kind of substitutive use - we want to ensure that something provided is something the user already has visibility into.
+
+Alissa: Question for Chris: what about when the user provides an artefact but expresses no intent to interact with it?
+
+Chris: OK.
+
+Mark: it's clear we need to do more work. 
+
+### Issue #257: Accessibility
+
+Farz: I think we need a carve-out in the introduction for accessibility, similar to what is in search.
+
+Timid: Supportive of this effort.
+
+Chairs mentioned the Interms are shaping up. Asked audience to look out for them in thr mailing list.
 
 
